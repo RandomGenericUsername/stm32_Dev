@@ -1,54 +1,60 @@
 #include "ioPin.hh"
 
+//template ioPin::ioPin<ioPinParams>(ioPinParams params);
+
 ioPin::ioPin()
 {
     init();
 }
 
-
+//ioPin::ioPin(const ioPinParams &params)
+//{
+    //init();
+    //init(params);
+//}
 ioPin::~ioPin()
 {
-    delete _builder;
-}
-
-
-void ioPin::setPort(GPIO_TypeDef *GPIOx)
-{
-
-}
-void ioPin::setPort(const gpioPort &port)
-{
-
-}
-void ioPin::setPin(const gpioPin &pin)
-{
 
 }
 
-void ioPin::setMode(const gpioMode &mode)
-{
 
+
+void ioPin::setPort(const GPIO_TypeDef *GPIOx)
+{
+    init(GPIOx);
 }
-void ioPin::setPUPD(const gpioPUPD &pupd)
+void ioPin::setPort(const gpioPort::gpioPort &port)
 {
-
+    init(port);
 }
-void ioPin::setOutputType(const gpioOutputType &outputType)
+void ioPin::setPin(const gpioPin::gpioPin &pin)
 {
-
+    init(pin);
 }
-void ioPin::setOutputSpeed(const gpioOutputSpeed &outputSpeed)
-{
 
+void ioPin::setMode(const gpioMode::gpioMode &mode)
+{
+    init(mode);
+}
+void ioPin::setPUPD(const gpioPUPD::gpioPUPD &pupd)
+{
+    init(pupd);
+}
+void ioPin::setOutputType(const gpioOutputType::gpioOutputType &outputType)
+{
+    init(outputType);
+}
+void ioPin::setOutputSpeed(const gpioOutputSpeed::gpioOutputSpeed &outputSpeed)
+{
+    init(outputSpeed);
 }
 
 bool ioPin::read()
 {
-
 }
-void ioPin::write(const pinState &state)
+void ioPin::write(const gpioState::gpioState &state)
 {
-
+    init(state);
 }
 
 bool ioPin::reset(bool forceReset)
@@ -69,15 +75,13 @@ bool ioPin::reset(bool forceReset)
 
 bool ioPin::setDefaultParams()
 {
-    _settings = {
-       .port = gpioPort::null,
-       .pin = gpioPin::null,
-       .mode = gpioMode::input,
-       .pupd = gpioPUPD::disabled,
-       .oType = gpioOutputType::pushPull,
-       .oSpeed = gpioOutputSpeed::low,
-       .state = pinState::low,
-    };
+    _settings[paramIndex::port] = gpioPort::gpioPort::null;
+    _settings[paramIndex::pin] =  gpioPin::gpioPin::null;
+    _settings[paramIndex::mode] = gpioMode::gpioMode::input;
+    _settings[paramIndex::pin] = gpioPUPD::gpioPUPD::disabled;
+    //_settings[paramIndex::]  = gpioOutputType::gpioOutputType::pushPull,
+    //_settings[paramIndex::] d = gpioOutputSpeed::gpioOutputSpeed::low,
+    //_settings[paramIndex::]  = gpioState::gpioState::low,
     return true;
 }
 
@@ -88,61 +92,59 @@ bool ioPin::init()
         setDefaultParams(); 
         _status = gpioStatus::reset;
         _isParamSet = 0;
-        _builder = new pinBuilder(&_settings, &_isParamSet, &_status);
         return true;
     } 
     else return false;
 }
 bool ioPin::init(const GPIO_TypeDef *port)
 {
-    _settings.port= getGPIOIndex(port);
-    _isParamSet |= 0x1 << portParam;
-    bool temp = _builder->manager(_settings.port);
-    return temp;
-}
-bool ioPin::init(const gpioPort &port)
-{
-    _settings.port = port;
-    _isParamSet |= 0x1 << portParam;
-    return _builder->manager(port);
-
-}
-bool ioPin::init(const gpioPin &pin)
-{
-    _settings.pin = pin;
-    _isParamSet |= 0x1 << pinParam;
-    _builder->manager(pin);
+    _settings[paramIndex::port] = getGPIOIndex(port);
+    _isParamSet |= 0x1 << paramIndex::port;
     return true;
 }
-bool ioPin::init(const gpioMode &mode)
+bool ioPin::init(const gpioPort::gpioPort &port)
 {
-    _settings.mode = mode;
-    _isParamSet |= 0x1 << modeParam;
-    return _builder->manager(mode);
+    _settings[paramIndex::port] = port;
+    _isParamSet |= 0x1 << paramIndex::port;
+
 }
-bool ioPin::init(const gpioPUPD &pupd)
+bool ioPin::init(const settings_t params[])
 {
-    _settings.pupd = pupd;
-    _isParamSet |= 0x1 << pupdParam;
-    return _builder->manager(pupd);
+    //_settings = params;
+    _isParamSet = 127; 
+    return true;
+}
+bool ioPin::init(const gpioPin::gpioPin &pin)
+{
+    _settings[paramIndex::pin] = pin;
+    _isParamSet |= 0x1 << paramIndex::pin;
+    
+    return true;
+}
+bool ioPin::init(const gpioMode::gpioMode &mode)
+{
+    _settings[paramIndex::mode] = mode;
+    _isParamSet |= 0x1 << paramIndex::mode;
+}
+bool ioPin::init(const gpioPUPD::gpioPUPD &pupd)
+{
+    _settings[paramIndex::pupd] = pupd;
+    _isParamSet |= 0x1 << paramIndex::pupd;
 }
 
-bool ioPin::init(const gpioOutputType &oType)
+bool ioPin::init(const gpioOutputType::gpioOutputType &oType)
 {
-    _settings.oType = oType;
-    _isParamSet |= 0x1 << oTypeParam;
-    return _builder->manager(oType);
+    _settings[paramIndex::oType] = oType;
+    _isParamSet |= 0x1 << paramIndex::oType;
 }
-bool ioPin::init(const gpioOutputSpeed &oSpeed)
+bool ioPin::init(const gpioOutputSpeed::gpioOutputSpeed &oSpeed)
 {
-    _settings.oSpeed = oSpeed;
-    _isParamSet |= 0x1 << oSpeedParam;
-    return _builder->manager(oSpeed);
+    _settings[paramIndex::oSpeed] = oSpeed;
+    _isParamSet |= 0x1 << paramIndex::oSpeed;
 }
-bool ioPin::init(const pinState &state)
+bool ioPin::init(const gpioState::gpioState &state)
 {
-    _settings.state = state;
-    _isParamSet |= 0x1 << stateParam;
-    return _builder->manager(state);
+    _settings[paramIndex::state] = state;
+    _isParamSet |= 0x1 << paramIndex::state;
 
 }

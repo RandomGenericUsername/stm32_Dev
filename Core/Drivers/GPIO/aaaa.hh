@@ -3,21 +3,36 @@
 
 #include <stdint.h>
 
+namespace gpioNamespace
+{
+
+
+
+
+}
+
 /* */
 #define NUMBER_OF_PORTS 7U
 /* number of pins available in each port. This is used as a reference variable in the pin init functions. */
 #define NUMBER_OF_PINS 16U
 #define NUMBER_OF_AVAILABLE_EXT_INTERRUPT 16
+
+
+typedef uint32_t IsParamSet;
+
 const uint8_t numberOfPinParams = 7;
 
 enum paramsIndex {portParam = 0, pinParam = 1, modeParam = 2, pupdParam = 3, oTypeParam = 4, oSpeedParam = 5, stateParam = 6};
+
+
+
 enum class gpioPort{A = 0x0UL, B = 0x01UL, C = 0x02UL, D = 0x03UL, E = 0x04UL, H = 0x07UL, null = -1};
 enum class gpioPin{_0 = 0UL, _1 = 1UL, _2 = 2UL, _3 = 3UL, _4 = 4UL, _5 = 5UL, _6 = 6UL, _7 = 7UL, _8 = 8UL, _9 = 9UL, _10 = 10UL, _11 = 11UL, _12 = 12UL, _13 = 13UL, _14 = 14UL, _15 = 15UL, null = -1};
 enum class ExtInterruptAllocated{A, B, C, D, E, H, free };
 enum class gpioStatus{reset = 0, ready = 1, busy = 2, error = 4};
 
 /* GPIO possible states definition */ /* GPIO reset state */ /* GPIO set state */
-enum class gpioState{low = 0, high = 1 };
+enum class pinState{low = 0, high = 1 };
 
 /* GPIO mode selection definition */
 enum class gpioMode
@@ -98,13 +113,13 @@ enum class gpioExtEvent
 
 struct ioPinParams
 {
-    gpioPort port = gpioPort::null;
-    gpioPin pin = gpioPin::null;
-    gpioMode mode = gpioMode::input;
-    gpioPUPD pupd = gpioPUPD::disabled;
-    gpioOutputType oType = gpioOutputType::pushPull;
-    gpioOutputSpeed oSpeed = gpioOutputSpeed::low;
-    gpioState state {gpioState::low};
+    gpioPort port;
+    gpioPin pin;
+    gpioMode mode;
+    gpioPUPD pupd;
+    gpioOutputType oType;
+    gpioOutputSpeed oSpeed;
+    pinState state;
 };
 
  

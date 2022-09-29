@@ -6,7 +6,7 @@
 
 namespace
 {
-    auto getGPIOIndex = [](const GPIO_TypeDef *gpio) -> const gpioPort 
+    auto getGPIOIndex = [](const GPIO_TypeDef *gpio) -> const gpioPort::gpioPort
     { 
     if(gpio == GPIOA) return gpioPort::A; 
     else if(gpio == GPIOB) return gpioPort::B;
@@ -16,7 +16,7 @@ namespace
     else if(gpio == GPIOH) return gpioPort::H;
     };
 
-    auto getGPIO = [](gpioPort port) -> GPIO_TypeDef*
+    auto getGPIO = [](gpioPort::gpioPort port) -> GPIO_TypeDef*
     {
         if(port == gpioPort::A) return GPIOA;
         else if(port == gpioPort::B) return GPIOB;

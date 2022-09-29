@@ -10,26 +10,6 @@
 stdint.h
 -
 
-../../Core/Drivers/GPIO/ioPin.hh
-macros.hh
-../../Core/Drivers/GPIO/macros.hh
-pinBuilder.hh
-../../Core/Drivers/GPIO/pinBuilder.hh
-
-../../Core/Drivers/GPIO/macros.hh
-GPIOTypes.hh
-../../Core/Drivers/GPIO/GPIOTypes.hh
-stm32f411xe.h
-../../Core/Drivers/GPIO/stm32f411xe.h
-
-../../Core/Drivers/GPIO/pinBuilder.hh
-GPIOTypes.hh
-../../Core/Drivers/GPIO/GPIOTypes.hh
-stm32f411xe.h
-../../Core/Drivers/GPIO/stm32f411xe.h
-macros.hh
-../../Core/Drivers/GPIO/macros.hh
-
 ../../Core/Inc/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h
 core_cm4.h
 ../../Core/Inc/CMSIS/Device/ST/STM32F4xx/Include/core_cm4.h
@@ -95,26 +75,12 @@ ioPin.hh
 /home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/GPIO/ioPin.hh
 macros.hh
 /home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/GPIO/macros.hh
-pinBuilder.hh
-/home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/GPIO/pinBuilder.hh
 
 /home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/GPIO/macros.hh
 GPIOTypes.hh
 /home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/GPIO/GPIOTypes.hh
 stm32f411xe.h
 /home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/GPIO/stm32f411xe.h
-
-/home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/GPIO/pinBuilder.cpp
-pinBuilder.hh
-/home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/GPIO/pinBuilder.hh
-
-/home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/GPIO/pinBuilder.hh
-GPIOTypes.hh
-/home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/GPIO/GPIOTypes.hh
-stm32f411xe.h
-/home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/GPIO/stm32f411xe.h
-macros.hh
-/home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/GPIO/macros.hh
 
 /home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/USART/abc.cpp
 abc.hh
@@ -137,6 +103,6 @@ stdint.h
 /home/inumaki/Development/stm32WorkSpace/mainProject/Core/Src/main.cpp
 stdint.h
 /home/inumaki/Development/stm32WorkSpace/mainProject/Core/Src/stdint.h
-ioPin.hh
-/home/inumaki/Development/stm32WorkSpace/mainProject/Core/Src/ioPin.hh
+GPIOTypes.hh
+/home/inumaki/Development/stm32WorkSpace/mainProject/Core/Src/GPIOTypes.hh
 
