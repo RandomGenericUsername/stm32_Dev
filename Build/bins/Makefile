@@ -150,33 +150,6 @@ home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/GPIO/ioPin.cpp.
 	$(MAKE) -f CMakeFiles/mainProject.dir/build.make CMakeFiles/mainProject.dir/home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/GPIO/ioPin.cpp.s
 .PHONY : home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/GPIO/ioPin.cpp.s
 
-home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/USART/abc.obj: home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/USART/abc.cpp.obj
-
-.PHONY : home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/USART/abc.obj
-
-# target to build an object file
-home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/USART/abc.cpp.obj:
-	$(MAKE) -f CMakeFiles/mainProject.dir/build.make CMakeFiles/mainProject.dir/home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/USART/abc.cpp.obj
-.PHONY : home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/USART/abc.cpp.obj
-
-home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/USART/abc.i: home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/USART/abc.cpp.i
-
-.PHONY : home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/USART/abc.i
-
-# target to preprocess a source file
-home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/USART/abc.cpp.i:
-	$(MAKE) -f CMakeFiles/mainProject.dir/build.make CMakeFiles/mainProject.dir/home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/USART/abc.cpp.i
-.PHONY : home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/USART/abc.cpp.i
-
-home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/USART/abc.s: home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/USART/abc.cpp.s
-
-.PHONY : home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/USART/abc.s
-
-# target to generate assembly for a file
-home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/USART/abc.cpp.s:
-	$(MAKE) -f CMakeFiles/mainProject.dir/build.make CMakeFiles/mainProject.dir/home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/USART/abc.cpp.s
-.PHONY : home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/USART/abc.cpp.s
-
 home/inumaki/Development/stm32WorkSpace/mainProject/Core/Src/Utilities/RegistersManipulation/REG_MAN.obj: home/inumaki/Development/stm32WorkSpace/mainProject/Core/Src/Utilities/RegistersManipulation/REG_MAN.cpp.obj
 
 .PHONY : home/inumaki/Development/stm32WorkSpace/mainProject/Core/Src/Utilities/RegistersManipulation/REG_MAN.obj
@@ -306,9 +279,6 @@ help:
 	@echo "... home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/GPIO/ioPin.obj"
 	@echo "... home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/GPIO/ioPin.i"
 	@echo "... home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/GPIO/ioPin.s"
-	@echo "... home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/USART/abc.obj"
-	@echo "... home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/USART/abc.i"
-	@echo "... home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/USART/abc.s"
 	@echo "... home/inumaki/Development/stm32WorkSpace/mainProject/Core/Src/Utilities/RegistersManipulation/REG_MAN.obj"
 	@echo "... home/inumaki/Development/stm32WorkSpace/mainProject/Core/Src/Utilities/RegistersManipulation/REG_MAN.i"
 	@echo "... home/inumaki/Development/stm32WorkSpace/mainProject/Core/Src/Utilities/RegistersManipulation/REG_MAN.s"

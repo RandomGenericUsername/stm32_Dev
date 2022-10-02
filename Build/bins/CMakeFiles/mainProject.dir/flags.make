@@ -16,7 +16,7 @@ C_DEFINES =
 
 C_INCLUDES = -I/home/inumaki/Development/stm32WorkSpace/mainProject/Build/../Core/Inc/CMSIS/Device/ST/STM32F4xx/Include -I/home/inumaki/Development/stm32WorkSpace/mainProject/Build/../Core/Inc/CMSIS/Include -I/home/inumaki/Development/stm32WorkSpace/mainProject/Build/../Core/Inc -I/home/inumaki/Development/stm32WorkSpace/mainProject/Build/../Core/Src/Utilities/RegistersManipulation -I/home/inumaki/Development/stm32WorkSpace/mainProject/Build/../Core/Drivers/NVIC -I/home/inumaki/Development/stm32WorkSpace/mainProject/Build/../Core/Drivers/USART -I/home/inumaki/Development/stm32WorkSpace/mainProject/Build/../Core/Drivers/GPIO 
 
-CXX_FLAGS = -g   -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-volatile -Wsuggest-override -Og -g3 -ggdb -std=gnu++17
+CXX_FLAGS = -g   -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wall -Wextra -Wpedantic -Wno-unused-parameter -Wno-volatile -Wsuggest-override -Og -g3 -ggdb -std=gnu++2a
 
 CXX_DEFINES = 
 

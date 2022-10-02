@@ -22,7 +22,13 @@ CMakeFiles/mainProject.dir/home/inumaki/Development/stm32WorkSpace/mainProject/C
  /home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/GPIO/ioPin.cpp
  /home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/GPIO/ioPin.hh
  /home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/GPIO/macros.hh
-CMakeFiles/mainProject.dir/home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/USART/abc.cpp.obj
+CMakeFiles/mainProject.dir/home/inumaki/Development/stm32WorkSpace/mainProject/Core/Src/Utilities/RegistersManipulation/REG_MAN.cpp.obj
+ /home/inumaki/Development/stm32WorkSpace/mainProject/Core/Src/Utilities/RegistersManipulation/REG_MAN.cpp
+ /home/inumaki/Development/stm32WorkSpace/mainProject/Core/Src/Utilities/RegistersManipulation/REG_MAN.h
+CMakeFiles/mainProject.dir/home/inumaki/Development/stm32WorkSpace/mainProject/Core/Src/main.cpp.obj
+ ../../Core/Drivers/GPIO/GPIOTypes.hh
+ ../../Core/Drivers/GPIO/ioPin.hh
+ ../../Core/Drivers/GPIO/macros.hh
  ../../Core/Inc/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h
  ../../Core/Inc/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h
  ../../Core/Inc/CMSIS/Include/cmsis_armcc.h
@@ -33,11 +39,4 @@ CMakeFiles/mainProject.dir/home/inumaki/Development/stm32WorkSpace/mainProject/C
  ../../Core/Inc/CMSIS/Include/cmsis_version.h
  ../../Core/Inc/CMSIS/Include/core_cm4.h
  ../../Core/Inc/CMSIS/Include/mpu_armv7.h
- /home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/USART/abc.cpp
- /home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/USART/abc.hh
-CMakeFiles/mainProject.dir/home/inumaki/Development/stm32WorkSpace/mainProject/Core/Src/Utilities/RegistersManipulation/REG_MAN.cpp.obj
- /home/inumaki/Development/stm32WorkSpace/mainProject/Core/Src/Utilities/RegistersManipulation/REG_MAN.cpp
- /home/inumaki/Development/stm32WorkSpace/mainProject/Core/Src/Utilities/RegistersManipulation/REG_MAN.h
-CMakeFiles/mainProject.dir/home/inumaki/Development/stm32WorkSpace/mainProject/Core/Src/main.cpp.obj
- ../../Core/Drivers/GPIO/GPIOTypes.hh
  /home/inumaki/Development/stm32WorkSpace/mainProject/Core/Src/main.cpp

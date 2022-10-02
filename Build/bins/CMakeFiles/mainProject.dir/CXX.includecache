@@ -10,6 +10,16 @@
 stdint.h
 -
 
+../../Core/Drivers/GPIO/ioPin.hh
+macros.hh
+../../Core/Drivers/GPIO/macros.hh
+
+../../Core/Drivers/GPIO/macros.hh
+GPIOTypes.hh
+../../Core/Drivers/GPIO/GPIOTypes.hh
+stm32f411xe.h
+../../Core/Drivers/GPIO/stm32f411xe.h
+
 ../../Core/Inc/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h
 core_cm4.h
 ../../Core/Inc/CMSIS/Device/ST/STM32F4xx/Include/core_cm4.h
@@ -82,16 +92,6 @@ GPIOTypes.hh
 stm32f411xe.h
 /home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/GPIO/stm32f411xe.h
 
-/home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/USART/abc.cpp
-abc.hh
-/home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/USART/abc.hh
-
-/home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/USART/abc.hh
-stdint.h
-/home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/USART/stdint.h
-stm32f411xe.h
-/home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/USART/stm32f411xe.h
-
 /home/inumaki/Development/stm32WorkSpace/mainProject/Core/Src/Utilities/RegistersManipulation/REG_MAN.cpp
 REG_MAN.h
 /home/inumaki/Development/stm32WorkSpace/mainProject/Core/Src/Utilities/RegistersManipulation/REG_MAN.h
@@ -103,6 +103,6 @@ stdint.h
 /home/inumaki/Development/stm32WorkSpace/mainProject/Core/Src/main.cpp
 stdint.h
 /home/inumaki/Development/stm32WorkSpace/mainProject/Core/Src/stdint.h
-GPIOTypes.hh
-/home/inumaki/Development/stm32WorkSpace/mainProject/Core/Src/GPIOTypes.hh
+ioPin.hh
+/home/inumaki/Development/stm32WorkSpace/mainProject/Core/Src/ioPin.hh
 
