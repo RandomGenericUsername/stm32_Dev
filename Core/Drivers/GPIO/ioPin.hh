@@ -11,7 +11,7 @@ class ioPin
         explicit ioPin();
         ~ioPin();
         template<class ...Args>
-        explicit ioPin(Args ...args);
+        explicit ioPin(const Args &...args);
     
         explicit ioPin(const ioPin &pin);
 
@@ -25,20 +25,25 @@ class ioPin
         void setOutputSpeed(const gpioOutputSpeed &outputSpeed);
         bool read();
         void write(const gpioState &state);
-        bool reset(bool forceReset = false);
+        bool reset(const bool &forceReset = false);
 
         static bool isPinSet(const gpioPort &port, const gpioPin &pin);
         bool isReady(const ioPin &pinObj);
         bool isReady();
+        void enableExceptions(const bool &enable = true);
 
     private:
 
+        template<class T>
+        bool initHandler(const T &, const bool &);
 
         template<class T>
-        bool manager(const T &);
+        bool manager(const T &, const bool &enableException = false);
+        bool portManager(const gpioPort &);
+        bool pinManager(const gpioPin &);
+        template<class T>
+        bool settingsManager(const T &);
         bool initQueuedSettings();
-        bool checkQueuedSettings(bool(*callback)(const ioPin&), const ioPin&);
-        bool isOverWriting();
 
         void setDefaultParams();
         void init();
@@ -65,77 +70,96 @@ class ioPin
 
         GPIO_TypeDef *_instance;
         paramType _settings[numberOfPinParams];
-        gpioStatus _status;
-        uint16_t _queuedSettings = 0;
+        gpiostatusCode _status;
+        uint16_t _queuedSettings;
+        bool _enableExceptions;
 
         static uint16_t initializedPins[NUMBER_OF_PORTS];
-        static gpioExtITAllocated initializedInterrupt[NUMBER_OF_AVAILABLE_EXT_INTERRUPT];
 
 };
 
-template<class ...Args>
-ioPin::ioPin(Args ...args)
+template<class T>
+bool ioPin::initHandler(const T &param, const bool &enableExceptions)
 {
-    init();
-    if(!(manager(args),...) && isReady()) gpioExceptionHandler();
+    if(_status == gpiostatusCode::ready || _status == gpiostatusCode::reset)
+    {
+        gpioParameters _paramIndex = getParamIndex(param);
+        _settings[static_cast<paramIndex>(_paramIndex)] = static_cast<paramType>(param);
+        return settingsManager(param);
+
+    }
+    else if(_status == gpiostatusCode::busy)
+    {
+        
+    }
+    else
+    {
+
+    }
 }
 
+template<class ...Args>
+ioPin::ioPin(const Args &...args):ioPin()
+{
+    //init();
+    (manager(args, _enableExceptions),...);
+}
 
 template<class T>
-bool ioPin::manager(const T &param)
+bool ioPin::settingsManager(const T &param)
 {
-    gpioParameters _paramIndex = getParamIndex(param);
-    _settings[static_cast<paramIndex>(_paramIndex)] = static_cast<paramType>(param);
-
-    switch (static_cast<paramType>(_paramIndex))
+    bool retVal = false;
+    if(isReady())
     {
-        case static_cast<paramType>(gpioParameters::port):
-
-            if(assertPin())
-            {
-                if( isPinSet( static_cast<gpioPort>(param), static_cast<gpioPin>(_settings[static_cast<paramIndex>(gpioParameters::pin)]) ) )
-                {
-                    _status = gpioStatus::error;
-                    return false;
-                }
-            }
-            init(param);
-            return checkQueuedSettings(&assertPin, *this);
-            break;
-
-        case static_cast<paramType>(gpioParameters::pin):
-
-            if(assertPort())
-            {
-                if( isPinSet( static_cast<gpioPort>(_settings[static_cast<paramIndex>(gpioParameters::port)]), static_cast<gpioPin>(param) ) )
-                {
-                    _status = gpioStatus::error;
-                    return false;
-                }
-            }
-            init(param);
-            return checkQueuedSettings(&assertPort, *this);
-            break;
-
-        default:
-
-            if(isReady())
-            {
-                if(_queuedSettings == 0)
-                { 
-                    init(param);
-                    return true;
-                }
-                else return initQueuedSettings();
-            }
-            else
-            {
-                //queues the current setting
-                _queuedSettings |= static_cast<uint32_t>(0x1 << static_cast<paramType>(_paramIndex));
-                return false;
-            }
-            break;
+        init(param);
+        _status = gpiostatusCode::ready;
+        retVal = true;
     }
+    else
+    {
+        //queues the current setting
+        gpioParameters paramType = getParamIndex(param);
+        _queuedSettings |= static_cast<uint16_t>(0x1 << static_cast<paramIndex>(paramType));
+        _status = gpiostatusCode::reset;
+        retVal = false;
+    }
+    return retVal;
+}
+
+template<class T>
+bool ioPin::manager(const T &param, const bool &enableExceptions)
+{   
+    bool retVal = false;
+    if(_status == gpiostatusCode::ready || _status == gpiostatusCode::reset)
+    {
+        gpioParameters _paramIndex = getParamIndex(param);
+        _settings[static_cast<paramIndex>(_paramIndex)] = static_cast<paramType>(param);
+
+        switch (static_cast<paramType>(_paramIndex))
+        {
+            case static_cast<paramType>(gpioParameters::port):
+                retVal = portManager(static_cast<gpioPort>(param));
+                break;
+
+            case static_cast<paramType>(gpioParameters::pin):
+                retVal = pinManager(static_cast<gpioPin>(param));
+                break;
+
+            default:
+                retVal = settingsManager(param);
+                break;
+        }
+    }
+    else if(_status == gpiostatusCode::busy)
+    {
+        
+    }
+    else
+    {
+
+    }
+    return retVal;
+
 }
 
 

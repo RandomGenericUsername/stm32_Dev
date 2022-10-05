@@ -13,12 +13,11 @@ typedef int32_t paramType;
 typedef uint32_t paramIndex;
 const uint8_t numberOfPinParams = 7;
 
-enum class gpioParameters {port = 0, pin = 1, mode = 2, pupd = 3, oType = 4, oSpeed = 5, state = 6};
+enum class gpioParameters {port = 0, pin = 1, mode = 2, pupd = 3, oType = 4, oSpeed = 5, state = 6, alternateFunction = 7};
 enum class gpioPort{A = 0x0UL, B = 0x01UL, C = 0x02UL, D = 0x03UL, E = 0x04UL, H = 0x07UL, null = -1};
 enum class gpioPin{_0 = 0UL, _1 = 1UL, _2 = 2UL, _3 = 3UL, _4 = 4UL, _5 = 5UL, _6 = 6UL, _7 = 7UL, _8 = 8UL, _9 = 9UL, _10 = 10UL, _11 = 11UL, _12 = 12UL, _13 = 13UL, _14 = 14UL, _15 = 15UL, null = -1};
 enum class gpioExtITAllocated{A, B, C, D, E, H, free };
-enum class gpioStatus{reset = 0, ready = 1, busy = 2, error = 4};
-
+enum class gpiostatusCode { reset = 0, ready = 1, busy = 2, timeout = 3, undefinedError = 4, alreadyAllocatedPinError = 5, initQueuedSettingsFailed = 6, wrongParamPassed = 7};
 /* GPIO possible states definition */ /* GPIO reset state */ /* GPIO set state */
 enum class gpioState{low = 0, high = 1 };
 

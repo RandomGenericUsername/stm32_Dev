@@ -26,7 +26,7 @@ namespace
         else if(port == gpioPort::H) return GPIOH;
     };
 
-    void gpioExceptionHandler()
+    void gpioExceptionHandler(gpiostatusCode errorCode)
     {
         RCC->AHB1ENR |= 0x1 << 0;
         GPIOA->MODER |= 0x1 << 10;
