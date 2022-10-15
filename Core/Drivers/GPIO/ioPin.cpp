@@ -1,5 +1,10 @@
 #include "ioPin.hh"
 
+//template bool ioPin::settingsManager(const gpioMode &);
+//template bool ioPin::settingsManager(const gpioPUPD &);
+//template bool ioPin::settingsManager(const gpioOutputType &);
+//template bool ioPin::settingsManager(const gpioOutputSpeed &);
+
 uint16_t ioPin::initializedPins[NUMBER_OF_PORTS]{0};
 
 ioPin::ioPin()
@@ -13,8 +18,13 @@ ioPin::~ioPin()
 
 }
 
+ioPin& ioPin::operator=(const ioPin &pin)
+{
+
+}
+
 template<>
-bool ioPin::initHandler<const gpioPort&>(const gpioPort &port, const bool &enableExceptions)
+bool ioPin::initHandler<gpioPort>(const gpioPort &port)
 {
     if(_status == gpiostatusCode::ready || _status == gpiostatusCode::reset)
     {
@@ -31,10 +41,11 @@ bool ioPin::initHandler<const gpioPort&>(const gpioPort &port, const bool &enabl
     {
 
     }
+    return false;
 }
 
 template<>
-bool ioPin::initHandler<const gpioPin&>(const gpioPin &pin, const bool &enableExceptions)
+bool ioPin::initHandler<gpioPin>(const gpioPin &pin)
 {
 
     if(_status == gpiostatusCode::ready || _status == gpiostatusCode::reset)
@@ -52,32 +63,164 @@ bool ioPin::initHandler<const gpioPin&>(const gpioPin &pin, const bool &enableEx
     {
 
     }
+    return false;
 }
+
+template<>
+bool ioPin::initHandler(const gpioMode &mode)
+{
+    if(_status == gpiostatusCode::ready || _status == gpiostatusCode::reset)
+    {
+        gpioParameters _paramIndex = getParamIndex(mode);
+        _settings[static_cast<paramIndex>(_paramIndex)] = static_cast<paramType>(mode);
+        return settingsManager(mode);
+
+    }
+    else if(_status == gpiostatusCode::busy)
+    {
+        
+    }
+    else
+    {
+
+    }
+    return false;
+}    
+
+
+
+template<>
+bool ioPin::initHandler(const gpioPUPD &param)
+{
+    if(_status == gpiostatusCode::ready || _status == gpiostatusCode::reset)
+    {
+        gpioParameters _paramIndex = getParamIndex(param);
+        _settings[static_cast<paramIndex>(_paramIndex)] = static_cast<paramType>(param);
+        return settingsManager(param);
+
+    }
+    else if(_status == gpiostatusCode::busy)
+    {
+        
+    }
+    else
+    {
+
+    }
+    return false;
+}
+
+
+template<>
+bool ioPin::initHandler(const gpioOutputType &param)
+{
+
+    if(_status == gpiostatusCode::ready || _status == gpiostatusCode::reset)
+    {
+        gpioParameters _paramIndex = getParamIndex(param);
+        _settings[static_cast<paramIndex>(_paramIndex)] = static_cast<paramType>(param);
+        return settingsManager(param);
+
+    }
+    else if(_status == gpiostatusCode::busy)
+    {
+        
+    }
+    else
+    {
+
+    }
+    return false;
+}
+
+template<>
+bool ioPin::initHandler(const gpioOutputSpeed &param)
+{
+    if(_status == gpiostatusCode::ready || _status == gpiostatusCode::reset)
+    {
+        gpioParameters _paramIndex = getParamIndex(param);
+        _settings[static_cast<paramIndex>(_paramIndex)] = static_cast<paramType>(param);
+        return settingsManager(param);
+
+    }
+    else if(_status == gpiostatusCode::busy)
+    {
+        
+    }
+    else
+    {
+
+    }
+    return false;
+}
+
+template<>
+bool ioPin::initHandler(const gpioState &param)
+{
+    if(_status == gpiostatusCode::ready || _status == gpiostatusCode::reset)
+    {
+        gpioParameters _paramIndex = getParamIndex(param);
+        _settings[static_cast<paramIndex>(_paramIndex)] = static_cast<paramType>(param);
+        return settingsManager(param);
+
+    }
+    else if(_status == gpiostatusCode::busy)
+    {
+        
+    }
+    else
+    {
+
+    }
+    return false;
+}
+
+template<class T>
+bool ioPin::settingsManager(const T &param)
+{
+    bool retVal = false;
+    if(isReady())
+    {
+        init(param);
+        _status = gpiostatusCode::ready;
+        retVal = true;
+    }
+    else
+    {
+        //queues the current setting
+        gpioParameters paramType = getParamIndex(param);
+        _queuedSettings |= static_cast<uint16_t>(0x1 << static_cast<paramIndex>(paramType));
+        _status = gpiostatusCode::reset;
+        retVal = false;
+    }
+    return retVal;
+}
+
 
 void ioPin::setPort(const gpioPort &port)
 {
-    manager(port, _enableExceptions);
+    initHandler(port);
 }
 void ioPin::setPin(const gpioPin &pin)
 {
-    manager(pin, _enableExceptions);
+    initHandler(pin);
 }
 
 void ioPin::setMode(const gpioMode &mode)
 {
-    manager(mode, _enableExceptions);
+    initHandler(mode);
 }
 void ioPin::setPUPD(const gpioPUPD &pupd)
 {
-    manager(pupd, _enableExceptions);
+    initHandler(pupd);
 }
 void ioPin::setOutputType(const gpioOutputType &outputType)
 {
-    manager(outputType, _enableExceptions);
+    initHandler(outputType);
 }
 void ioPin::setOutputSpeed(const gpioOutputSpeed &outputSpeed)
 {
-    manager(outputSpeed, _enableExceptions);
+    initHandler(outputSpeed);
 }
 
 bool ioPin::read()
@@ -86,7 +229,7 @@ bool ioPin::read()
 }
 void ioPin::write(const gpioState &state)
 {
-    manager(state, _enableExceptions);
+    initHandler(state);
 }
 
 bool ioPin::reset(const bool &forceReset)
