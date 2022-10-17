@@ -24,7 +24,7 @@ class afPin : public ioPin
         gpioParameters getParamIndex(const gpioAlternateFunction &af);
 
         template<class T>
-        bool initHandler(const T &, const bool &exceptions = true);
+        bool initHandler(const T &);
         void init();
         void init(const gpioAlternateFunction &);
         
@@ -36,7 +36,7 @@ class afPin : public ioPin
 template<class ...Args>
 afPin::afPin(const Args &...args):afPin()
 {
-    (initHandler(args, _enableExceptions),...);
+    (initHandler(args),...);
 }
 
 #endif /* AFD36E78_6321_4D81_8CF5_014B4FBE2340 */

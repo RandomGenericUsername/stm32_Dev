@@ -12,25 +12,23 @@ class ioPin
         ~ioPin();
         template<class ...Args>
         explicit ioPin(const Args &...args);
-    
         explicit ioPin(const ioPin &pin);
-
         ioPin& operator=(const ioPin &pin);
 
-        void setPort(const gpioPort &port);
-        void setPin(const gpioPin &pin);
-        void setMode(const gpioMode &mode);
-        void setPUPD(const gpioPUPD &pupd);
-        void setOutputType(const gpioOutputType &outputType);
-        void setOutputSpeed(const gpioOutputSpeed &outputSpeed);
+        bool setPort(const gpioPort &port);
+        bool setPin(const gpioPin &pin);
+        bool setMode(const gpioMode &mode);
+        bool setPUPD(const gpioPUPD &pupd);
+        bool setOutputType(const gpioOutputType &outputType);
+        bool setOutputSpeed(const gpioOutputSpeed &outputSpeed);
         bool read();
-        void write(const gpioState &state);
+        bool write(const gpioState &state);
         bool reset(const bool &forceReset = false);
 
-        static bool isPinSet(const gpioPort &port, const gpioPin &pin);
-        bool isReady(const ioPin &pinObj);
+        static bool isAllocated(const gpioPort &port, const gpioPin &pin);
         bool isReady();
-        void enableExceptions(const bool &enable = true);
+        void failSafeMode(const bool &enable = true);
+        void enableDebug(const bool &enable = true);
 
     protected:
 
@@ -47,7 +45,8 @@ class ioPin
         paramType _settings[numberOfPinParams];
         gpiostatusCode _status;
         uint16_t _queuedSettings;
-        bool _enableExceptions;
+        bool _failSafeMode;
+        bool _debug;
 
     private:
 
@@ -73,7 +72,7 @@ class ioPin
         gpioParameters getParamIndex(const gpioPUPD &pudp);
         gpioParameters getParamIndex(const gpioState &state);
 
-        static uint16_t initializedPins[NUMBER_OF_PORTS];
+        static uint16_t allocatedPins[NUMBER_OF_PORTS];
 
 };
 
@@ -83,12 +82,23 @@ ioPin::ioPin(const Args &...args):ioPin()
     (initHandler(args),...);
 }
 
-//template<class T>
-//bool ioPin::initHandler(const T &param)
-//{
-//    gpioExceptionHandler(gpiostatusCode::undefinedError);
-//}
 
+template<>
+bool ioPin::initHandler<gpioPort>(const gpioPort &param);
+template<>
+bool ioPin::initHandler<gpioPin>(const gpioPin &param);
+template<>
+bool ioPin::initHandler<gpioMode>(const gpioMode &param);
+template<>
+bool ioPin::initHandler<gpioPUPD>(const gpioPUPD &param);
+template<>
+bool ioPin::initHandler<gpioOutputSpeed>(const gpioOutputSpeed &param);
+template<>
+bool ioPin::initHandler<gpioOutputType>(const gpioOutputType &param);
+template<>
+bool ioPin::initHandler<gpioState>(const gpioState &param);
+template<>
+bool ioPin::initHandler<bool>(const bool &param);
 
 
 

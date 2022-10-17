@@ -32,59 +32,44 @@ void afPin::init(const gpioAlternateFunction & af)
 }
 
 template<>
-bool afPin::initHandler(const gpioPort & param, const bool &exceptions)
+bool afPin::initHandler(const gpioPort & param)
 {
-    ioPin::enableExceptions(exceptions);
     return ioPin::initHandler(param);
 }
 template<>
-bool afPin::initHandler(const gpioPin & param, const bool &exceptions)
+bool afPin::initHandler(const gpioPin & param)
 {
-    ioPin::enableExceptions(exceptions);
     return ioPin::initHandler(param);
 }
 template<>
-bool afPin::initHandler(const gpioMode & param, const bool &exceptions)
+bool afPin::initHandler(const gpioMode & param)
 {
     _status = gpiostatusCode::wrongParamPassed;
-    if(exceptions)
-    {
-        gpioExceptionHandler(_status);
-    }
     return false;
 }
 template<>
-bool afPin::initHandler(const gpioPUPD & param, const bool &exceptions)
+bool afPin::initHandler(const gpioPUPD & param)
 {
-    ioPin::enableExceptions(exceptions);
     return ioPin::initHandler(param);
 }
 template<>
-bool afPin::initHandler(const gpioOutputType & param, const bool &exceptions)
+bool afPin::initHandler(const gpioOutputType & param)
 {
-    ioPin::enableExceptions(exceptions);
     return ioPin::initHandler(param);
 }
 template<>
-bool afPin::initHandler(const gpioOutputSpeed & param, const bool &exceptions)
+bool afPin::initHandler(const gpioOutputSpeed & param)
 {
-    ioPin::enableExceptions(exceptions);
     return ioPin::initHandler(param);
 }
 template<>
-bool afPin::initHandler(const gpioState &param, const bool &exceptions)
+bool afPin::initHandler(const gpioState &param)
 {
     _status = gpiostatusCode::wrongParamPassed;
-    if(exceptions)
-    {
-        gpioExceptionHandler(_status);
-    }
-    return false;
 }
 template<>
-bool afPin::initHandler(const gpioAlternateFunction &param, const bool &exceptions)
+bool afPin::initHandler(const gpioAlternateFunction &param)
 {
-    if(exceptions) ioPin::enableExceptions();
     
     if(_status == gpiostatusCode::ready || _status == gpiostatusCode::reset)
     {
