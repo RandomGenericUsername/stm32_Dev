@@ -1,23 +1,11 @@
 #include "ioPin.hh"
 
-//template bool ioPin::settingsManager(const gpioMode &);
-//template bool ioPin::settingsManager(const gpioPUPD &);
-//template bool ioPin::settingsManager(const gpioOutputType &);
-//template bool ioPin::settingsManager(const gpioOutputSpeed &);
-
 uint16_t ioPin::allocatedPins[NUMBER_OF_PORTS]{0};
 
-ioPin::ioPin() { init(); }
+ioPin::ioPin() { initHandler(); }
 ioPin::~ioPin() { }
-ioPin::ioPin(const ioPin &Obj)
-{
-
-}
-
-ioPin& ioPin::operator=(const ioPin &pin)
-{
-
-}
+ioPin::ioPin(const ioPin &Obj) { } 
+ioPin& ioPin::operator=(const ioPin &pin) { }
 
 bool ioPin::setPort(const gpioPort &port) { return initHandler(port); }
 bool ioPin::setPin(const gpioPin &pin) { return initHandler(pin); } 
@@ -25,8 +13,19 @@ bool ioPin::setMode(const gpioMode &mode) { return initHandler(mode); }
 bool ioPin::setPUPD(const gpioPUPD &pupd) { return initHandler(pupd); }
 bool ioPin::setOutputType(const gpioOutputType &outputType) { return initHandler(outputType); }
 bool ioPin::setOutputSpeed(const gpioOutputSpeed &outputSpeed) { return initHandler(outputSpeed);}
-bool ioPin::read() { return _instance->IDR & 0x1 << _settings[static_cast<paramType>(gpioParameters::pin)];}
+bool ioPin::read() { return readHandler(); }
 bool ioPin::write(const gpioState &state) { return initHandler(state); }
+bool ioPin::toggle()
+{
+    if(_settings[static_cast<paramType>(gpioParameters::state)] == static_cast<paramType>(gpioState::high))
+    {
+        return write(gpioState::low);
+    }
+    else
+    {
+        return write(gpioState::high);
+    }
+}
 bool ioPin::reset(const bool &forceReset) { return true; }
 
 
@@ -62,6 +61,17 @@ void ioPin::enableDebug(const bool &enable)
    _debug = enable; 
 }
 
+
+bool ioPin::initHandler()
+{
+    _instance = nullptr;
+    setDefaultParams(); 
+    _status = gpiostatusCode::reset;
+    _queuedSettings = 0;
+    _failSafeMode = false;
+    return true;
+}
+
 template<>
 bool ioPin::initHandler<gpioPort>(const gpioPort &port)
 {
@@ -69,7 +79,7 @@ bool ioPin::initHandler<gpioPort>(const gpioPort &port)
     {
         gpioParameters _paramIndex = getParamIndex(port);
         _settings[static_cast<paramIndex>(_paramIndex)] = static_cast<paramType>(port);
-        return portManager(port);
+        return portHandler(port);
 
     }
     else if(_status == gpiostatusCode::busy)
@@ -91,7 +101,7 @@ bool ioPin::initHandler<gpioPin>(const gpioPin &pin)
     {
         gpioParameters _paramIndex = getParamIndex(pin);
         _settings[static_cast<paramIndex>(_paramIndex)] = static_cast<paramType>(pin);
-        return pinManager(pin);
+        return pinHandler(pin);
 
     }
     else if(_status == gpiostatusCode::busy)
@@ -112,7 +122,7 @@ bool ioPin::initHandler(const gpioMode &mode)
     {
         gpioParameters _paramIndex = getParamIndex(mode);
         _settings[static_cast<paramIndex>(_paramIndex)] = static_cast<paramType>(mode);
-        return settingsManager(mode);
+        return modeHandler(mode);
 
     }
     else if(_status == gpiostatusCode::busy)
@@ -135,7 +145,7 @@ bool ioPin::initHandler(const gpioPUPD &param)
     {
         gpioParameters _paramIndex = getParamIndex(param);
         _settings[static_cast<paramIndex>(_paramIndex)] = static_cast<paramType>(param);
-        return settingsManager(param);
+        return settingsHandler(param);
 
     }
     else if(_status == gpiostatusCode::busy)
@@ -158,7 +168,7 @@ bool ioPin::initHandler(const gpioOutputType &param)
     {
         gpioParameters _paramIndex = getParamIndex(param);
         _settings[static_cast<paramIndex>(_paramIndex)] = static_cast<paramType>(param);
-        return settingsManager(param);
+        return settingsHandler(param);
 
     }
     else if(_status == gpiostatusCode::busy)
@@ -179,7 +189,7 @@ bool ioPin::initHandler(const gpioOutputSpeed &param)
     {
         gpioParameters _paramIndex = getParamIndex(param);
         _settings[static_cast<paramIndex>(_paramIndex)] = static_cast<paramType>(param);
-        return settingsManager(param);
+        return settingsHandler(param);
 
     }
     else if(_status == gpiostatusCode::busy)
@@ -200,7 +210,7 @@ bool ioPin::initHandler(const gpioState &param)
     {
         gpioParameters _paramIndex = getParamIndex(param);
         _settings[static_cast<paramIndex>(_paramIndex)] = static_cast<paramType>(param);
-        return settingsManager(param);
+        return settingsHandler(param);
 
     }
     else if(_status == gpiostatusCode::busy)
@@ -214,15 +224,44 @@ bool ioPin::initHandler(const gpioState &param)
     return false;
 }
 
-template<class T>
-bool ioPin::settingsManager(const T &param)
+bool ioPin::readHandler()
 {
-    bool retVal = false;
+    if(_status == gpiostatusCode::ready || _status == gpiostatusCode::reset)
+    {
+        if(!isReady())
+        {
+            _status = gpiostatusCode::readingDeallocatedPin;
+            return false;
+        }
+        return _instance->IDR & 0x1 << _settings[static_cast<paramType>(gpioParameters::pin)];
+    }
+    else if(_status == gpiostatusCode::busy)
+    {
+        
+    }
+    else
+    {
+
+    }
+    return false;
+
+}
+
+
+template<>
+bool ioPin::initHandler(const bool &enable)
+{
+    failSafeMode(enable);
+    return true;
+}
+
+template<class T>
+bool ioPin::settingsHandler(const T &param)
+{
     if(isReady())
     {
         init(param);
         _status = gpiostatusCode::ready;
-        retVal = true;
     }
     else
     {
@@ -230,38 +269,34 @@ bool ioPin::settingsManager(const T &param)
         gpioParameters paramType = getParamIndex(param);
         _queuedSettings |= static_cast<uint16_t>(0x1 << static_cast<paramIndex>(paramType));
         _status = gpiostatusCode::reset;
-        retVal = false;
     }
-    return retVal;
+    return true;
 }
 
 
 
-bool ioPin::portManager(const gpioPort &param)
+bool ioPin::portHandler(const gpioPort &param)
 {
     //if pin is set, check for stagged and init
-    bool retVal = false;
     if(assertPin())
     {
         if(isAllocated( static_cast<gpioPort>(param), static_cast<gpioPin>(_settings[static_cast<paramIndex>(gpioParameters::pin)]) ))
         {
             _status = gpiostatusCode::alreadyAllocatedPinError;
-            retVal = false;
             if(_failSafeMode) gpioExceptionHandler(_status);
+            return false;
         }
         else
         {
             init(param);
             _status = gpiostatusCode::ready;
-            retVal = true;
             allocatedPins[_settings[static_cast<paramType>(gpioParameters::port)]] |= static_cast<uint16_t>(0x1 << _settings[static_cast<paramType>(gpioParameters::pin)]);
             if(_queuedSettings != 0)
             {
                 if(!initQueuedSettings())
                 {
                     _status = gpiostatusCode::initQueuedSettingsFailed;
-                    retVal = false;
-                    if(_failSafeMode) gpioExceptionHandler(_status);
+                    return false;
                 } 
             }
         }
@@ -270,33 +305,29 @@ bool ioPin::portManager(const gpioPort &param)
     {
         init(param);
         _status = gpiostatusCode::reset;
-        retVal = false;
     }
-    return retVal;
+    return true;
 }
-bool ioPin::pinManager(const gpioPin &param)
+bool ioPin::pinHandler(const gpioPin &param)
 {
-    bool retVal = false;
     if(assertPort())
     {
         if( isAllocated( static_cast<gpioPort>(_settings[static_cast<paramIndex>(gpioParameters::port)]), static_cast<gpioPin>(param) ) )
         {
             _status = gpiostatusCode::alreadyAllocatedPinError;
-            retVal = false;
             if(_failSafeMode) gpioExceptionHandler(_status);
+            return false;
         }
         else
         {
             _status = gpiostatusCode::ready;
-            retVal = true;
             allocatedPins[_settings[static_cast<paramType>(gpioParameters::port)]] |= static_cast<uint16_t>(0x1 << _settings[static_cast<paramType>(gpioParameters::pin)]);
             if(_queuedSettings != 0)
             {
                 if(!initQueuedSettings())
                 {
                     _status = gpiostatusCode::initQueuedSettingsFailed;
-                    retVal = false;
-                    if(_failSafeMode) gpioExceptionHandler(_status);
+                    return false;
                 } 
             }
         }
@@ -304,9 +335,23 @@ bool ioPin::pinManager(const gpioPin &param)
     else
     {
         _status = gpiostatusCode::reset;
-        retVal = false;
     }
-    return retVal;
+    return true;
+}
+
+bool ioPin::modeHandler(const gpioMode &mode, const bool &failSafe)
+{
+    if(failSafe)
+    {
+        if(mode == gpioMode::alternateFunction || mode == gpioMode::analogInput)
+        {
+            _status = gpiostatusCode::modeNotAllowed;
+            return false;
+        }
+    }
+    settingsHandler(mode);
+    return true;
+
 }
 
 bool ioPin::initQueuedSettings()
@@ -351,14 +396,6 @@ void ioPin::setDefaultParams()
     _settings[static_cast<paramIndex>(gpioParameters::state)]  =  static_cast<paramType>(gpioState::low);
 }
 
-void ioPin::init()
-{
-    _instance = nullptr;
-    setDefaultParams(); 
-    _status = gpiostatusCode::reset;
-    _queuedSettings = 0;
-    _failSafeMode = false;
-}
 
 void ioPin::init(const gpioPort &port)
 {
@@ -409,23 +446,27 @@ void ioPin::init(const gpioState &state)
     else this->_instance->ODR &= ~static_cast<uint32_t>(0x1 << _pin);
 }
 
-bool ioPin::assertPort()
+bool ioPin::assertPort(const ioPin &obj)
 {
-    if(_settings[static_cast<paramIndex>(gpioParameters::port)] != static_cast<paramType>(gpioPort::null))
+    if(obj._settings[static_cast<paramIndex>(gpioParameters::port)] != static_cast<paramType>(gpioPort::null))
     {
         return true;
     }
     return false;
 }
 
-bool ioPin::assertPin()
+bool ioPin::assertPort() { return assertPort(*this); }
+
+bool ioPin::assertPin(const ioPin &obj)
 {
-    if(_settings[static_cast<paramIndex>(gpioParameters::pin)] != static_cast<paramType>(gpioPin::null))
+    if(obj._settings[static_cast<paramIndex>(gpioParameters::pin)] != static_cast<paramType>(gpioPin::null))
     {
         return true;
     }
     return false;
 }
+
+bool ioPin::assertPin() { return assertPin(*this); }
 
 gpioParameters ioPin::getParamIndex(const gpioPort &port)
 {

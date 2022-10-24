@@ -2,7 +2,7 @@
 
 afPin::afPin():ioPin()
 {
-    init();    
+    initHandler();    
 }
 
 afPin::~afPin()
@@ -16,11 +16,8 @@ void afPin::setAlternatefunction(const gpioAlternateFunction &)
 }
 
 
-void afPin::init()
-{
-    ioPin::initHandler(gpioMode::alternateFunction);
-    _alternateFunction = gpioAlternateFunction::_0;
-}
+bool afPin::initHandler() { return setAlternateFunctionMode(); }
+
 void afPin::init(const gpioAlternateFunction & af)
 {
     uint32_t afLowRegisterMask = 0x7U; /* 0x7 -> 0b111 */
@@ -31,21 +28,47 @@ void afPin::init(const gpioAlternateFunction & af)
 
 }
 
+bool afPin::setAlternateFunctionMode()
+{
+    if(_status == gpiostatusCode::ready || _status == gpiostatusCode::reset)
+    {
+        gpioParameters _paramIndex = ioPin::getParamIndex(gpioMode::alternateFunction);
+        _settings[static_cast<paramIndex>(_paramIndex)] = static_cast<paramType>(gpioMode::alternateFunction);
+        return modeHandler(gpioMode::alternateFunction, false);
+
+    }
+    else if(_status == gpiostatusCode::busy)
+    {
+        
+    }
+    else
+    {
+
+    }
+    return false;
+}
+
 template<>
 bool afPin::initHandler(const gpioPort & param)
 {
-    return ioPin::initHandler(param);
+    if(!ioPin::initHandler(param))return false;
+    if(isReady() && _queuedSetting)
+    {
+        init(_alternateFunction);
+        _queuedSetting = false;
+    }
+    return true;
 }
 template<>
 bool afPin::initHandler(const gpioPin & param)
 {
-    return ioPin::initHandler(param);
-}
-template<>
-bool afPin::initHandler(const gpioMode & param)
-{
-    _status = gpiostatusCode::wrongParamPassed;
-    return false;
+    if(!ioPin::initHandler(param))return false;
+    if(isReady() && _queuedSetting)
+    {
+        init(_alternateFunction);
+        _queuedSetting = false;
+    }
+    return true;
 }
 template<>
 bool afPin::initHandler(const gpioPUPD & param)
@@ -62,11 +85,7 @@ bool afPin::initHandler(const gpioOutputSpeed & param)
 {
     return ioPin::initHandler(param);
 }
-template<>
-bool afPin::initHandler(const gpioState &param)
-{
-    _status = gpiostatusCode::wrongParamPassed;
-}
+
 template<>
 bool afPin::initHandler(const gpioAlternateFunction &param)
 {
@@ -78,16 +97,13 @@ bool afPin::initHandler(const gpioAlternateFunction &param)
         {
             init(param);
             _status = gpiostatusCode::ready;
-            return true;
         }
         else
         {
-            gpioParameters paramType = getParamIndex(param);
-            _queuedSettings |= static_cast<uint16_t>(0x1 << static_cast<paramIndex>(paramType));
+            _queuedSetting = true;
             _status = gpiostatusCode::reset;
-            return false;
         }
-
+        return true;
 
     }
     else if(_status == gpiostatusCode::busy)
@@ -100,8 +116,5 @@ bool afPin::initHandler(const gpioAlternateFunction &param)
     }
     return false;
 }
+
         
-gpioParameters afPin::getParamIndex(const gpioAlternateFunction &af)
-{
-    return gpioParameters::alternateFunction;
-}

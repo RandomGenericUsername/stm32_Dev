@@ -23,6 +23,7 @@ class ioPin
         bool setOutputSpeed(const gpioOutputSpeed &outputSpeed);
         bool read();
         bool write(const gpioState &state);
+        bool toggle();
         bool reset(const bool &forceReset = false);
 
         static bool isAllocated(const gpioPort &port, const gpioPin &pin);
@@ -32,15 +33,30 @@ class ioPin
 
     protected:
 
+        bool initHandler();
         template<class T>
         bool initHandler(const T &);
-        bool portManager(const gpioPort &);
-        bool pinManager(const gpioPin &);
+        bool portHandler(const gpioPort &);
+        bool pinHandler(const gpioPin &);
+        bool modeHandler(const gpioMode &, const bool & = true);
+        bool readHandler();
         template<class T>
-        bool settingsManager(const T &);
+        bool settingsHandler(const T &);
         bool initQueuedSettings();
-        void init();
 
+        static bool assertPort(const ioPin &);
+        bool assertPort();
+        static bool assertPin(const ioPin &);
+        bool assertPin();
+
+        gpioParameters getParamIndex(const gpioPort &port);
+        gpioParameters getParamIndex(const gpioPin &pin);
+        gpioParameters getParamIndex(const gpioMode &mode);
+        gpioParameters getParamIndex(const gpioOutputType &gpioOutputType);
+        gpioParameters getParamIndex(const gpioOutputSpeed &oSpeed);
+        gpioParameters getParamIndex(const gpioPUPD &pudp);
+        gpioParameters getParamIndex(const gpioState &state);
+        
         GPIO_TypeDef *_instance;
         paramType _settings[numberOfPinParams];
         gpiostatusCode _status;
@@ -60,17 +76,6 @@ class ioPin
         void init(const gpioOutputSpeed &);
         void init(const gpioState &);
 
-        static bool assertPort(const ioPin &);
-        bool assertPort();
-        static bool assertPin(const ioPin &);
-        bool assertPin();
-        gpioParameters getParamIndex(const gpioPort &port);
-        gpioParameters getParamIndex(const gpioPin &pin);
-        gpioParameters getParamIndex(const gpioMode &mode);
-        gpioParameters getParamIndex(const gpioOutputType &gpioOutputType);
-        gpioParameters getParamIndex(const gpioOutputSpeed &oSpeed);
-        gpioParameters getParamIndex(const gpioPUPD &pudp);
-        gpioParameters getParamIndex(const gpioState &state);
 
         static uint16_t allocatedPins[NUMBER_OF_PORTS];
 
@@ -81,7 +86,16 @@ ioPin::ioPin(const Args &...args):ioPin()
 {
     (initHandler(args),...);
 }
-
+#ifdef FAIL_SAFE_MODE
+template<class T>
+bool ioPin::initHandler(const T &)
+{
+    //not supposed to get here
+    _status = gpiostatusCode::wrongParamPassed;
+    if(_failSafeMode) gpioExceptionHandler(_status);
+    return false;
+}
+#endif
 
 template<>
 bool ioPin::initHandler<gpioPort>(const gpioPort &param);
@@ -99,6 +113,7 @@ template<>
 bool ioPin::initHandler<gpioState>(const gpioState &param);
 template<>
 bool ioPin::initHandler<bool>(const bool &param);
+
 
 
 

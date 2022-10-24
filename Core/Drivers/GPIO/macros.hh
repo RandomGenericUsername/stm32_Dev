@@ -39,6 +39,7 @@ namespace
             for(uint32_t i = 0; i < 100000; i++);
             temp--;
         }
+        if(errorCode == gpiostatusCode::alreadyAllocatedPinError) while(1);
     }
 
 }
