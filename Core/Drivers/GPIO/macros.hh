@@ -3,6 +3,7 @@
 
 #include "GPIOTypes.hh"
 #include "stm32f411xe.h"
+#include "type_traits"
 
 namespace
 {
@@ -41,6 +42,19 @@ namespace
         }
         if(errorCode == gpiostatusCode::alreadyAllocatedPinError) while(1);
     }
+
+    #define assert_pin_params(arg)(std::is_same_v<const gpioPort&, decltype(arg)>         || \
+                                   std::is_same_v<const gpioPin&, decltype(arg)>          || \
+                                   std::is_same_v<const gpioMode&, decltype(arg)>         || \
+                                   std::is_same_v<const gpioPUPD&, decltype(arg)>         || \
+                                   std::is_same_v<const gpioOutputSpeed&, decltype(arg)>  || \
+                                   std::is_same_v<const gpioOutputType&, decltype(arg)>   || \
+                                   std::is_same_v<const gpioState&, decltype(arg)>        || \
+                                   std::is_same_v<const gpioFailSafe&, decltype(arg)>     || \
+                                   std::is_same_v<const gpioDebug&, decltype(arg)>) )
+    
+
+
 
 }
 

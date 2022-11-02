@@ -6,10 +6,6 @@
 
 #IncludeRegexTransform: 
 
-../../Core/Drivers/GPIO/ExtInterrupt.hh
-ioPin.hh
-../../Core/Drivers/GPIO/ioPin.hh
-
 ../../Core/Drivers/GPIO/GPIOTypes.hh
 stdint.h
 -
@@ -17,12 +13,18 @@ stdint.h
 ../../Core/Drivers/GPIO/ioPin.hh
 macros.hh
 ../../Core/Drivers/GPIO/macros.hh
+type_traits
+../../Core/Drivers/GPIO/type_traits
+tuple
+../../Core/Drivers/GPIO/tuple
 
 ../../Core/Drivers/GPIO/macros.hh
 GPIOTypes.hh
 ../../Core/Drivers/GPIO/GPIOTypes.hh
 stm32f411xe.h
 ../../Core/Drivers/GPIO/stm32f411xe.h
+type_traits
+../../Core/Drivers/GPIO/type_traits
 
 ../../Core/Inc/CMSIS/Device/ST/STM32F4xx/Include/stm32f411xe.h
 core_cm4.h
@@ -78,25 +80,9 @@ mpu_armv7.h
 
 ../../Core/Inc/CMSIS/Include/mpu_armv7.h
 
-/home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/GPIO/ExtInterrupt.cpp
-ExtInterrupt.hh
-/home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/GPIO/ExtInterrupt.hh
-
-/home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/GPIO/ExtInterrupt.hh
-ioPin.hh
-/home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/GPIO/ioPin.hh
-
 /home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/GPIO/GPIOTypes.hh
 stdint.h
 -
-
-/home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/GPIO/afPin.cpp
-afPin.hh
-/home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/GPIO/afPin.hh
-
-/home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/GPIO/afPin.hh
-ioPin.hh
-/home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/GPIO/ioPin.hh
 
 /home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/GPIO/ioPin.cpp
 ioPin.hh
@@ -105,12 +91,18 @@ ioPin.hh
 /home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/GPIO/ioPin.hh
 macros.hh
 /home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/GPIO/macros.hh
+type_traits
+/home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/GPIO/type_traits
+tuple
+/home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/GPIO/tuple
 
 /home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/GPIO/macros.hh
 GPIOTypes.hh
 /home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/GPIO/GPIOTypes.hh
 stm32f411xe.h
 /home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/GPIO/stm32f411xe.h
+type_traits
+/home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/GPIO/type_traits
 
 /home/inumaki/Development/stm32WorkSpace/mainProject/Core/Src/Utilities/RegistersManipulation/REG_MAN.cpp
 REG_MAN.h
@@ -125,6 +117,4 @@ stdint.h
 /home/inumaki/Development/stm32WorkSpace/mainProject/Core/Src/stdint.h
 ioPin.hh
 /home/inumaki/Development/stm32WorkSpace/mainProject/Core/Src/ioPin.hh
-ExtInterrupt.hh
-/home/inumaki/Development/stm32WorkSpace/mainProject/Core/Src/ExtInterrupt.hh
 

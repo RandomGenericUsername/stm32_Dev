@@ -32,8 +32,8 @@ bool afPin::setAlternateFunctionMode()
 {
     if(_status == gpiostatusCode::ready || _status == gpiostatusCode::reset)
     {
-        gpioParameters _paramIndex = ioPin::getParamIndex(gpioMode::alternateFunction);
-        _settings[static_cast<paramIndex>(_paramIndex)] = static_cast<paramType>(gpioMode::alternateFunction);
+        //gpioParameters _paramIndex = ioPin::getParamIndex(gpioMode::alternateFunction);
+        //_settings[static_cast<paramIndex>(_paramIndex)] = static_cast<paramType>(gpioMode::alternateFunction);
         return modeHandler(gpioMode::alternateFunction, false);
 
     }

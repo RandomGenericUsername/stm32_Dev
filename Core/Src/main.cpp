@@ -3,10 +3,13 @@
 
 #include "stdint.h"
 #include "ioPin.hh"
-#include "ExtInterrupt.hh"
+//#include "ExtInterrupt.hh"
+//#include "UART.hh"
 
-ioPin a{gpioPort::A, gpioMode::output, gpioState::high, gpioPin::_5};
-ExtInterrupt b{gpioExtTrigger::rising, gpioPort::B, gpioPin::_4, gpioPUPD::pullUp};
+ioPin a{gpioPort::A, gpioMode::output, gpioState::high, gpioPin::_5, gpioOutputSpeed::fast, gpioOutputType::pushPull, gpioPUPD::disabled};
+//ExtInterrupt b{gpioExtTrigger::rising, gpioPort::B, gpioPin::_4, gpioPUPD::pullUp};
+//UART com1;
+//UART com2{USART1};
 
 int main(void)
 {
@@ -28,5 +31,5 @@ void fpuInit(void)
 
 void EXTI4_Callback()
 {
-    a.toggle();
+    //a.toggle();
 }

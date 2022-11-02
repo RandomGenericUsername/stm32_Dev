@@ -1,5 +1,6 @@
 {
     "files.associations": {
+        "*.cpp": "cpp",
         "utility": "cpp",
         "cstddef": "cpp",
         "limits": "cpp",
@@ -42,6 +43,10 @@
         "unordered_map": "cpp",
         "memory_resource": "cpp",
         "string_view": "cpp",
-        "system_error": "cpp"
+        "system_error": "cpp",
+        "array": "cpp",
+        "bit": "cpp",
+        "cstdint": "cpp",
+        "initializer_list": "cpp"
     }
 }

@@ -17,8 +17,8 @@ bool ExtInterrupt::setInputMode()
 {
     if(_status == gpiostatusCode::ready || _status == gpiostatusCode::reset)
     {
-        gpioParameters _paramIndex = ioPin::getParamIndex(gpioMode::input);
-        _settings[static_cast<paramIndex>(_paramIndex)] = static_cast<paramType>(gpioMode::input);
+        //gpioParameters _paramIndex = ioPin::getParamIndex(gpioMode::input);
+        //_settings[static_cast<paramIndex>(_paramIndex)] = static_cast<paramType>(gpioMode::input);
         return modeHandler(gpioMode::input);
     }
     else if(_status == gpiostatusCode::busy)

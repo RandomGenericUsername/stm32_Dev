@@ -14,13 +14,17 @@ typedef uint32_t paramIndex;
 const uint8_t numberOfPinParams = 7;
 const uint8_t numberOfAFPArams = 1;
 
-enum class gpioParameters {port = 0, pin = 1, mode = 2, pupd = 3, oType = 4, oSpeed = 5, state = 6, alternateFunction = 7};
+enum class gpioParameters {port = 0, pin = 1, mode = 2, pupd = 3, oType = 4, oSpeed = 5, state = 6, failSafe = 15, debug = 16 };
 enum class gpioPort{A = 0x0, B = 0x01, C = 0x02, D = 0x03, E = 0x04, H = 0x07, null = -1};
 enum class gpioPin{_0 = 0UL, _1 = 1UL, _2 = 2UL, _3 = 3UL, _4 = 4UL, _5 = 5UL, _6 = 6UL, _7 = 7UL, _8 = 8UL, _9 = 9UL, _10 = 10UL, _11 = 11UL, _12 = 12UL, _13 = 13UL, _14 = 14UL, _15 = 15UL, null = -1};
 enum class gpioExtITAllocated{A, B, C, D, E, H, free };
 enum class gpiostatusCode { reset = 0, ready = 1, busy = 2, timeout = 3, undefinedError = 4, alreadyAllocatedPinError = 5, initQueuedSettingsFailed = 6, wrongParamPassed = 7, readingDeallocatedPin = 8, modeNotAllowed = 9, alreadyAllocatedInterruptError = 10};
 /* GPIO possible states definition */ /* GPIO reset state */ /* GPIO set state */
-enum class gpioState{low = 0, high = 1 };
+enum class gpioState{ low = 0, high = 1, undefined = -1 };
+
+enum class gpioFailSafe { disable = 0 ,enable = 1 };
+enum class gpioDebug { disable = 0 ,enable = 1 };
+
 
 /* GPIO mode selection definition */
 enum class gpioMode
