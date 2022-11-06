@@ -30,4 +30,4 @@ clean:
 
 
 flash: all
-	/opt/xpack-openocd-0.11.0-4/bin/./openocd -f interface/stlink.cfg -f board/st_nucleo_f4.cfg -c "program ./Build/bins/mainProject.elf verify reset exit"
+	openocd -f interface/stlink.cfg -f board/st_nucleo_f4.cfg -c "program ./Build/bins/mainProject.elf verify reset exit"

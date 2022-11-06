@@ -1,15 +1,20 @@
 {
     "version": "0.2.0",
     "configurations": [
+
         {
             "cwd": "${workspaceFolder}",
             "executable": "./Build/bins/mainProject.elf",
-            "name": "Debug with ST-Util",
+            "name": "Debug openocd",
             "request": "launch",
             "type": "cortex-debug",
             "runToEntryPoint": "main",
             "showDevDebugOutput": "none",
-            "servertype": "stutil",
+            "servertype": "openocd",
+            "configFiles": [
+                "/usr/share/openocd/scripts/interface/stlink.cfg",
+                "/usr/share/openocd/scripts/target/st_nucleo_f4.cfg"
+            ],
             "device": "STM32F411RE",
             "interface": "swd",
             "preLaunchTask": "Flash Project",

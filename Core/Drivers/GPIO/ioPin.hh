@@ -165,8 +165,10 @@ bool ioPin::initParam(const T &param)
         }
     }
     else
+    {
         setParam(param);
         settingsHandler(param);
+    }
 
     return true;
 }
