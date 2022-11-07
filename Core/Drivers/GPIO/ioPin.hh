@@ -80,8 +80,8 @@ class ioPin
         void setParam(const T &param);
         template <typename T>
         bool initParam(const T &param);
-        bool avoidReAllocatingPort(const gpioPort &port);
-        bool avoidReAllocatingPin(const gpioPin &pin);
+        bool isReAllocating(const gpioPort &port);
+        bool isReAllocating(const gpioPin &pin);
 
 
         void init(const gpioPort &);
@@ -143,15 +143,14 @@ bool ioPin::initParam(const T &param)
     constexpr bool isPort = std::is_same_v<const gpioPort&, decltype(param)>;
     constexpr bool isPin = std::is_same_v<const gpioPin&, decltype(param)>;
     
-    
     if constexpr( isPort || isPin )
     {
         if constexpr(isPort)
-            if(!avoidReAllocatingPort(param))
+            if(isReAllocating(param))
                 return false;
         
         if constexpr(isPin)
-            if(!avoidReAllocatingPin(param))
+            if(isReAllocating(param))
                 return false;
 
         setParam(param);
@@ -165,8 +164,10 @@ bool ioPin::initParam(const T &param)
         }
     }
     else
+    {
         setParam(param);
         settingsHandler(param);
+    }
 
     return true;
 }
@@ -178,7 +179,7 @@ bool ioPin::settingsHandler(const T &param)
     if(isReady())
     {
         if constexpr(isMode)
-            modeHandler(param, true);
+            return modeHandler(param, true);
         else
             init(param);
     }

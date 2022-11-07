@@ -161,7 +161,7 @@ void ioPin::defaultSettings()
     _state = gpioState::low;
 }
 
-bool ioPin::avoidReAllocatingPort(const gpioPort &port)
+bool ioPin::isReAllocating(const gpioPort &port)
 {
     if(isAllocated(port, _pin))
     {
@@ -172,7 +172,7 @@ bool ioPin::avoidReAllocatingPort(const gpioPort &port)
 }
 
 
-bool ioPin::avoidReAllocatingPin(const gpioPin &pin)
+bool ioPin::isReAllocating(const gpioPin &pin)
 {
     if(isAllocated(_port, pin))
     {
