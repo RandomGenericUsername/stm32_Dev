@@ -1,6 +1,7 @@
 #ifndef _GPIO_MACROS_H_
 #define _GPIO_MACROS_H_
 
+#include "cassert"
 #include "GPIOTypes.hh"
 #include "stm32f411xe.h"
 #include "type_traits"
@@ -43,7 +44,7 @@ namespace
         if(errorCode == gpiostatusCode::alreadyAllocatedPinError) while(1);
     }
 
-    #define assert_pin_params(arg)(std::is_same_v<const gpioPort&, decltype(arg)>         || \
+    #define ASSERT_PIN_PARAMS(arg)(std::is_same_v<const gpioPort&, decltype(arg)>         || \
                                    std::is_same_v<const gpioPin&, decltype(arg)>          || \
                                    std::is_same_v<const gpioMode&, decltype(arg)>         || \
                                    std::is_same_v<const gpioPUPD&, decltype(arg)>         || \
@@ -51,9 +52,13 @@ namespace
                                    std::is_same_v<const gpioOutputType&, decltype(arg)>   || \
                                    std::is_same_v<const gpioState&, decltype(arg)>        || \
                                    std::is_same_v<const gpioFailSafe&, decltype(arg)>     || \
-                                   std::is_same_v<const gpioDebug&, decltype(arg)>) )
+                                   std::is_same_v<const gpioDebug&, decltype(arg)>)
     
-
+    #ifndef NDEBUG
+        #define m_assert(expr, msg) static_assert(( (void)(msg), (expr) ))
+    #else
+        #define m_assert(expr, msg);
+    #endif
 
 
 }

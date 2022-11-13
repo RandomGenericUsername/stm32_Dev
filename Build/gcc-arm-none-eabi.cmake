@@ -7,7 +7,7 @@ set(FLAGS
     "-fdata-sections -ffunction-sections \
     --specs=nano.specs -Wl,--gc-sections -fexceptions")
 set(CPP_FLAGS
-    "-fno-rtti -fno-exceptions \
+    "-fno-rtti -fexceptions \
     -fno-threadsafe-statics")
 
 set(CMAKE_C_COMPILER ${TOOLCHAIN_PREFIX}gcc ${FLAGS})

@@ -10,6 +10,11 @@ set(CMAKE_DEPENDS_CHECK_ASM
   )
 set(CMAKE_ASM_COMPILER_ID "GNU")
 
+# Preprocessor definitions for this target.
+set(CMAKE_TARGET_DEFINITIONS_ASM
+  "STM32F411xx"
+  )
+
 # The include file search paths:
 set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "../../Core/Inc/CMSIS/Device/ST/STM32F4xx/Include"
@@ -26,6 +31,11 @@ set(CMAKE_DEPENDS_CHECK_C
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
+# Preprocessor definitions for this target.
+set(CMAKE_TARGET_DEFINITIONS_C
+  "STM32F411xx"
+  )
+
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
   "../../Core/Inc/CMSIS/Device/ST/STM32F4xx/Include"
@@ -37,11 +47,17 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "../../Core/Drivers/GPIO"
   )
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/GPIO/ioPin.cpp" "/home/inumaki/Development/stm32WorkSpace/mainProject/Build/bins/CMakeFiles/mainProject.dir/home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj"
+  "/home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/GPIO/inputOutputPin.cpp" "/home/inumaki/Development/stm32WorkSpace/mainProject/Build/bins/CMakeFiles/mainProject.dir/home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/GPIO/inputOutputPin.cpp.obj"
+  "/home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/GPIO/inputOutputPinHandler.cpp" "/home/inumaki/Development/stm32WorkSpace/mainProject/Build/bins/CMakeFiles/mainProject.dir/home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/GPIO/inputOutputPinHandler.cpp.obj"
   "/home/inumaki/Development/stm32WorkSpace/mainProject/Core/Src/Utilities/RegistersManipulation/REG_MAN.cpp" "/home/inumaki/Development/stm32WorkSpace/mainProject/Build/bins/CMakeFiles/mainProject.dir/home/inumaki/Development/stm32WorkSpace/mainProject/Core/Src/Utilities/RegistersManipulation/REG_MAN.cpp.obj"
   "/home/inumaki/Development/stm32WorkSpace/mainProject/Core/Src/main.cpp" "/home/inumaki/Development/stm32WorkSpace/mainProject/Build/bins/CMakeFiles/mainProject.dir/home/inumaki/Development/stm32WorkSpace/mainProject/Core/Src/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
+
+# Preprocessor definitions for this target.
+set(CMAKE_TARGET_DEFINITIONS_CXX
+  "STM32F411xx"
+  )
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

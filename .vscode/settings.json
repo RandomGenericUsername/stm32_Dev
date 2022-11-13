@@ -47,6 +47,7 @@
         "array": "cpp",
         "bit": "cpp",
         "cstdint": "cpp",
-        "initializer_list": "cpp"
+        "initializer_list": "cpp",
+        "cassert": "cpp"
     }
 }

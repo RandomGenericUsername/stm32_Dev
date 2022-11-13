@@ -49,9 +49,8 @@ add_executable(${EXECUTABLE}
     ${STARTUP_SCRIPT})
 
 # Embedded macros(defines)
-#target_compile_definitions(${EXECUTABLE} PRIVATE
-#    ${MCU_MODEL}
-#    USE_HAL_DRIVER)
+target_compile_definitions(${EXECUTABLE} PRIVATE
+    ${MCU_MODEL})
 
 # Add header directories (AFTER add_executable !!)
 target_include_directories(${EXECUTABLE} PRIVATE
