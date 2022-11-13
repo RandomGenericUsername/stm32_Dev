@@ -1,5 +1,6 @@
 Archive member included to satisfy reference by file (symbol)
 
+<<<<<<< HEAD
 /usr/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++.a(atexit_arm.o)
                               CMakeFiles/mainProject.dir/home/inumaki/Development/stm32WorkSpace/mainProject/Core/Src/main.cpp.obj (__aeabi_atexit)
 /usr/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++.a(class_type_info.o)
@@ -462,67 +463,494 @@ Discarded input sections
  .text          0x0000000000000000        0x0 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32WorkSpace/mainProject/Core/Src/syscalls.c.obj
  .data          0x0000000000000000        0x0 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32WorkSpace/mainProject/Core/Src/syscalls.c.obj
  .bss           0x0000000000000000        0x0 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32WorkSpace/mainProject/Core/Src/syscalls.c.obj
+=======
+/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(atexit_arm.o)
+                              CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj (__aeabi_atexit)
+/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-atexit.o)
+                              /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o (atexit)
+/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-cxa_atexit.o)
+                              /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(atexit_arm.o) (__cxa_atexit)
+/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-errno.o)
+                              CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj (__errno)
+/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-exit.o)
+                              /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o (exit)
+/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-fini.o)
+                              /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o (__libc_fini_array)
+/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-impure.o)
+                              /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-exit.o) (_global_impure_ptr)
+/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-init.o)
+                              /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o (__libc_init_array)
+/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memset.o)
+                              /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o (memset)
+/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-on_exit_args.o)
+                              /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-cxa_atexit.o) (__on_exit_args)
+/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-__atexit.o)
+                              /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-atexit.o) (__register_exitproc)
+/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-__call_atexit.o)
+                              /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-__atexit.o) (__call_exitprocs)
+/usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(unwind-arm.o)
+                              CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj (__aeabi_unwind_cpp_pr0)
+/usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(libunwind.o)
+                              /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(unwind-arm.o) (restore_core_regs)
+/usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(pr-support.o)
+                              /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(unwind-arm.o) (__gnu_unwind_execute)
+/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-abort.o)
+                              /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(unwind-arm.o) (abort)
+/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-memcpy.o)
+                              /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(unwind-arm.o) (memcpy)
+/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-signal.o)
+                              /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-abort.o) (raise)
+/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-signalr.o)
+                              /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-signal.o) (_kill_r)
+/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-nano-mallocr.o)
+                              /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-signal.o) (_malloc_r)
+/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-reent.o)
+                              /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-signalr.o) (errno)
+/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-sbrkr.o)
+                              /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-nano-mallocr.o) (_sbrk_r)
+/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-mlock.o)
+                              /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-nano-mallocr.o) (__malloc_lock)
+/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-nano-freer.o)
+                              /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-reent.o) (_free_r)
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crti.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crti.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crti.o
+ .rodata        0x0000000000000000       0x24 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .text          0x0000000000000000       0x70 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+ .ARM.extab     0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+ .ARM.exidx     0x0000000000000000       0x10 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+ .debug_line    0x0000000000000000       0x87 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+ .debug_info    0x0000000000000000       0x26 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+ .debug_abbrev  0x0000000000000000       0x14 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+ .debug_aranges
+                0x0000000000000000       0x20 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+ .debug_str     0x0000000000000000       0x98 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+ .ARM.attributes
+                0x0000000000000000       0x1c /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+ .group         0x0000000000000000        0x8 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .group         0x0000000000000000        0x8 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .group         0x0000000000000000        0x8 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .group         0x0000000000000000        0x8 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .group         0x0000000000000000        0x8 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .group         0x0000000000000000        0x8 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .group         0x0000000000000000        0x8 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .text          0x0000000000000000        0x0 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .data          0x0000000000000000        0x0 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .bss           0x0000000000000000        0x0 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .text._ZN12_GLOBAL__N_120gpioExceptionHandlerE14gpiostatusCode
+                0x0000000000000000       0x60 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .text._ZN5ioPinC2ERKS_
+                0x0000000000000000        0x2 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .text._ZN5ioPinaSERKS_
+                0x0000000000000000        0x0 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .text._ZN5ioPin5resetERKb
+                0x0000000000000000        0x4 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .text._ZN5ioPin12failSafeModeERKb
+                0x0000000000000000        0x6 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .text._ZN5ioPin11enableDebugERKb
+                0x0000000000000000        0x6 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .text._ZN5ioPin6readIOERKb
+                0x0000000000000000       0x32 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .text._ZN5ioPin4readERKb
+                0x0000000000000000        0x8 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .text._ZN5ioPin4initERK7gpioPin
+                0x0000000000000000        0x2 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .text._ZN5ioPin7setPortERK8gpioPort
+                0x0000000000000000        0x8 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .text._ZN5ioPin6setPinERK7gpioPin
+                0x0000000000000000        0x8 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .text._ZN5ioPin7setModeERK8gpioMode
+                0x0000000000000000        0x8 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .text._ZN5ioPin7setPUPDERK8gpioPUPD
+                0x0000000000000000        0x8 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .text._ZN5ioPin13setOutputTypeERK14gpioOutputType
+                0x0000000000000000        0x8 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .text._ZN5ioPin14setOutputSpeedERK15gpioOutputSpeed
+                0x0000000000000000        0x8 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .text._ZN5ioPin7writeIOERK9gpioState
+                0x0000000000000000        0x8 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .text._ZN5ioPin5writeERK9gpioState
+                0x0000000000000000        0x8 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .text._ZN5ioPin6toggleEv
+                0x0000000000000000       0x26 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/Utilities/RegistersManipulation/REG_MAN.cpp.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/Utilities/RegistersManipulation/REG_MAN.cpp.obj
+ .text          0x0000000000000000        0x0 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/Utilities/RegistersManipulation/REG_MAN.cpp.obj
+ .data          0x0000000000000000        0x0 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/Utilities/RegistersManipulation/REG_MAN.cpp.obj
+ .bss           0x0000000000000000        0x0 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/Utilities/RegistersManipulation/REG_MAN.cpp.obj
+ .text._Z8getIndexm
+                0x0000000000000000       0x18 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/Utilities/RegistersManipulation/REG_MAN.cpp.obj
+ .debug_info    0x0000000000000000       0xc9 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/Utilities/RegistersManipulation/REG_MAN.cpp.obj
+ .debug_abbrev  0x0000000000000000       0x80 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/Utilities/RegistersManipulation/REG_MAN.cpp.obj
+ .debug_loc     0x0000000000000000       0x52 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/Utilities/RegistersManipulation/REG_MAN.cpp.obj
+ .debug_aranges
+                0x0000000000000000       0x20 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/Utilities/RegistersManipulation/REG_MAN.cpp.obj
+ .debug_ranges  0x0000000000000000       0x10 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/Utilities/RegistersManipulation/REG_MAN.cpp.obj
+ .debug_macro   0x0000000000000000       0x24 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/Utilities/RegistersManipulation/REG_MAN.cpp.obj
+ .debug_macro   0x0000000000000000      0xbf2 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/Utilities/RegistersManipulation/REG_MAN.cpp.obj
+ .debug_macro   0x0000000000000000      0x34e CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/Utilities/RegistersManipulation/REG_MAN.cpp.obj
+ .debug_line    0x0000000000000000      0x112 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/Utilities/RegistersManipulation/REG_MAN.cpp.obj
+ .debug_str     0x0000000000000000     0x3ffa CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/Utilities/RegistersManipulation/REG_MAN.cpp.obj
+ .comment       0x0000000000000000       0x34 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/Utilities/RegistersManipulation/REG_MAN.cpp.obj
+ .debug_frame   0x0000000000000000       0x20 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/Utilities/RegistersManipulation/REG_MAN.cpp.obj
+ .ARM.attributes
+                0x0000000000000000       0x34 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/Utilities/RegistersManipulation/REG_MAN.cpp.obj
+ .group         0x0000000000000000        0x8 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .group         0x0000000000000000        0x8 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .group         0x0000000000000000        0x8 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .group         0x0000000000000000        0x8 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .group         0x0000000000000000        0x8 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .group         0x0000000000000000        0x8 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .group         0x0000000000000000        0x8 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .text          0x0000000000000000        0x0 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .data          0x0000000000000000        0x0 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .bss           0x0000000000000000        0x0 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .text._Z7fpuInitv
+                0x0000000000000000       0x10 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .text._Z14EXTI4_Callbackv
+                0x0000000000000000        0x2 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .text._ZN5ioPin8setParamI8gpioPortEEvRKT_
+                0x0000000000000000        0x6 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .text._ZN5ioPin9initParamI8gpioPortEEbRKT_
+                0x0000000000000000       0x58 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .text._ZN5ioPin11initHandlerI8gpioPortEEbRKT_
+                0x0000000000000000       0x12 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .text._ZN5ioPin8setParamI8gpioModeEEvRKT_
+                0x0000000000000000        0x6 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .text._ZN5ioPin15settingsHandlerI8gpioModeEEbRKT_
+                0x0000000000000000       0x30 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .text._ZN5ioPin9initParamI8gpioModeEEbRKT_
+                0x0000000000000000       0x16 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .text._ZN5ioPin11initHandlerI8gpioModeEEbRKT_
+                0x0000000000000000       0x12 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .text._ZN5ioPin8setParamI9gpioStateEEvRKT_
+                0x0000000000000000        0x6 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .text._ZN5ioPin15settingsHandlerI9gpioStateEEbRKT_
+                0x0000000000000000       0x22 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .text._ZN5ioPin9initParamI9gpioStateEEbRKT_
+                0x0000000000000000       0x16 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .text._ZN5ioPin11initHandlerI9gpioStateEEbRKT_
+                0x0000000000000000       0x12 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .text._ZN5ioPin8setParamI7gpioPinEEvRKT_
+                0x0000000000000000        0x6 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .text._ZN5ioPin9initParamI7gpioPinEEbRKT_
+                0x0000000000000000       0x50 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .text._ZN5ioPin11initHandlerI7gpioPinEEbRKT_
+                0x0000000000000000       0x12 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .text._ZN5ioPin8setParamI15gpioOutputSpeedEEvRKT_
+                0x0000000000000000        0x6 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .text._ZN5ioPin15settingsHandlerI15gpioOutputSpeedEEbRKT_
+                0x0000000000000000       0x22 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .text._ZN5ioPin9initParamI15gpioOutputSpeedEEbRKT_
+                0x0000000000000000       0x16 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .text._ZN5ioPin11initHandlerI15gpioOutputSpeedEEbRKT_
+                0x0000000000000000       0x12 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .text._ZN5ioPin8setParamI14gpioOutputTypeEEvRKT_
+                0x0000000000000000        0x6 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .text._ZN5ioPin15settingsHandlerI14gpioOutputTypeEEbRKT_
+                0x0000000000000000       0x22 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .text._ZN5ioPin9initParamI14gpioOutputTypeEEbRKT_
+                0x0000000000000000       0x16 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .text._ZN5ioPin11initHandlerI14gpioOutputTypeEEbRKT_
+                0x0000000000000000       0x12 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .text._ZN5ioPin8setParamI8gpioPUPDEEvRKT_
+                0x0000000000000000        0x6 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .text._ZN5ioPin15settingsHandlerI8gpioPUPDEEbRKT_
+                0x0000000000000000       0x22 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .text._ZN5ioPin9initParamI8gpioPUPDEEbRKT_
+                0x0000000000000000       0x16 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .text._ZN5ioPin11initHandlerI8gpioPUPDEEbRKT_
+                0x0000000000000000       0x12 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .debug_macro   0x0000000000000000      0xbf2 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .debug_macro   0x0000000000000000      0x34e CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .debug_macro   0x0000000000000000       0x28 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .debug_macro   0x0000000000000000       0x1c CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .debug_macro   0x0000000000000000       0x22 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .debug_macro   0x0000000000000000       0xd9 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .debug_macro   0x0000000000000000     0x102d CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .debug_macro   0x0000000000000000      0x11f CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .debug_macro   0x0000000000000000     0xb953 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .debug_macro   0x0000000000000000      0x18a CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .debug_macro   0x0000000000000000       0x10 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .debug_macro   0x0000000000000000       0xba CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .debug_macro   0x0000000000000000       0xf7 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .debug_macro   0x0000000000000000      0x34c CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .debug_macro   0x0000000000000000       0x8e CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .debug_macro   0x0000000000000000       0x1f CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .debug_macro   0x0000000000000000       0x10 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .debug_macro   0x0000000000000000       0x18 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .debug_macro   0x0000000000000000       0x49 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .debug_macro   0x0000000000000000       0x35 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .debug_macro   0x0000000000000000       0x1c CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .debug_macro   0x0000000000000000       0x17 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .debug_macro   0x0000000000000000       0x10 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .debug_macro   0x0000000000000000       0x28 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .debug_macro   0x0000000000000000       0x2e CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .debug_macro   0x0000000000000000       0x16 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .debug_macro   0x0000000000000000      0x17b CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .debug_macro   0x0000000000000000       0x10 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .debug_macro   0x0000000000000000       0x12 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .debug_macro   0x0000000000000000       0x19 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .debug_macro   0x0000000000000000       0x88 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .debug_macro   0x0000000000000000       0x19 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .debug_macro   0x0000000000000000       0x18 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .debug_macro   0x0000000000000000       0x1f CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .text          0x0000000000000000        0x0 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .data          0x0000000000000000        0x0 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .bss           0x0000000000000000        0x0 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+>>>>>>> 75148ae5dadf5b58a1f8472238ddddc1290d4370
  .text.initialise_monitor_handles
-                0x0000000000000000        0x2 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32WorkSpace/mainProject/Core/Src/syscalls.c.obj
+                0x0000000000000000        0x2 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
  .ARM.extab.text.initialise_monitor_handles
-                0x0000000000000000        0x0 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32WorkSpace/mainProject/Core/Src/syscalls.c.obj
+                0x0000000000000000        0x0 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
  .ARM.exidx.text.initialise_monitor_handles
-                0x0000000000000000        0x8 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32WorkSpace/mainProject/Core/Src/syscalls.c.obj
+                0x0000000000000000        0x8 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .text._getpid  0x0000000000000000        0x4 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
  .ARM.extab.text._getpid
-                0x0000000000000000        0x0 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32WorkSpace/mainProject/Core/Src/syscalls.c.obj
+                0x0000000000000000        0x0 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .ARM.exidx.text._getpid
+                0x0000000000000000        0x8 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .text._kill    0x0000000000000000       0x10 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .ARM.extab.text._kill
+                0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .ARM.exidx.text._kill
+                0x0000000000000000        0x8 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .text._exit    0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
  .ARM.extab.text._exit
-                0x0000000000000000        0x0 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32WorkSpace/mainProject/Core/Src/syscalls.c.obj
+                0x0000000000000000        0x0 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .ARM.exidx.text._exit
+                0x0000000000000000        0x8 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .text._read    0x0000000000000000       0x20 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
  .ARM.extab.text._read
-                0x0000000000000000        0x0 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32WorkSpace/mainProject/Core/Src/syscalls.c.obj
+                0x0000000000000000        0x0 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .ARM.exidx.text._read
+                0x0000000000000000        0x8 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .text._write   0x0000000000000000       0x1c CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
  .ARM.extab.text._write
-                0x0000000000000000        0x0 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32WorkSpace/mainProject/Core/Src/syscalls.c.obj
+                0x0000000000000000        0x0 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .ARM.exidx.text._write
+                0x0000000000000000        0x8 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .text._close   0x0000000000000000        0x6 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
  .ARM.extab.text._close
-                0x0000000000000000        0x0 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32WorkSpace/mainProject/Core/Src/syscalls.c.obj
+                0x0000000000000000        0x0 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .ARM.exidx.text._close
+                0x0000000000000000        0x8 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .text._fstat   0x0000000000000000        0xa CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
  .ARM.extab.text._fstat
-                0x0000000000000000        0x0 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32WorkSpace/mainProject/Core/Src/syscalls.c.obj
+                0x0000000000000000        0x0 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .ARM.exidx.text._fstat
+                0x0000000000000000        0x8 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .text._isatty  0x0000000000000000        0x4 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
  .ARM.extab.text._isatty
-                0x0000000000000000        0x0 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32WorkSpace/mainProject/Core/Src/syscalls.c.obj
+                0x0000000000000000        0x0 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .ARM.exidx.text._isatty
+                0x0000000000000000        0x8 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .text._lseek   0x0000000000000000        0x4 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
  .ARM.extab.text._lseek
-                0x0000000000000000        0x0 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32WorkSpace/mainProject/Core/Src/syscalls.c.obj
- .text._open    0x0000000000000000        0xa CMakeFiles/mainProject.dir/home/inumaki/Development/stm32WorkSpace/mainProject/Core/Src/syscalls.c.obj
+                0x0000000000000000        0x0 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .ARM.exidx.text._lseek
+                0x0000000000000000        0x8 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .text._open    0x0000000000000000        0xa CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
  .ARM.extab.text._open
-                0x0000000000000000        0x0 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32WorkSpace/mainProject/Core/Src/syscalls.c.obj
+                0x0000000000000000        0x0 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
  .ARM.exidx.text._open
-                0x0000000000000000        0x8 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32WorkSpace/mainProject/Core/Src/syscalls.c.obj
- .text._wait    0x0000000000000000       0x10 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32WorkSpace/mainProject/Core/Src/syscalls.c.obj
+                0x0000000000000000        0x8 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .text._wait    0x0000000000000000       0x10 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
  .ARM.extab.text._wait
-                0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32WorkSpace/mainProject/Core/Src/syscalls.c.obj
+                0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
  .ARM.exidx.text._wait
-                0x0000000000000000        0x8 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32WorkSpace/mainProject/Core/Src/syscalls.c.obj
- .text._unlink  0x0000000000000000       0x10 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32WorkSpace/mainProject/Core/Src/syscalls.c.obj
+                0x0000000000000000        0x8 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .text._unlink  0x0000000000000000       0x10 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
  .ARM.extab.text._unlink
-                0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32WorkSpace/mainProject/Core/Src/syscalls.c.obj
+                0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
  .ARM.exidx.text._unlink
-                0x0000000000000000        0x8 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32WorkSpace/mainProject/Core/Src/syscalls.c.obj
- .text._times   0x0000000000000000        0x6 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32WorkSpace/mainProject/Core/Src/syscalls.c.obj
+                0x0000000000000000        0x8 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .text._times   0x0000000000000000        0x6 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
  .ARM.extab.text._times
-                0x0000000000000000        0x0 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32WorkSpace/mainProject/Core/Src/syscalls.c.obj
+                0x0000000000000000        0x0 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
  .ARM.exidx.text._times
-                0x0000000000000000        0x8 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32WorkSpace/mainProject/Core/Src/syscalls.c.obj
- .text._stat    0x0000000000000000        0xa CMakeFiles/mainProject.dir/home/inumaki/Development/stm32WorkSpace/mainProject/Core/Src/syscalls.c.obj
+                0x0000000000000000        0x8 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .text._stat    0x0000000000000000        0xa CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
  .ARM.extab.text._stat
-                0x0000000000000000        0x0 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32WorkSpace/mainProject/Core/Src/syscalls.c.obj
+                0x0000000000000000        0x0 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
  .ARM.exidx.text._stat
-                0x0000000000000000        0x8 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32WorkSpace/mainProject/Core/Src/syscalls.c.obj
- .text._link    0x0000000000000000       0x10 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32WorkSpace/mainProject/Core/Src/syscalls.c.obj
+                0x0000000000000000        0x8 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .text._link    0x0000000000000000       0x10 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
  .ARM.extab.text._link
-                0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32WorkSpace/mainProject/Core/Src/syscalls.c.obj
+                0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
  .ARM.exidx.text._link
-                0x0000000000000000        0x8 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32WorkSpace/mainProject/Core/Src/syscalls.c.obj
- .text._fork    0x0000000000000000       0x10 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32WorkSpace/mainProject/Core/Src/syscalls.c.obj
+                0x0000000000000000        0x8 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .text._fork    0x0000000000000000       0x10 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
  .ARM.extab.text._fork
-                0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32WorkSpace/mainProject/Core/Src/syscalls.c.obj
+                0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
  .ARM.exidx.text._fork
-                0x0000000000000000        0x8 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32WorkSpace/mainProject/Core/Src/syscalls.c.obj
- .text._execve  0x0000000000000000       0x10 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32WorkSpace/mainProject/Core/Src/syscalls.c.obj
+                0x0000000000000000        0x8 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .text._execve  0x0000000000000000       0x10 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
  .ARM.extab.text._execve
-                0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32WorkSpace/mainProject/Core/Src/syscalls.c.obj
+                0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
  .ARM.exidx.text._execve
+<<<<<<< HEAD
                 0x0000000000000000        0x8 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32WorkSpace/mainProject/Core/Src/syscalls.c.obj
  .bss.__env     0x0000000000000000        0x4 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32WorkSpace/mainProject/Core/Src/syscalls.c.obj
  .data.environ  0x0000000000000000        0x4 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32WorkSpace/mainProject/Core/Src/syscalls.c.obj
@@ -1249,20 +1677,415 @@ Discarded input sections
  .bss           0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(libunwind.o)
  .data          0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(pr-support.o)
  .bss           0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(pr-support.o)
- .ARM.extab.text.unlikely
-                0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(pr-support.o)
- .data          0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_dvmd_tls.o)
- .bss           0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_dvmd_tls.o)
- .text          0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtend.o
- .data          0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtend.o
- .bss           0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtend.o
- .rodata        0x0000000000000000       0x24 /usr/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtend.o
- .eh_frame      0x0000000000000000        0x4 /usr/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtend.o
+=======
+                0x0000000000000000        0x8 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .bss.__env     0x0000000000000000        0x4 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .data.environ  0x0000000000000000        0x4 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .debug_info    0x0000000000000000      0x7b3 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .debug_abbrev  0x0000000000000000      0x1a6 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .debug_loc     0x0000000000000000      0x3c5 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .debug_aranges
+                0x0000000000000000       0xa8 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .debug_ranges  0x0000000000000000       0x98 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .debug_macro   0x0000000000000000      0x24c CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .debug_macro   0x0000000000000000      0xa6c CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .debug_macro   0x0000000000000000       0x22 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .debug_macro   0x0000000000000000       0x46 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .debug_macro   0x0000000000000000       0x18 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .debug_macro   0x0000000000000000       0x94 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .debug_macro   0x0000000000000000       0x3c CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .debug_macro   0x0000000000000000       0x34 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .debug_macro   0x0000000000000000       0x57 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .debug_macro   0x0000000000000000      0x174 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .debug_macro   0x0000000000000000      0x333 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .debug_macro   0x0000000000000000       0x16 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .debug_macro   0x0000000000000000       0x43 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .debug_macro   0x0000000000000000       0x34 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .debug_macro   0x0000000000000000       0x10 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .debug_macro   0x0000000000000000       0x52 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .debug_macro   0x0000000000000000       0x71 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .debug_macro   0x0000000000000000       0x1c CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .debug_macro   0x0000000000000000      0x12a CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .debug_macro   0x0000000000000000       0x10 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .debug_macro   0x0000000000000000       0x35 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .debug_macro   0x0000000000000000       0x10 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .debug_macro   0x0000000000000000       0x10 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .debug_macro   0x0000000000000000       0x10 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .debug_macro   0x0000000000000000       0x6a CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .debug_macro   0x0000000000000000       0x1c CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .debug_macro   0x0000000000000000       0x52 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .debug_macro   0x0000000000000000       0x22 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .debug_macro   0x0000000000000000       0x10 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .debug_macro   0x0000000000000000       0x40 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .debug_macro   0x0000000000000000       0xd5 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .debug_macro   0x0000000000000000       0x1c CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .debug_macro   0x0000000000000000       0x3d CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .debug_macro   0x0000000000000000       0x35 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .debug_macro   0x0000000000000000      0x12c CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .debug_macro   0x0000000000000000       0x16 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .debug_macro   0x0000000000000000       0x16 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .debug_macro   0x0000000000000000       0x29 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .debug_macro   0x0000000000000000       0x10 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .debug_macro   0x0000000000000000      0x241 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .debug_macro   0x0000000000000000       0x1c CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .debug_macro   0x0000000000000000       0x10 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .debug_macro   0x0000000000000000       0x10 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .debug_macro   0x0000000000000000       0x16 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .debug_macro   0x0000000000000000      0x145 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .debug_macro   0x0000000000000000      0x189 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .debug_macro   0x0000000000000000       0x16 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .debug_macro   0x0000000000000000       0xce CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .debug_line    0x0000000000000000      0x5ba CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .debug_str     0x0000000000000000     0x888d CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .comment       0x0000000000000000       0x34 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .debug_frame   0x0000000000000000      0x190 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
  .ARM.attributes
-                0x0000000000000000       0x34 /usr/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtend.o
- .text          0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtn.o
- .data          0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtn.o
- .bss           0x0000000000000000        0x0 /usr/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtn.o
+                0x0000000000000000       0x34 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/sysmem.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/sysmem.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/sysmem.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/sysmem.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/sysmem.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/sysmem.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/sysmem.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/sysmem.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/sysmem.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/sysmem.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/sysmem.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/sysmem.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/sysmem.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/sysmem.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/sysmem.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/sysmem.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/sysmem.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/sysmem.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/sysmem.c.obj
+ .group         0x0000000000000000        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/sysmem.c.obj
+ .text          0x0000000000000000        0x0 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/sysmem.c.obj
+ .data          0x0000000000000000        0x0 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/sysmem.c.obj
+ .bss           0x0000000000000000        0x0 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/sysmem.c.obj
+ .text._sbrk    0x0000000000000000       0x48 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/sysmem.c.obj
+ .ARM.extab.text._sbrk
+                0x0000000000000000        0x0 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/sysmem.c.obj
+ .ARM.exidx.text._sbrk
+                0x0000000000000000        0x8 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/sysmem.c.obj
+ .bss.__sbrk_heap_end
+                0x0000000000000000        0x4 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/sysmem.c.obj
+ .debug_info    0x0000000000000000      0x160 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/sysmem.c.obj
+ .debug_abbrev  0x0000000000000000       0xea CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/sysmem.c.obj
+ .debug_loc     0x0000000000000000       0x64 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/sysmem.c.obj
+ .debug_aranges
+                0x0000000000000000       0x20 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/sysmem.c.obj
+ .debug_ranges  0x0000000000000000       0x10 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/sysmem.c.obj
+ .debug_macro   0x0000000000000000       0xe1 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/sysmem.c.obj
+ .debug_macro   0x0000000000000000      0xa6c CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/sysmem.c.obj
+ .debug_macro   0x0000000000000000       0x10 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/sysmem.c.obj
+ .debug_macro   0x0000000000000000       0x22 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/sysmem.c.obj
+ .debug_macro   0x0000000000000000       0x46 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/sysmem.c.obj
+ .debug_macro   0x0000000000000000       0x18 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/sysmem.c.obj
+ .debug_macro   0x0000000000000000       0x94 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/sysmem.c.obj
+ .debug_macro   0x0000000000000000       0x3c CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/sysmem.c.obj
+ .debug_macro   0x0000000000000000       0x34 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/sysmem.c.obj
+ .debug_macro   0x0000000000000000      0x174 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/sysmem.c.obj
+ .debug_macro   0x0000000000000000       0x16 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/sysmem.c.obj
+ .debug_macro   0x0000000000000000       0x43 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/sysmem.c.obj
+ .debug_macro   0x0000000000000000       0x57 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/sysmem.c.obj
+ .debug_macro   0x0000000000000000       0x34 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/sysmem.c.obj
+ .debug_macro   0x0000000000000000       0x10 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/sysmem.c.obj
+ .debug_macro   0x0000000000000000       0x52 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/sysmem.c.obj
+ .debug_macro   0x0000000000000000       0x71 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/sysmem.c.obj
+ .debug_macro   0x0000000000000000       0x1c CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/sysmem.c.obj
+ .debug_macro   0x0000000000000000      0x12a CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/sysmem.c.obj
+ .debug_macro   0x0000000000000000      0x23b CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/sysmem.c.obj
+ .debug_macro   0x0000000000000000      0x34e CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/sysmem.c.obj
+ .debug_line    0x0000000000000000      0x221 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/sysmem.c.obj
+ .debug_str     0x0000000000000000     0x5b3d CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/sysmem.c.obj
+ .comment       0x0000000000000000       0x34 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/sysmem.c.obj
+ .debug_frame   0x0000000000000000       0x28 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/sysmem.c.obj
+ .ARM.attributes
+                0x0000000000000000       0x34 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/sysmem.c.obj
+ .text          0x0000000000000000       0x14 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Startup/startup_stm32f411retx.s.obj
+ .data          0x0000000000000000        0x0 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Startup/startup_stm32f411retx.s.obj
+ .bss           0x0000000000000000        0x0 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Startup/startup_stm32f411retx.s.obj
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(atexit_arm.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(atexit_arm.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(atexit_arm.o)
+ .text          0x0000000000000000        0xc /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-atexit.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-atexit.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-atexit.o)
+ .debug_info    0x0000000000000000      0x100 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-atexit.o)
+ .debug_abbrev  0x0000000000000000       0xb7 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-atexit.o)
+ .debug_loc     0x0000000000000000       0x32 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-atexit.o)
+ .debug_aranges
+                0x0000000000000000       0x20 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-atexit.o)
+ .debug_line    0x0000000000000000       0xc0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-atexit.o)
+ .debug_str     0x0000000000000000      0x1e9 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-atexit.o)
+ .comment       0x0000000000000000       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-atexit.o)
+ .debug_frame   0x0000000000000000       0x20 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-atexit.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-atexit.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-cxa_atexit.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-cxa_atexit.o)
+ .rodata        0x0000000000000000        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-cxa_atexit.o)
+ .text          0x0000000000000000        0xc /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-errno.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-errno.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-errno.o)
+ .debug_info    0x0000000000000000      0x7ae /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-errno.o)
+ .debug_abbrev  0x0000000000000000      0x157 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-errno.o)
+ .debug_aranges
+                0x0000000000000000       0x20 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-errno.o)
+ .debug_line    0x0000000000000000      0x109 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-errno.o)
+ .debug_str     0x0000000000000000      0x507 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-errno.o)
+ .comment       0x0000000000000000       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-errno.o)
+ .debug_frame   0x0000000000000000       0x20 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-errno.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-errno.o)
+ .text          0x0000000000000000       0x28 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-exit.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-exit.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-exit.o)
+ .debug_info    0x0000000000000000      0x81a /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-exit.o)
+ .debug_abbrev  0x0000000000000000      0x1ba /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-exit.o)
+ .debug_loc     0x0000000000000000       0x22 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-exit.o)
+ .debug_aranges
+                0x0000000000000000       0x20 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-exit.o)
+ .debug_line    0x0000000000000000      0x16d /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-exit.o)
+ .debug_str     0x0000000000000000      0x528 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-exit.o)
+ .comment       0x0000000000000000       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-exit.o)
+ .debug_frame   0x0000000000000000       0x28 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-exit.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-exit.o)
+ .text          0x0000000000000000       0x2c /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-fini.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-fini.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-fini.o)
+ .debug_info    0x0000000000000000      0x102 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-fini.o)
+ .debug_abbrev  0x0000000000000000       0xcf /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-fini.o)
+ .debug_loc     0x0000000000000000       0x68 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-fini.o)
+ .debug_aranges
+                0x0000000000000000       0x20 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-fini.o)
+ .debug_line    0x0000000000000000       0xed /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-fini.o)
+ .debug_str     0x0000000000000000      0x1e1 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-fini.o)
+ .comment       0x0000000000000000       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-fini.o)
+ .debug_frame   0x0000000000000000       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-fini.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-fini.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-impure.o)
+ .data          0x0000000000000000       0x64 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-impure.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-impure.o)
+ .rodata        0x0000000000000000        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-impure.o)
+ .debug_info    0x0000000000000000      0x863 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-impure.o)
+ .debug_abbrev  0x0000000000000000      0x151 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-impure.o)
+ .debug_aranges
+                0x0000000000000000       0x18 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-impure.o)
+ .debug_line    0x0000000000000000       0xe4 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-impure.o)
+ .debug_str     0x0000000000000000      0x55e /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-impure.o)
+ .comment       0x0000000000000000       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-impure.o)
+ .ARM.attributes
+                0x0000000000000000       0x32 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-impure.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-init.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-init.o)
+ .text          0x0000000000000000       0xa4 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memset.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memset.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memset.o)
+ .debug_info    0x0000000000000000      0x137 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memset.o)
+ .debug_abbrev  0x0000000000000000       0xb4 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memset.o)
+ .debug_loc     0x0000000000000000      0x22c /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memset.o)
+ .debug_aranges
+                0x0000000000000000       0x20 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memset.o)
+ .debug_line    0x0000000000000000      0x1bf /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memset.o)
+ .debug_str     0x0000000000000000      0x1c0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memset.o)
+ .comment       0x0000000000000000       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memset.o)
+ .debug_frame   0x0000000000000000       0x2c /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memset.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-memset.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-on_exit_args.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-on_exit_args.o)
+ .data          0x0000000000000000        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-__atexit.o)
+ .text          0x0000000000000000       0xc8 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-__call_atexit.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-__call_atexit.o)
+ .text          0x0000000000000000      0x9d8 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(unwind-arm.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(unwind-arm.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(unwind-arm.o)
+ .ARM.extab     0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(unwind-arm.o)
+ .ARM.exidx     0x0000000000000000       0xd8 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(unwind-arm.o)
+ .debug_info    0x0000000000000000     0x1e0b /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(unwind-arm.o)
+ .debug_abbrev  0x0000000000000000      0x46c /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(unwind-arm.o)
+ .debug_loc     0x0000000000000000     0x1cef /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(unwind-arm.o)
+ .debug_aranges
+                0x0000000000000000       0x20 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(unwind-arm.o)
+ .debug_ranges  0x0000000000000000      0x108 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(unwind-arm.o)
+ .debug_line    0x0000000000000000     0x1023 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(unwind-arm.o)
+ .debug_str     0x0000000000000000      0xc44 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(unwind-arm.o)
+ .comment       0x0000000000000000       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(unwind-arm.o)
+ .debug_frame   0x0000000000000000      0x2d4 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(unwind-arm.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(unwind-arm.o)
+ .text          0x0000000000000000      0x1ac /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(libunwind.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(libunwind.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(libunwind.o)
+ .debug_line    0x0000000000000000       0xad /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(libunwind.o)
+ .debug_info    0x0000000000000000       0x26 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(libunwind.o)
+ .debug_abbrev  0x0000000000000000       0x14 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(libunwind.o)
+ .debug_aranges
+                0x0000000000000000       0x20 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(libunwind.o)
+ .debug_str     0x0000000000000000       0xaa /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(libunwind.o)
+ .ARM.attributes
+                0x0000000000000000       0x1e /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(libunwind.o)
+ .text          0x0000000000000000      0x350 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(pr-support.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(pr-support.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(pr-support.o)
+ .ARM.extab     0x0000000000000000       0x18 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(pr-support.o)
+ .ARM.exidx     0x0000000000000000       0x38 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(pr-support.o)
+ .text.unlikely
+                0x0000000000000000        0xc /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(pr-support.o)
+>>>>>>> 75148ae5dadf5b58a1f8472238ddddc1290d4370
+ .ARM.extab.text.unlikely
+                0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(pr-support.o)
+ .ARM.exidx.text.unlikely
+                0x0000000000000000       0x10 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(pr-support.o)
+ .debug_info    0x0000000000000000      0xa03 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(pr-support.o)
+ .debug_abbrev  0x0000000000000000      0x2d3 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(pr-support.o)
+ .debug_loc     0x0000000000000000      0x64f /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(pr-support.o)
+ .debug_aranges
+                0x0000000000000000       0x28 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(pr-support.o)
+ .debug_ranges  0x0000000000000000       0x18 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(pr-support.o)
+ .debug_line    0x0000000000000000      0x55e /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(pr-support.o)
+ .debug_str     0x0000000000000000      0x566 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(pr-support.o)
+ .comment       0x0000000000000000       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(pr-support.o)
+ .debug_frame   0x0000000000000000      0x104 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(pr-support.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(pr-support.o)
+ .text          0x0000000000000000       0x10 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-abort.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-abort.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-abort.o)
+ .debug_info    0x0000000000000000       0xcb /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-abort.o)
+ .debug_abbrev  0x0000000000000000       0x80 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-abort.o)
+ .debug_aranges
+                0x0000000000000000       0x20 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-abort.o)
+ .debug_line    0x0000000000000000      0x109 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-abort.o)
+ .debug_str     0x0000000000000000      0x1af /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-abort.o)
+ .comment       0x0000000000000000       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-abort.o)
+ .debug_frame   0x0000000000000000       0x28 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-abort.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-abort.o)
+ .text          0x0000000000000000      0x134 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-memcpy.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-memcpy.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-memcpy.o)
+ .debug_line    0x0000000000000000       0xbe /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-memcpy.o)
+ .debug_info    0x0000000000000000       0x26 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-memcpy.o)
+ .debug_abbrev  0x0000000000000000       0x14 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-memcpy.o)
+ .debug_aranges
+                0x0000000000000000       0x20 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-memcpy.o)
+ .debug_str     0x0000000000000000       0xb6 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-memcpy.o)
+ .ARM.attributes
+                0x0000000000000000       0x1c /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-memcpy.o)
+ .text          0x0000000000000000      0x268 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-signal.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-signal.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-signal.o)
+ .debug_info    0x0000000000000000      0xdcc /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-signal.o)
+ .debug_abbrev  0x0000000000000000      0x2ba /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-signal.o)
+ .debug_loc     0x0000000000000000      0x967 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-signal.o)
+ .debug_aranges
+                0x0000000000000000       0x20 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-signal.o)
+ .debug_ranges  0x0000000000000000       0xc8 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-signal.o)
+ .debug_line    0x0000000000000000      0x652 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-signal.o)
+ .debug_str     0x0000000000000000      0x58e /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-signal.o)
+ .comment       0x0000000000000000       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-signal.o)
+ .debug_frame   0x0000000000000000      0x114 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-signal.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-signal.o)
+ .text          0x0000000000000000       0x30 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-signalr.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-signalr.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-signalr.o)
+ .debug_info    0x0000000000000000      0x871 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-signalr.o)
+ .debug_abbrev  0x0000000000000000      0x1db /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-signalr.o)
+ .debug_loc     0x0000000000000000       0xd0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-signalr.o)
+ .debug_aranges
+                0x0000000000000000       0x20 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-signalr.o)
+ .debug_line    0x0000000000000000      0x1aa /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-signalr.o)
+ .debug_str     0x0000000000000000      0x51b /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-signalr.o)
+ .comment       0x0000000000000000       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-signalr.o)
+ .debug_frame   0x0000000000000000       0x3c /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-signalr.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-signalr.o)
+ .text          0x0000000000000000       0xb4 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-nano-mallocr.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-nano-mallocr.o)
+ .bss           0x0000000000000000        0x8 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-nano-mallocr.o)
+ .debug_info    0x0000000000000000      0xa0c /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-nano-mallocr.o)
+ .debug_abbrev  0x0000000000000000      0x290 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-nano-mallocr.o)
+ .debug_loc     0x0000000000000000      0x3cd /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-nano-mallocr.o)
+ .debug_aranges
+                0x0000000000000000       0x20 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-nano-mallocr.o)
+ .debug_ranges  0x0000000000000000       0x38 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-nano-mallocr.o)
+ .debug_line    0x0000000000000000      0x2d0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-nano-mallocr.o)
+ .debug_str     0x0000000000000000      0x5c0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-nano-mallocr.o)
+ .comment       0x0000000000000000       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-nano-mallocr.o)
+ .debug_frame   0x0000000000000000       0x30 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-nano-mallocr.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-nano-mallocr.o)
+ .text          0x0000000000000000      0x114 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-reent.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-reent.o)
+ .bss           0x0000000000000000        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-reent.o)
+ .debug_info    0x0000000000000000      0xa7e /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-reent.o)
+ .debug_abbrev  0x0000000000000000      0x265 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-reent.o)
+ .debug_loc     0x0000000000000000      0x1cd /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-reent.o)
+ .debug_aranges
+                0x0000000000000000       0x20 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-reent.o)
+ .debug_line    0x0000000000000000      0x2c7 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-reent.o)
+ .debug_str     0x0000000000000000      0x53e /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-reent.o)
+ .comment       0x0000000000000000       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-reent.o)
+ .debug_frame   0x0000000000000000       0x70 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-reent.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-reent.o)
+ .text          0x0000000000000000       0x24 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-sbrkr.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-sbrkr.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-sbrkr.o)
+ .debug_info    0x0000000000000000      0x828 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-sbrkr.o)
+ .debug_abbrev  0x0000000000000000      0x1d6 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-sbrkr.o)
+ .debug_loc     0x0000000000000000       0x6c /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-sbrkr.o)
+ .debug_aranges
+                0x0000000000000000       0x20 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-sbrkr.o)
+ .debug_line    0x0000000000000000      0x183 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-sbrkr.o)
+ .debug_str     0x0000000000000000      0x516 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-sbrkr.o)
+ .comment       0x0000000000000000       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-sbrkr.o)
+ .debug_frame   0x0000000000000000       0x2c /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-sbrkr.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-sbrkr.o)
+ .text          0x0000000000000000        0x8 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-mlock.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-mlock.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-mlock.o)
+ .debug_info    0x0000000000000000      0x7dc /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-mlock.o)
+ .debug_abbrev  0x0000000000000000      0x189 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-mlock.o)
+ .debug_aranges
+                0x0000000000000000       0x20 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-mlock.o)
+ .debug_line    0x0000000000000000      0x13e /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-mlock.o)
+ .debug_str     0x0000000000000000      0x52c /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-mlock.o)
+ .comment       0x0000000000000000       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-mlock.o)
+ .debug_frame   0x0000000000000000       0x30 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-mlock.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-mlock.o)
+ .text          0x0000000000000000       0xc4 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-nano-freer.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-nano-freer.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-nano-freer.o)
+ .debug_info    0x0000000000000000      0x903 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-nano-freer.o)
+ .debug_abbrev  0x0000000000000000      0x235 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-nano-freer.o)
+ .debug_loc     0x0000000000000000      0x203 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-nano-freer.o)
+ .debug_aranges
+                0x0000000000000000       0x20 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-nano-freer.o)
+ .debug_ranges  0x0000000000000000       0x20 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-nano-freer.o)
+ .debug_line    0x0000000000000000      0x2ca /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-nano-freer.o)
+ .debug_str     0x0000000000000000      0x595 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-nano-freer.o)
+ .comment       0x0000000000000000       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-nano-freer.o)
+ .debug_frame   0x0000000000000000       0x54 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-nano-freer.o)
+ .ARM.attributes
+                0x0000000000000000       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a(lib_a-nano-freer.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtend.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtend.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtend.o
+ .rodata        0x0000000000000000       0x24 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtend.o
+ .eh_frame      0x0000000000000000        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtend.o
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtn.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtn.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtn.o
 
 Memory Configuration
 
@@ -1273,12 +2096,13 @@ FLASH            0x0000000008000000 0x0000000000080000 xr
 
 Linker script and memory map
 
-LOAD /usr/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crti.o
-LOAD /usr/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
-LOAD /usr/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crti.o
+LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
 START GROUP
-LOAD /usr/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++.a
+LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
 END GROUP
+<<<<<<< HEAD
 LOAD CMakeFiles/mainProject.dir/home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/GPIO/inputOutputPin.cpp.obj
 LOAD CMakeFiles/mainProject.dir/home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/GPIO/inputOutputPinHandler.cpp.obj
 LOAD CMakeFiles/mainProject.dir/home/inumaki/Development/stm32WorkSpace/mainProject/Core/Src/Utilities/RegistersManipulation/REG_MAN.cpp.obj
@@ -1289,13 +2113,28 @@ LOAD CMakeFiles/mainProject.dir/home/inumaki/Development/stm32WorkSpace/mainProj
 LOAD /usr/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++.a
 LOAD /usr/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
 LOAD /usr/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a
+=======
+LOAD CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+LOAD CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/Utilities/RegistersManipulation/REG_MAN.cpp.obj
+LOAD CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+LOAD CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/syscalls.c.obj
+LOAD CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/sysmem.c.obj
+LOAD CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Startup/startup_stm32f411retx.s.obj
+LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a
+LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a
+>>>>>>> 75148ae5dadf5b58a1f8472238ddddc1290d4370
 START GROUP
-LOAD /usr/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a
-LOAD /usr/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a
-LOAD /usr/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a
+LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg_nano.a
+LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a
 END GROUP
-LOAD /usr/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtend.o
-LOAD /usr/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtn.o
+START GROUP
+LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a
+END GROUP
+LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtend.o
+LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtn.o
                 0x0000000020020000                _estack = (ORIGIN (RAM) + LENGTH (RAM))
                 0x0000000000000200                _Min_Heap_Size = 0x200
                 0x0000000000000400                _Min_Stack_Size = 0x400
@@ -1303,10 +2142,11 @@ LOAD /usr/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtn.o
 .isr_vector     0x0000000008000000      0x198
                 0x0000000008000000                . = ALIGN (0x4)
  *(.isr_vector)
- .isr_vector    0x0000000008000000      0x198 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32WorkSpace/mainProject/Core/Startup/startup_stm32f411retx.s.obj
+ .isr_vector    0x0000000008000000      0x198 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Startup/startup_stm32f411retx.s.obj
                 0x0000000008000000                g_pfnVectors
                 0x0000000008000198                . = ALIGN (0x4)
 
+<<<<<<< HEAD
 .text           0x00000000080001c0     0xf85c
                 0x00000000080001c0                . = ALIGN (0x4)
  *(.text)
@@ -2404,43 +3244,335 @@ LOAD /usr/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtn.o
                 0x00000000080114bc                _sidata = LOADADDR (.data)
 
 .data           0x0000000020000000      0x9b8 load address 0x00000000080114bc
+=======
+.text           0x0000000008000198      0x800
+                0x0000000008000198                . = ALIGN (0x4)
+ *(.text)
+ .text          0x0000000008000198       0x88 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .text          0x0000000008000220       0x1c /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-cxa_atexit.o)
+                0x0000000008000220                __cxa_atexit
+ .text          0x000000000800023c       0x48 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-init.o)
+                0x000000000800023c                __libc_init_array
+ .text          0x0000000008000284       0xac /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-__atexit.o)
+                0x0000000008000284                __register_exitproc
+ *(.text*)
+ .text._ZN5ioPinD2Ev
+                0x0000000008000330        0x2 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+                0x0000000008000330                ioPin::~ioPin()
+                0x0000000008000330                ioPin::~ioPin()
+ *fill*         0x0000000008000332        0x2 
+ .text._ZN5ioPin11isAllocatedERK8gpioPortRK7gpioPin
+                0x0000000008000334       0x34 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+                0x0000000008000334                ioPin::isAllocated(gpioPort const&, gpioPin const&)
+ .text._ZN5ioPin10assertPortERKS_
+                0x0000000008000368       0x10 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+                0x0000000008000368                ioPin::assertPort(ioPin const&)
+ .text._ZN5ioPin10assertPortEv
+                0x0000000008000378        0x8 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+                0x0000000008000378                ioPin::assertPort()
+ .text._ZN5ioPin9assertPinERKS_
+                0x0000000008000380       0x10 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+                0x0000000008000380                ioPin::assertPin(ioPin const&)
+ .text._ZN5ioPin9assertPinEv
+                0x0000000008000390        0x8 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+                0x0000000008000390                ioPin::assertPin()
+ .text._ZN5ioPin7isReadyEv
+                0x0000000008000398       0x1e CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+                0x0000000008000398                ioPin::isReady()
+ .text._ZN5ioPin15defaultSettingsEv
+                0x00000000080003b6       0x20 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+                0x00000000080003b6                ioPin::defaultSettings()
+ .text._ZN5ioPin11initHandlerEv
+                0x00000000080003d6        0xa CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+                0x00000000080003d6                ioPin::initHandler()
+ .text._ZN5ioPinC2Ev
+                0x00000000080003e0        0xc CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+                0x00000000080003e0                ioPin::ioPin()
+                0x00000000080003e0                ioPin::ioPin()
+ .text._ZN5ioPin21avoidReAllocatingPortERK8gpioPort
+                0x00000000080003ec       0x1c CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+                0x00000000080003ec                ioPin::avoidReAllocatingPort(gpioPort const&)
+ .text._ZN5ioPin20avoidReAllocatingPinERK7gpioPin
+                0x0000000008000408       0x18 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+                0x0000000008000408                ioPin::avoidReAllocatingPin(gpioPin const&)
+ .text._ZN5ioPin4initERK8gpioPort
+                0x0000000008000420       0x58 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+                0x0000000008000420                ioPin::init(gpioPort const&)
+ .text._ZN5ioPin4initERK8gpioMode
+                0x0000000008000478       0x2c CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+                0x0000000008000478                ioPin::init(gpioMode const&)
+ .text._ZN5ioPin11modeHandlerERK8gpioModeRKb
+                0x00000000080004a4       0x1e CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+                0x00000000080004a4                ioPin::modeHandler(gpioMode const&, bool const&)
+ .text._ZN5ioPin4initERK14gpioOutputType
+                0x00000000080004c2       0x28 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+                0x00000000080004c2                ioPin::init(gpioOutputType const&)
+ .text._ZN5ioPin4initERK15gpioOutputSpeed
+                0x00000000080004ea       0x2c CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+                0x00000000080004ea                ioPin::init(gpioOutputSpeed const&)
+ .text._ZN5ioPin4initERK8gpioPUPD
+                0x0000000008000516       0x2c CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+                0x0000000008000516                ioPin::init(gpioPUPD const&)
+ .text._ZN5ioPin4initERK9gpioState
+                0x0000000008000542       0x2c CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+                0x0000000008000542                ioPin::init(gpioState const&)
+ .text._ZN5ioPin18initQueuedSettingsEv
+                0x000000000800056e       0x88 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+                0x000000000800056e                ioPin::initQueuedSettings()
+ .text._ZN5ioPin8setParamI8gpioPortEEvRKT_
+                0x00000000080005f6        0x6 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+                0x00000000080005f6                void ioPin::setParam<gpioPort>(gpioPort const&)
+ .text._ZN5ioPin9initParamI8gpioPortEEbRKT_
+                0x00000000080005fc       0x58 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+                0x00000000080005fc                bool ioPin::initParam<gpioPort>(gpioPort const&)
+ .text._ZN5ioPin11initHandlerI8gpioPortEEbRKT_
+                0x0000000008000654       0x12 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+                0x0000000008000654                bool ioPin::initHandler<gpioPort>(gpioPort const&)
+ .text._ZN5ioPin8setParamI7gpioPinEEvRKT_
+                0x0000000008000666        0x6 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+                0x0000000008000666                void ioPin::setParam<gpioPin>(gpioPin const&)
+ .text._ZN5ioPin9initParamI7gpioPinEEbRKT_
+                0x000000000800066c       0x50 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+                0x000000000800066c                bool ioPin::initParam<gpioPin>(gpioPin const&)
+ .text._ZN5ioPin11initHandlerI7gpioPinEEbRKT_
+                0x00000000080006bc       0x12 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+                0x00000000080006bc                bool ioPin::initHandler<gpioPin>(gpioPin const&)
+ .text._ZN5ioPin8setParamI8gpioModeEEvRKT_
+                0x00000000080006ce        0x6 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+                0x00000000080006ce                void ioPin::setParam<gpioMode>(gpioMode const&)
+ .text._ZN5ioPin15settingsHandlerI8gpioModeEEbRKT_
+                0x00000000080006d4       0x30 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+                0x00000000080006d4                bool ioPin::settingsHandler<gpioMode>(gpioMode const&)
+ .text._ZN5ioPin9initParamI8gpioModeEEbRKT_
+                0x0000000008000704       0x16 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+                0x0000000008000704                bool ioPin::initParam<gpioMode>(gpioMode const&)
+ .text._ZN5ioPin11initHandlerI8gpioModeEEbRKT_
+                0x000000000800071a       0x12 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+                0x000000000800071a                bool ioPin::initHandler<gpioMode>(gpioMode const&)
+ .text._ZN5ioPin8setParamI8gpioPUPDEEvRKT_
+                0x000000000800072c        0x6 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+                0x000000000800072c                void ioPin::setParam<gpioPUPD>(gpioPUPD const&)
+ .text._ZN5ioPin15settingsHandlerI8gpioPUPDEEbRKT_
+                0x0000000008000732       0x22 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+                0x0000000008000732                bool ioPin::settingsHandler<gpioPUPD>(gpioPUPD const&)
+ .text._ZN5ioPin9initParamI8gpioPUPDEEbRKT_
+                0x0000000008000754       0x16 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+                0x0000000008000754                bool ioPin::initParam<gpioPUPD>(gpioPUPD const&)
+ .text._ZN5ioPin11initHandlerI8gpioPUPDEEbRKT_
+                0x000000000800076a       0x12 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+                0x000000000800076a                bool ioPin::initHandler<gpioPUPD>(gpioPUPD const&)
+ .text._ZN5ioPin8setParamI14gpioOutputTypeEEvRKT_
+                0x000000000800077c        0x6 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+                0x000000000800077c                void ioPin::setParam<gpioOutputType>(gpioOutputType const&)
+ .text._ZN5ioPin15settingsHandlerI14gpioOutputTypeEEbRKT_
+                0x0000000008000782       0x22 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+                0x0000000008000782                bool ioPin::settingsHandler<gpioOutputType>(gpioOutputType const&)
+ .text._ZN5ioPin9initParamI14gpioOutputTypeEEbRKT_
+                0x00000000080007a4       0x16 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+                0x00000000080007a4                bool ioPin::initParam<gpioOutputType>(gpioOutputType const&)
+ .text._ZN5ioPin11initHandlerI14gpioOutputTypeEEbRKT_
+                0x00000000080007ba       0x12 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+                0x00000000080007ba                bool ioPin::initHandler<gpioOutputType>(gpioOutputType const&)
+ .text._ZN5ioPin8setParamI15gpioOutputSpeedEEvRKT_
+                0x00000000080007cc        0x6 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+                0x00000000080007cc                void ioPin::setParam<gpioOutputSpeed>(gpioOutputSpeed const&)
+ .text._ZN5ioPin15settingsHandlerI15gpioOutputSpeedEEbRKT_
+                0x00000000080007d2       0x22 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+                0x00000000080007d2                bool ioPin::settingsHandler<gpioOutputSpeed>(gpioOutputSpeed const&)
+ .text._ZN5ioPin9initParamI15gpioOutputSpeedEEbRKT_
+                0x00000000080007f4       0x16 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+                0x00000000080007f4                bool ioPin::initParam<gpioOutputSpeed>(gpioOutputSpeed const&)
+ .text._ZN5ioPin11initHandlerI15gpioOutputSpeedEEbRKT_
+                0x000000000800080a       0x12 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+                0x000000000800080a                bool ioPin::initHandler<gpioOutputSpeed>(gpioOutputSpeed const&)
+ .text._ZN5ioPin8setParamI9gpioStateEEvRKT_
+                0x000000000800081c        0x6 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+                0x000000000800081c                void ioPin::setParam<gpioState>(gpioState const&)
+ .text._ZN5ioPin15settingsHandlerI9gpioStateEEbRKT_
+                0x0000000008000822       0x22 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+                0x0000000008000822                bool ioPin::settingsHandler<gpioState>(gpioState const&)
+ .text._ZN5ioPin9initParamI9gpioStateEEbRKT_
+                0x0000000008000844       0x16 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+                0x0000000008000844                bool ioPin::initParam<gpioState>(gpioState const&)
+ .text._ZN5ioPin11initHandlerI9gpioStateEEbRKT_
+                0x000000000800085a       0x12 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+                0x000000000800085a                bool ioPin::initHandler<gpioState>(gpioState const&)
+ .text.main     0x000000000800086c        0x2 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+                0x000000000800086c                main
+ .text._ZN5ioPinC2IJ8gpioPort8gpioMode9gpioState7gpioPin15gpioOutputSpeed14gpioOutputType8gpioPUPDEEEDpRKT_
+                0x000000000800086e       0x4a CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+                0x000000000800086e                ioPin::ioPin<gpioPort, gpioMode, gpioState, gpioPin, gpioOutputSpeed, gpioOutputType, gpioPUPD>(gpioPort const&, gpioMode const&, gpioState const&, gpioPin const&, gpioOutputSpeed const&, gpioOutputType const&, gpioPUPD const&)
+                0x000000000800086e                ioPin::ioPin<gpioPort, gpioMode, gpioState, gpioPin, gpioOutputSpeed, gpioOutputType, gpioPUPD>(gpioPort const&, gpioMode const&, gpioState const&, gpioPin const&, gpioOutputSpeed const&, gpioOutputType const&, gpioPUPD const&)
+ .text._Z41__static_initialization_and_destruction_0ii
+                0x00000000080008b8       0x60 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .text._GLOBAL__sub_I_a
+                0x0000000008000918        0xe CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ *fill*         0x0000000008000926        0x2 
+ .text.Reset_Handler
+                0x0000000008000928       0x4c CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Startup/startup_stm32f411retx.s.obj
+                0x0000000008000928                Reset_Handler
+ .text.Default_Handler
+                0x0000000008000974        0x2 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Startup/startup_stm32f411retx.s.obj
+                0x0000000008000974                RTC_Alarm_IRQHandler
+                0x0000000008000974                EXTI2_IRQHandler
+                0x0000000008000974                DebugMon_Handler
+                0x0000000008000974                SPI4_IRQHandler
+                0x0000000008000974                TIM1_CC_IRQHandler
+                0x0000000008000974                DMA2_Stream5_IRQHandler
+                0x0000000008000974                HardFault_Handler
+                0x0000000008000974                DMA1_Stream5_IRQHandler
+                0x0000000008000974                SysTick_Handler
+                0x0000000008000974                PVD_IRQHandler
+                0x0000000008000974                SDIO_IRQHandler
+                0x0000000008000974                TAMP_STAMP_IRQHandler
+                0x0000000008000974                PendSV_Handler
+                0x0000000008000974                NMI_Handler
+                0x0000000008000974                EXTI3_IRQHandler
+                0x0000000008000974                TIM1_UP_TIM10_IRQHandler
+                0x0000000008000974                I2C3_ER_IRQHandler
+                0x0000000008000974                EXTI0_IRQHandler
+                0x0000000008000974                I2C2_EV_IRQHandler
+                0x0000000008000974                DMA1_Stream2_IRQHandler
+                0x0000000008000974                FPU_IRQHandler
+                0x0000000008000974                UsageFault_Handler
+                0x0000000008000974                DMA2_Stream2_IRQHandler
+                0x0000000008000974                SPI1_IRQHandler
+                0x0000000008000974                TIM1_BRK_TIM9_IRQHandler
+                0x0000000008000974                DMA2_Stream3_IRQHandler
+                0x0000000008000974                USART6_IRQHandler
+                0x0000000008000974                DMA2_Stream0_IRQHandler
+                0x0000000008000974                TIM4_IRQHandler
+                0x0000000008000974                I2C1_EV_IRQHandler
+                0x0000000008000974                DMA1_Stream6_IRQHandler
+                0x0000000008000974                DMA1_Stream1_IRQHandler
+                0x0000000008000974                TIM3_IRQHandler
+                0x0000000008000974                RCC_IRQHandler
+                0x0000000008000974                Default_Handler
+                0x0000000008000974                EXTI15_10_IRQHandler
+                0x0000000008000974                ADC_IRQHandler
+                0x0000000008000974                DMA1_Stream7_IRQHandler
+                0x0000000008000974                SPI5_IRQHandler
+                0x0000000008000974                TIM5_IRQHandler
+                0x0000000008000974                DMA2_Stream7_IRQHandler
+                0x0000000008000974                I2C3_EV_IRQHandler
+                0x0000000008000974                EXTI9_5_IRQHandler
+                0x0000000008000974                RTC_WKUP_IRQHandler
+                0x0000000008000974                SPI2_IRQHandler
+                0x0000000008000974                MemManage_Handler
+                0x0000000008000974                DMA1_Stream0_IRQHandler
+                0x0000000008000974                SVC_Handler
+                0x0000000008000974                EXTI4_IRQHandler
+                0x0000000008000974                WWDG_IRQHandler
+                0x0000000008000974                TIM2_IRQHandler
+                0x0000000008000974                OTG_FS_WKUP_IRQHandler
+                0x0000000008000974                TIM1_TRG_COM_TIM11_IRQHandler
+                0x0000000008000974                EXTI1_IRQHandler
+                0x0000000008000974                USART2_IRQHandler
+                0x0000000008000974                I2C2_ER_IRQHandler
+                0x0000000008000974                DMA2_Stream1_IRQHandler
+                0x0000000008000974                FLASH_IRQHandler
+                0x0000000008000974                DMA2_Stream4_IRQHandler
+                0x0000000008000974                BusFault_Handler
+                0x0000000008000974                USART1_IRQHandler
+                0x0000000008000974                OTG_FS_IRQHandler
+                0x0000000008000974                SPI3_IRQHandler
+                0x0000000008000974                DMA1_Stream4_IRQHandler
+                0x0000000008000974                I2C1_ER_IRQHandler
+                0x0000000008000974                DMA2_Stream6_IRQHandler
+                0x0000000008000974                DMA1_Stream3_IRQHandler
+ .text.__aeabi_atexit
+                0x0000000008000976        0xa /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(atexit_arm.o)
+                0x0000000008000976                __aeabi_atexit
+ *(.glue_7)
+ .glue_7        0x0000000008000980        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x0000000008000980        0x0 linker stubs
+ *(.eh_frame)
+ .eh_frame      0x0000000008000980        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+ *(.init)
+ .init          0x0000000008000980        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crti.o
+                0x0000000008000980                _init
+ .init          0x0000000008000984        0x8 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtn.o
+ *(.fini)
+ .fini          0x000000000800098c        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crti.o
+                0x000000000800098c                _fini
+ .fini          0x0000000008000990        0x8 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtn.o
+                0x0000000008000998                . = ALIGN (0x4)
+                0x0000000008000998                _etext = .
+
+.vfp11_veneer   0x0000000008000998        0x0
+ .vfp11_veneer  0x0000000008000998        0x0 linker stubs
+
+.v4_bx          0x0000000008000998        0x0
+ .v4_bx         0x0000000008000998        0x0 linker stubs
+
+.iplt           0x0000000008000998        0x0
+ .iplt          0x0000000008000998        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+
+.rodata         0x0000000008000998        0x4
+                0x0000000008000998                . = ALIGN (0x4)
+ *(.rodata)
+ .rodata        0x0000000008000998        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-on_exit_args.o)
+                0x0000000008000998                __on_exit_args
+ *(.rodata*)
+                0x000000000800099c                . = ALIGN (0x4)
+
+.rel.dyn        0x000000000800099c        0x0
+ .rel.iplt      0x000000000800099c        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+
+.ARM.extab      0x000000000800099c        0x0
+                0x000000000800099c                . = ALIGN (0x4)
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x000000000800099c                . = ALIGN (0x4)
+
+.ARM            0x000000000800099c        0x0
+                0x000000000800099c                . = ALIGN (0x4)
+                0x000000000800099c                __exidx_start = .
+ *(.ARM.exidx*)
+                0x000000000800099c                __exidx_end = .
+                0x000000000800099c                . = ALIGN (0x4)
+
+.preinit_array  0x000000000800099c        0x0
+                0x000000000800099c                . = ALIGN (0x4)
+                0x000000000800099c                PROVIDE (__preinit_array_start = .)
+ *(.preinit_array*)
+                0x000000000800099c                PROVIDE (__preinit_array_end = .)
+                0x000000000800099c                . = ALIGN (0x4)
+
+.init_array     0x000000000800099c        0x8
+                0x000000000800099c                . = ALIGN (0x4)
+                0x000000000800099c                PROVIDE (__init_array_start = .)
+ *(SORT_BY_NAME(.init_array.*))
+ *(.init_array*)
+ .init_array    0x000000000800099c        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .init_array    0x00000000080009a0        0x4 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+                0x00000000080009a4                PROVIDE (__init_array_end = .)
+                0x00000000080009a4                . = ALIGN (0x4)
+
+.fini_array     0x00000000080009a4        0x4
+                0x00000000080009a4                . = ALIGN (0x4)
+                0x00000000080009a4                PROVIDE (__fini_array_start = .)
+ *(SORT_BY_NAME(.fini_array.*))
+ *(.fini_array*)
+ .fini_array    0x00000000080009a4        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+                0x00000000080009a8                PROVIDE (__fini_array_end = .)
+                0x00000000080009a8                . = ALIGN (0x4)
+                0x00000000080009a8                _sidata = LOADADDR (.data)
+
+.data           0x0000000020000000        0x4 load address 0x00000000080009a8
+>>>>>>> 75148ae5dadf5b58a1f8472238ddddc1290d4370
                 0x0000000020000000                . = ALIGN (0x4)
                 0x0000000020000000                _sdata = .
  *(.data)
- .data          0x0000000020000000        0x4 /usr/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .data          0x0000000020000000        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
                 0x0000000020000000                __dso_handle
  *(.data*)
- .data._ZN10__cxxabiv120__unexpected_handlerE
-                0x0000000020000004        0x4 /usr/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++.a(eh_unex_handler.o)
-                0x0000000020000004                __cxxabiv1::__unexpected_handler
- .data._ZN10__cxxabiv119__terminate_handlerE
-                0x0000000020000008        0x4 /usr/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++.a(eh_term_handler.o)
-                0x0000000020000008                __cxxabiv1::__terminate_handler
- .data._impure_ptr
-                0x000000002000000c        0x4 /usr/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-impure.o)
-                0x000000002000000c                _impure_ptr
- .data.impure_data
-                0x0000000020000010      0x428 /usr/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-impure.o)
- .data.__malloc_av_
-                0x0000000020000438      0x408 /usr/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-mallocr.o)
-                0x0000000020000438                __malloc_av_
- .data.__malloc_sbrk_base
-                0x0000000020000840        0x4 /usr/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-mallocr.o)
-                0x0000000020000840                __malloc_sbrk_base
- .data.__malloc_trim_threshold
-                0x0000000020000844        0x4 /usr/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-mallocr.o)
-                0x0000000020000844                __malloc_trim_threshold
- .data.__atexit_recursive_mutex
-                0x0000000020000848        0x4 /usr/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-__call_atexit.o)
-                0x0000000020000848                __atexit_recursive_mutex
- .data.__global_locale
-                0x000000002000084c      0x16c /usr/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a(lib_a-locale.o)
-                0x000000002000084c                __global_locale
  *(.RamFunc)
  *(.RamFunc*)
-                0x00000000200009b8                . = ALIGN (0x4)
-                0x00000000200009b8                _edata = .
+                0x0000000020000004                . = ALIGN (0x4)
+                0x0000000020000004                _edata = .
 
+<<<<<<< HEAD
 .igot.plt       0x00000000200009b8        0x0 load address 0x0000000008011e74
  .igot.plt      0x00000000200009b8        0x0 /usr/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
                 0x00000000200009b8                . = ALIGN (0x4)
@@ -2511,6 +3643,50 @@ LOAD /usr/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtn.o
                 0x0000000020001098                . = (. + _Min_Stack_Size)
  *fill*         0x0000000020000c98      0x400 
                 0x0000000020001098                . = ALIGN (0x8)
+=======
+.tm_clone_table
+                0x0000000020000004        0x0 load address 0x00000000080009ac
+ .tm_clone_table
+                0x0000000020000004        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .tm_clone_table
+                0x0000000020000004        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtend.o
+
+.igot.plt       0x0000000020000004        0x0 load address 0x00000000080009ac
+ .igot.plt      0x0000000020000004        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+                0x0000000020000004                . = ALIGN (0x4)
+
+.bss            0x0000000020000004      0x1ec load address 0x00000000080009ac
+                0x0000000020000004                _sbss = .
+                0x0000000020000004                __bss_start__ = _sbss
+ *(.bss)
+ .bss           0x0000000020000004       0x1c /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .bss           0x0000000020000020      0x108 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-on_exit_args.o)
+ .bss           0x0000000020000128       0x8c /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-__atexit.o)
+ .bss           0x00000000200001b4        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-__call_atexit.o)
+                0x00000000200001b4                _global_atexit
+ *(.bss*)
+ .bss._ZN5ioPin13allocatedPinsE
+                0x00000000200001b8        0xe CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+                0x00000000200001b8                ioPin::allocatedPins
+ *fill*         0x00000000200001c6        0x2 
+ .bss.a         0x00000000200001c8       0x28 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+                0x00000000200001c8                a
+ *(COMMON)
+                0x00000000200001f0                . = ALIGN (0x4)
+                0x00000000200001f0                _ebss = .
+                0x00000000200001f0                __bss_end__ = _ebss
+
+._user_heap_stack
+                0x00000000200001f0      0x600 load address 0x00000000080009ac
+                0x00000000200001f0                . = ALIGN (0x8)
+                [!provide]                        PROVIDE (end = .)
+                0x00000000200001f0                PROVIDE (_end = .)
+                0x00000000200003f0                . = (. + _Min_Heap_Size)
+ *fill*         0x00000000200001f0      0x200 
+                0x00000000200007f0                . = (. + _Min_Stack_Size)
+ *fill*         0x00000000200003f0      0x400 
+                0x00000000200007f0                . = ALIGN (0x8)
+>>>>>>> 75148ae5dadf5b58a1f8472238ddddc1290d4370
 
 /DISCARD/
  libc.a(*)
@@ -2521,6 +3697,7 @@ LOAD /usr/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtn.o
                 0x0000000000000000       0x30
  *(.ARM.attributes)
  .ARM.attributes
+<<<<<<< HEAD
                 0x0000000000000000       0x1e /usr/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crti.o
  .ARM.attributes
                 0x000000000000001e       0x34 /usr/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
@@ -2738,12 +3915,40 @@ LOAD /usr/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtn.o
                 0x0000000000001499       0x1e /usr/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a(_dvmd_tls.o)
  .ARM.attributes
                 0x00000000000014b7       0x1e /usr/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtn.o
+=======
+                0x0000000000000000       0x1e /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crti.o
+ .ARM.attributes
+                0x000000000000001e       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .ARM.attributes
+                0x0000000000000052       0x34 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .ARM.attributes
+                0x0000000000000086       0x34 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .ARM.attributes
+                0x00000000000000ba       0x21 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Startup/startup_stm32f411retx.s.obj
+ .ARM.attributes
+                0x00000000000000db       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(atexit_arm.o)
+ .ARM.attributes
+                0x000000000000010f       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-cxa_atexit.o)
+ .ARM.attributes
+                0x0000000000000143       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-init.o)
+ .ARM.attributes
+                0x0000000000000177       0x32 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-on_exit_args.o)
+ .ARM.attributes
+                0x00000000000001a9       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-__atexit.o)
+ .ARM.attributes
+                0x00000000000001dd       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-__call_atexit.o)
+ .ARM.attributes
+                0x0000000000000211       0x32 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtend.o
+ .ARM.attributes
+                0x0000000000000243       0x1e /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtn.o
+>>>>>>> 75148ae5dadf5b58a1f8472238ddddc1290d4370
 OUTPUT(mainProject.elf elf32-littlearm)
 LOAD linker stubs
-LOAD /usr/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a
-LOAD /usr/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
-LOAD /usr/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a
+LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc.a
+LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libm.a
+LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a
 
+<<<<<<< HEAD
 .debug_info     0x0000000000000000     0x2d24
  .debug_info    0x0000000000000000      0xb3b CMakeFiles/mainProject.dir/home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/GPIO/inputOutputPin.cpp.obj
  .debug_info    0x0000000000000b3b      0x76c CMakeFiles/mainProject.dir/home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/GPIO/inputOutputPinHandler.cpp.obj
@@ -2996,3 +4201,155 @@ LOAD /usr/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/libgcc.a
  .debug_ranges  0x0000000000000020       0x98 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32WorkSpace/mainProject/Core/Src/syscalls.c.obj
  .debug_ranges  0x00000000000000b8       0x10 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32WorkSpace/mainProject/Core/Src/sysmem.c.obj
  .debug_ranges  0x00000000000000c8       0x20 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32WorkSpace/mainProject/Core/Startup/startup_stm32f411retx.s.obj
+=======
+.comment        0x0000000000000000       0x33
+ .comment       0x0000000000000000       0x33 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+                                         0x34 (size before relaxing)
+ .comment       0x0000000000000033       0x34 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .comment       0x0000000000000033       0x34 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .comment       0x0000000000000033       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(atexit_arm.o)
+ .comment       0x0000000000000033       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-cxa_atexit.o)
+ .comment       0x0000000000000033       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-init.o)
+ .comment       0x0000000000000033       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-on_exit_args.o)
+ .comment       0x0000000000000033       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-__atexit.o)
+ .comment       0x0000000000000033       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-__call_atexit.o)
+ .comment       0x0000000000000033       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard/crtend.o
+
+.debug_info     0x0000000000000000     0x5a04
+ .debug_info    0x0000000000000000     0x2c68 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .debug_info    0x0000000000002c68     0x233e CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .debug_info    0x0000000000004fa6       0x30 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Startup/startup_stm32f411retx.s.obj
+ .debug_info    0x0000000000004fd6      0x166 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(atexit_arm.o)
+ .debug_info    0x000000000000513c      0x1f8 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-cxa_atexit.o)
+ .debug_info    0x0000000000005334      0x11a /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-init.o)
+ .debug_info    0x000000000000544e      0x104 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-on_exit_args.o)
+ .debug_info    0x0000000000005552      0x269 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-__atexit.o)
+ .debug_info    0x00000000000057bb      0x249 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-__call_atexit.o)
+
+.debug_abbrev   0x0000000000000000     0x11df
+ .debug_abbrev  0x0000000000000000      0x558 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .debug_abbrev  0x0000000000000558      0x534 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .debug_abbrev  0x0000000000000a8c       0x1d CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Startup/startup_stm32f411retx.s.obj
+ .debug_abbrev  0x0000000000000aa9      0x117 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(atexit_arm.o)
+ .debug_abbrev  0x0000000000000bc0      0x168 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-cxa_atexit.o)
+ .debug_abbrev  0x0000000000000d28       0xcc /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-init.o)
+ .debug_abbrev  0x0000000000000df4       0xb5 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-on_exit_args.o)
+ .debug_abbrev  0x0000000000000ea9      0x1bd /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-__atexit.o)
+ .debug_abbrev  0x0000000000001066      0x179 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-__call_atexit.o)
+
+.debug_loc      0x0000000000000000     0x2091
+ .debug_loc     0x0000000000000000     0x128b CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .debug_loc     0x000000000000128b      0x866 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .debug_loc     0x0000000000001af1       0x89 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(atexit_arm.o)
+ .debug_loc     0x0000000000001b7a       0xcd /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-cxa_atexit.o)
+ .debug_loc     0x0000000000001c47       0xba /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-init.o)
+ .debug_loc     0x0000000000001d01      0x1f5 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-__atexit.o)
+ .debug_loc     0x0000000000001ef6      0x19b /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-__call_atexit.o)
+
+.debug_aranges  0x0000000000000000      0x410
+ .debug_aranges
+                0x0000000000000000      0x218 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .debug_aranges
+                0x0000000000000218      0x118 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .debug_aranges
+                0x0000000000000330       0x28 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Startup/startup_stm32f411retx.s.obj
+ .debug_aranges
+                0x0000000000000358       0x20 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(atexit_arm.o)
+ .debug_aranges
+                0x0000000000000378       0x20 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-cxa_atexit.o)
+ .debug_aranges
+                0x0000000000000398       0x20 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-init.o)
+ .debug_aranges
+                0x00000000000003b8       0x18 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-on_exit_args.o)
+ .debug_aranges
+                0x00000000000003d0       0x20 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-__atexit.o)
+ .debug_aranges
+                0x00000000000003f0       0x20 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-__call_atexit.o)
+
+.debug_ranges   0x0000000000000000      0x3a0
+ .debug_ranges  0x0000000000000000      0x238 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .debug_ranges  0x0000000000000238      0x108 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .debug_ranges  0x0000000000000340       0x20 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Startup/startup_stm32f411retx.s.obj
+ .debug_ranges  0x0000000000000360       0x10 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(atexit_arm.o)
+ .debug_ranges  0x0000000000000370       0x30 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-__call_atexit.o)
+
+.debug_macro    0x0000000000000000     0xeb93
+ .debug_macro   0x0000000000000000      0x28e CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .debug_macro   0x000000000000028e      0xbf2 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .debug_macro   0x0000000000000e80      0x34e CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .debug_macro   0x00000000000011ce       0x16 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .debug_macro   0x00000000000011e4       0x28 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .debug_macro   0x000000000000120c       0x1c CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .debug_macro   0x0000000000001228       0x22 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .debug_macro   0x000000000000124a       0xd9 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .debug_macro   0x0000000000001323     0x102d CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .debug_macro   0x0000000000002350      0x11f CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .debug_macro   0x000000000000246f     0xb953 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .debug_macro   0x000000000000ddc2      0x18a CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .debug_macro   0x000000000000df4c       0x10 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .debug_macro   0x000000000000df5c       0xba CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .debug_macro   0x000000000000e016       0xf7 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .debug_macro   0x000000000000e10d      0x34c CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .debug_macro   0x000000000000e459       0x8e CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .debug_macro   0x000000000000e4e7       0x1f CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .debug_macro   0x000000000000e506       0x10 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .debug_macro   0x000000000000e516       0x18 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .debug_macro   0x000000000000e52e       0x49 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .debug_macro   0x000000000000e577       0x35 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .debug_macro   0x000000000000e5ac       0x1c CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .debug_macro   0x000000000000e5c8       0x17 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .debug_macro   0x000000000000e5df       0x10 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .debug_macro   0x000000000000e5ef       0x28 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .debug_macro   0x000000000000e617       0x2e CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .debug_macro   0x000000000000e645       0x16 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .debug_macro   0x000000000000e65b      0x17b CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .debug_macro   0x000000000000e7d6       0x10 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .debug_macro   0x000000000000e7e6       0x12 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .debug_macro   0x000000000000e7f8       0x19 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .debug_macro   0x000000000000e811       0x88 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .debug_macro   0x000000000000e899       0x19 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .debug_macro   0x000000000000e8b2       0x18 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .debug_macro   0x000000000000e8ca       0x1f CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .debug_macro   0x000000000000e8e9      0x28e CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .debug_macro   0x000000000000eb77       0x1c CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+
+.debug_line     0x0000000000000000     0x258f
+ .debug_line    0x0000000000000000     0x124f CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .debug_line    0x000000000000124f      0xae9 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .debug_line    0x0000000000001d38       0xb9 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Startup/startup_stm32f411retx.s.obj
+ .debug_line    0x0000000000001df1      0x103 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(atexit_arm.o)
+ .debug_line    0x0000000000001ef4       0xed /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-cxa_atexit.o)
+ .debug_line    0x0000000000001fe1      0x138 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-init.o)
+ .debug_line    0x0000000000002119       0x9f /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-on_exit_args.o)
+ .debug_line    0x00000000000021b8      0x1ec /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-__atexit.o)
+ .debug_line    0x00000000000023a4      0x1eb /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-__call_atexit.o)
+
+.debug_str      0x0000000000000000    0x54f11
+ .debug_str     0x0000000000000000    0x546c5 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+                                      0x549a0 (size before relaxing)
+ .debug_str     0x00000000000546c5      0x27e CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+                                      0x549f9 (size before relaxing)
+ .debug_str     0x0000000000054943       0x74 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Startup/startup_stm32f411retx.s.obj
+                                         0xb4 (size before relaxing)
+ .debug_str     0x00000000000549b7      0x174 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(atexit_arm.o)
+                                        0x1fc (size before relaxing)
+ .debug_str     0x0000000000054b2b      0x194 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-cxa_atexit.o)
+                                        0x250 (size before relaxing)
+ .debug_str     0x0000000000054cbf       0xfc /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-init.o)
+                                        0x20b (size before relaxing)
+ .debug_str     0x0000000000054dbb       0x51 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-on_exit_args.o)
+                                        0x205 (size before relaxing)
+ .debug_str     0x0000000000054e0c       0x8d /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-__atexit.o)
+                                        0x297 (size before relaxing)
+ .debug_str     0x0000000000054e99       0x78 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-__call_atexit.o)
+                                        0x25b (size before relaxing)
+
+.debug_frame    0x0000000000000000      0x9c8
+ .debug_frame   0x0000000000000000      0x5c8 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+ .debug_frame   0x00000000000005c8      0x308 CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/main.cpp.obj
+ .debug_frame   0x00000000000008d0       0x20 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libstdc++_nano.a(atexit_arm.o)
+ .debug_frame   0x00000000000008f0       0x28 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-cxa_atexit.o)
+ .debug_frame   0x0000000000000918       0x2c /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-init.o)
+ .debug_frame   0x0000000000000944       0x38 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-__atexit.o)
+ .debug_frame   0x000000000000097c       0x4c /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libc_nano.a(lib_a-__call_atexit.o)
+>>>>>>> 75148ae5dadf5b58a1f8472238ddddc1290d4370

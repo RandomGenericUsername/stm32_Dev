@@ -1,9 +1,9 @@
-set(CMAKE_HOST_SYSTEM "Linux-5.13.0-39-generic")
+set(CMAKE_HOST_SYSTEM "Linux-5.19.0-23-generic")
 set(CMAKE_HOST_SYSTEM_NAME "Linux")
-set(CMAKE_HOST_SYSTEM_VERSION "5.13.0-39-generic")
+set(CMAKE_HOST_SYSTEM_VERSION "5.19.0-23-generic")
 set(CMAKE_HOST_SYSTEM_PROCESSOR "x86_64")
 
-include("/home/inumaki/Development/stm32WorkSpace/mainProject/Build/gcc-arm-none-eabi.cmake")
+include("/home/inumaki/Development/stm32/projects/mainProject/Build/gcc-arm-none-eabi.cmake")
 
 set(CMAKE_SYSTEM "Generic")
 set(CMAKE_SYSTEM_NAME "Generic")

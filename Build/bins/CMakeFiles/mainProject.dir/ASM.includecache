@@ -6,5 +6,5 @@
 
 #IncludeRegexTransform: 
 
-/home/inumaki/Development/stm32WorkSpace/mainProject/Core/Startup/startup_stm32f411retx.s
+/home/inumaki/Development/stm32/projects/mainProject/Core/Startup/startup_stm32f411retx.s
 
