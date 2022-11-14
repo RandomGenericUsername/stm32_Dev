@@ -1,5 +1,5 @@
 set(CMAKE_CXX_COMPILER "/usr/bin/arm-none-eabi-g++")
-set(CMAKE_CXX_COMPILER_ARG1 "-fdata-sections -ffunction-sections     --specs=nano.specs -Wl,--gc-sections -fexceptions -fno-rtti -fno-exceptions     -fno-threadsafe-statics")
+set(CMAKE_CXX_COMPILER_ARG1 "-fdata-sections -ffunction-sections     --specs=nano.specs -Wl,--gc-sections -fexceptions -fno-rtti -fexceptions     -fno-threadsafe-statics")
 set(CMAKE_CXX_COMPILER_ID "GNU")
 set(CMAKE_CXX_COMPILER_VERSION "10.3.1")
 set(CMAKE_CXX_COMPILER_VERSION_INTERNAL "")
@@ -77,7 +77,7 @@ endif()
 
 
 
-set(CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES "/usr/include/newlib/nano;/usr/lib/arm-none-eabi/include/c++/10.3.1;/usr/lib/arm-none-eabi/include/c++/10.3.1/arm-none-eabi;/usr/lib/arm-none-eabi/include/c++/10.3.1/backward;/usr/lib/gcc/arm-none-eabi/10.3.1/include;/usr/lib/gcc/arm-none-eabi/10.3.1/include-fixed;/usr/lib/arm-none-eabi/include")
+set(CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES "/usr/arm-none-eabi/include/newlib-nano;/usr/arm-none-eabi/include/c++/10.3.1;/usr/arm-none-eabi/include/c++/10.3.1/arm-none-eabi;/usr/arm-none-eabi/include/c++/10.3.1/backward;/usr/lib/gcc/arm-none-eabi/10.3.1/include;/usr/lib/gcc/arm-none-eabi/10.3.1/include-fixed;/usr/arm-none-eabi/include")
 set(CMAKE_CXX_IMPLICIT_LINK_LIBRARIES "")
 set(CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES "")
 set(CMAKE_CXX_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")

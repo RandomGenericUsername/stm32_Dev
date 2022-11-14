@@ -11,23 +11,22 @@ class inputOutputPin
         explicit inputOutputPin(const Args &...args);
         ~inputOutputPin();
 
-        bool setPort(const gpioPort &port, const bool &handleError = false);
-        bool setPin(const gpioPin &pin, const bool &handleError = false);
-        bool setMode(const gpioMode &mode, const bool &handleError = false);
-        bool setInputMode(const bool &handleError = false);
-        bool setOutputMode(const bool &handleError = false);
-        bool setPUPD(const gpioPUPD &pupd, const bool &handleError = false);
-        bool setOutputType(const gpioOutputType &outputType, const bool &handleError = false);
-        bool setOutputSpeed(const gpioOutputSpeed &outputSpeed, const bool &handleError = false);
-        bool read(const bool &handleError = false);
-        bool write(const gpioState &state, const bool &handleError = false);
-        bool toggle(const bool &handleError = false);
-        bool reset(const bool &forceReset = false, const bool &handleError = false);
+        bool setPort(const gpioPort &port);
+        bool setPin(const gpioPin &pin);
+        bool setMode(const gpioMode &mode);
+        bool setInputMode();
+        bool setOutputMode();
+        bool setPUPD(const gpioPUPD &pupd);
+        bool setOutputType(const gpioOutputType &outputType);
+        bool setOutputSpeed(const gpioOutputSpeed &outputSpeed);
+        bool read();
+        bool write(const gpioState &state);
+        bool toggle();
+        bool reset(const bool &forceReset = false);
         bool isReady();
-
         static bool isAllocated(const gpioPort &port, const gpioPin &pin);
 
-        void failSafeMode(const bool &enable = true);
+        void hardExceptionMode(const bool &enable = true);
         void enableDebug(const bool &enable = true);
 
     protected:
@@ -45,15 +44,15 @@ class inputOutputPin
         bool _hardException{false};
         bool _debug{false};
         inputOutputPinHandler *_handler{nullptr};
-        void init();
 
 };
 
 template <typename ...Args>
 inputOutputPin::inputOutputPin(const Args &...args):inputOutputPin()
 {
-    //(_handler->errorHandler(args, _handler, &_handler->setParam), ...);
+    //(_handler->initHandler(args, _handler, &_handler->setParam), ...);
     (_handler->initHandler(args), ...);
+
 }
 
 

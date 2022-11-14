@@ -14,7 +14,7 @@ Compilation of the C compiler identification source "CMakeCCompilerId.c" produce
 The C compiler identification is GNU, found in "/home/inumaki/Development/stm32/projects/mainProject/Build/bins/CMakeFiles/3.24.2/CompilerIdC/CMakeCCompilerId.o"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-Compiler: /usr/bin/arm-none-eabi-g++ -fdata-sections;-ffunction-sections;--specs=nano.specs;-Wl,--gc-sections;-fexceptions;-fno-rtti;-fno-exceptions;-fno-threadsafe-statics
+Compiler: /usr/bin/arm-none-eabi-g++ -fdata-sections;-ffunction-sections;--specs=nano.specs;-Wl,--gc-sections;-fexceptions;-fno-rtti;-fexceptions;-fno-threadsafe-statics
 Build flags: 
 Id flags: -c 
 
@@ -24,217 +24,137 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
 
-<<<<<<< HEAD
-The CXX compiler identification is GNU, found in "/home/inumaki/Development/stm32WorkSpace/mainProject/Build/bins/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.o"
-
-Determining if the C compiler works passed with the following output:
-Change Dir: /home/inumaki/Development/stm32WorkSpace/mainProject/Build/bins/CMakeFiles/CMakeTmp
-
-Run Build Command(s):/usr/bin/make cmTC_1407e/fast && make[1]: Entering directory '/home/inumaki/Development/stm32WorkSpace/mainProject/Build/bins/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_1407e.dir/build.make CMakeFiles/cmTC_1407e.dir/build
-make[2]: Entering directory '/home/inumaki/Development/stm32WorkSpace/mainProject/Build/bins/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_1407e.dir/testCCompiler.c.obj
-/usr/bin/arm-none-eabi-gcc -fdata-sections -ffunction-sections     --specs=nano.specs -Wl,--gc-sections -fexceptions    -o CMakeFiles/cmTC_1407e.dir/testCCompiler.c.obj   -c /home/inumaki/Development/stm32WorkSpace/mainProject/Build/bins/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C static library libcmTC_1407e.a
-/usr/bin/cmake -P CMakeFiles/cmTC_1407e.dir/cmake_clean_target.cmake
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1407e.dir/link.txt --verbose=1
-/usr/bin/arm-none-eabi-ar qc libcmTC_1407e.a  CMakeFiles/cmTC_1407e.dir/testCCompiler.c.obj
-/usr/bin/arm-none-eabi-ranlib libcmTC_1407e.a
-make[2]: Leaving directory '/home/inumaki/Development/stm32WorkSpace/mainProject/Build/bins/CMakeFiles/CMakeTmp'
-make[1]: Leaving directory '/home/inumaki/Development/stm32WorkSpace/mainProject/Build/bins/CMakeFiles/CMakeTmp'
-
-
-=======
 The CXX compiler identification is GNU, found in "/home/inumaki/Development/stm32/projects/mainProject/Build/bins/CMakeFiles/3.24.2/CompilerIdCXX/CMakeCXXCompilerId.o"
->>>>>>> 75148ae5dadf5b58a1f8472238ddddc1290d4370
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /home/inumaki/Development/stm32/projects/mainProject/Build/bins/CMakeFiles/CMakeTmp
 
-<<<<<<< HEAD
-Run Build Command(s):/usr/bin/make cmTC_5dc80/fast && make[1]: Entering directory '/home/inumaki/Development/stm32WorkSpace/mainProject/Build/bins/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_5dc80.dir/build.make CMakeFiles/cmTC_5dc80.dir/build
-make[2]: Entering directory '/home/inumaki/Development/stm32WorkSpace/mainProject/Build/bins/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_5dc80.dir/CMakeCCompilerABI.c.obj
-/usr/bin/arm-none-eabi-gcc -fdata-sections -ffunction-sections     --specs=nano.specs -Wl,--gc-sections -fexceptions   -v -o CMakeFiles/cmTC_5dc80.dir/CMakeCCompilerABI.c.obj   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c
-=======
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_64f34/fast && gmake[1]: Entering directory '/home/inumaki/Development/stm32/projects/mainProject/Build/bins/CMakeFiles/CMakeTmp'
-/usr/bin/gmake  -f CMakeFiles/cmTC_64f34.dir/build.make CMakeFiles/cmTC_64f34.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e111e/fast && gmake[1]: Entering directory '/home/inumaki/Development/stm32/projects/mainProject/Build/bins/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_e111e.dir/build.make CMakeFiles/cmTC_e111e.dir/build
 gmake[2]: Entering directory '/home/inumaki/Development/stm32/projects/mainProject/Build/bins/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_64f34.dir/CMakeCCompilerABI.c.obj
-/usr/bin/arm-none-eabi-gcc -fdata-sections -ffunction-sections     --specs=nano.specs -Wl,--gc-sections -fexceptions   -v -o CMakeFiles/cmTC_64f34.dir/CMakeCCompilerABI.c.obj -c /usr/share/cmake-3.24/Modules/CMakeCCompilerABI.c
->>>>>>> 75148ae5dadf5b58a1f8472238ddddc1290d4370
+Building C object CMakeFiles/cmTC_e111e.dir/CMakeCCompilerABI.c.obj
+/usr/bin/arm-none-eabi-gcc -fdata-sections -ffunction-sections     --specs=nano.specs -Wl,--gc-sections -fexceptions   -v -o CMakeFiles/cmTC_e111e.dir/CMakeCCompilerABI.c.obj -c /usr/share/cmake-3.24/Modules/CMakeCCompilerABI.c
 Using built-in specs.
-Reading specs from /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/nano.specs
+Reading specs from /usr/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/nano.specs
 rename spec link to nano_link
 rename spec link_gcc_c_sequence to nano_link_gcc_c_sequence
 rename spec cpp_unique_options to nano_cpp_unique_options
 COLLECT_GCC=/usr/bin/arm-none-eabi-gcc
 Target: arm-none-eabi
-Configured with: ../configure --build=x86_64-linux-gnu --prefix=/usr --includedir='/usr/lib/include' --mandir='/usr/lib/share/man' --infodir='/usr/lib/share/info' --sysconfdir=/etc --localstatedir=/var --disable-option-checking --disable-silent-rules --libdir='/usr/lib/lib/x86_64-linux-gnu' --libexecdir='/usr/lib/lib/x86_64-linux-gnu' --disable-maintainer-mode --disable-dependency-tracking --mandir=/usr/share/man --enable-languages=c,c++,lto --enable-multilib --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --enable-tls --build=x86_64-linux-gnu --target=arm-none-eabi --with-system-zlib --with-gnu-as --with-gnu-ld --with-pkgversion=15:10.3-2021.07-4 --without-included-gettext --prefix=/usr/lib --infodir=/usr/share/doc/gcc-arm-none-eabi/info --htmldir=/usr/share/doc/gcc-arm-none-eabi/html --pdfdir=/usr/share/doc/gcc-arm-none-eabi/pdf --bindir=/usr/bin --libexecdir=/usr/lib --libdir=/usr/lib --disable-libstdc++-v3 --host=x86_64-linux-gnu --with-headers=no --without-newlib --with-multilib-list=rmprofile,aprofile CFLAGS='-g -O2 -ffile-prefix-map=/build/gcc-arm-none-eabi-hYfgK4/gcc-arm-none-eabi-10.3-2021.07=. -flto=auto -ffat-lto-objects -fstack-protector-strong' CPPFLAGS='-Wdate-time -D_FORTIFY_SOURCE=2' CXXFLAGS='-g -O2 -ffile-prefix-map=/build/gcc-arm-none-eabi-hYfgK4/gcc-arm-none-eabi-10.3-2021.07=. -flto=auto -ffat-lto-objects -fstack-protector-strong' DFLAGS=-frelease FCFLAGS='-g -O2 -ffile-prefix-map=/build/gcc-arm-none-eabi-hYfgK4/gcc-arm-none-eabi-10.3-2021.07=. -flto=auto -ffat-lto-objects -fstack-protector-strong' FFLAGS='-g -O2 -ffile-prefix-map=/build/gcc-arm-none-eabi-hYfgK4/gcc-arm-none-eabi-10.3-2021.07=. -flto=auto -ffat-lto-objects -fstack-protector-strong' GCJFLAGS='-g -O2 -ffile-prefix-map=/build/gcc-arm-none-eabi-hYfgK4/gcc-arm-none-eabi-10.3-2021.07=. -fstack-protector-strong' LDFLAGS='-Wl,-Bsymbolic-functions -flto=auto -Wl,-z,relro' OBJCFLAGS='-g -O2 -ffile-prefix-map=/build/gcc-arm-none-eabi-hYfgK4/gcc-arm-none-eabi-10.3-2021.07=. -flto=auto -ffat-lto-objects -fstack-protector-strong' OBJCXXFLAGS='-g -O2 -ffile-prefix-map=/build/gcc-arm-none-eabi-hYfgK4/gcc-arm-none-eabi-10.3-2021.07=. -flto=auto -ffat-lto-objects -fstack-protector-strong' INHIBIT_LIBC_CFLAGS=-DUSE_TM_CLONE_REGISTRY=0 AR_FOR_TARGET=arm-none-eabi-ar AS_FOR_TARGET=arm-none-eabi-as LD_FOR_TARGET=arm-none-eabi-ld NM_FOR_TARGET=arm-none-eabi-nm OBJDUMP_FOR_TARGET=arm-none-eabi-objdump RANLIB_FOR_TARGET=arm-none-eabi-ranlib READELF_FOR_TARGET=arm-none-eabi-readelf STRIP_FOR_TARGET=arm-none-eabi-strip SED=/bin/sed SHELL=/bin/sh BASH=/bin/bash CONFIG_SHELL=/bin/bash
+Configured with: /mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/src/gcc/configure --target=arm-none-eabi --prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-native --libexecdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-native/lib --infodir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-native/share/doc/gcc-arm-none-eabi/info --mandir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-native/share/doc/gcc-arm-none-eabi/man --htmldir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-native/share/doc/gcc-arm-none-eabi/html --pdfdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-native/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-plugins --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-newlib --with-headers=yes --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-native/arm-none-eabi --build=x86_64-linux-gnu --host=x86_64-linux-gnu --with-gmp=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-native/host-libs/usr --with-mpfr=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-native/host-libs/usr --with-mpc=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-native/host-libs/usr --with-isl=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-native/host-libs/usr --with-libelf=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-native/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Arm Embedded Toolchain 10.3-2021.10' --with-multilib-list=rmprofile,aprofile
 Thread model: single
 Supported LTO compression algorithms: zlib
-<<<<<<< HEAD
 gcc version 10.3.1 20210824 (release) (GNU Arm Embedded Toolchain 10.3-2021.10) 
-COLLECT_GCC_OPTIONS='-fdata-sections' '-ffunction-sections' '-specs=nano.specs' '-fexceptions' '-v' '-o' 'CMakeFiles/cmTC_5dc80.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
- /usr/bin/../lib/gcc/arm-none-eabi/10.3.1/cc1 -isystem =/include/newlib-nano -quiet -v -iprefix /usr/bin/../lib/gcc/arm-none-eabi/10.3.1/ -isysroot /usr/bin/../arm-none-eabi -D__USES_INITFINI__ /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -auxbase-strip CMakeFiles/cmTC_5dc80.dir/CMakeCCompilerABI.c.obj -version -fdata-sections -ffunction-sections -fexceptions -o /tmp/cck7kK8y.s
+COLLECT_GCC_OPTIONS='-fdata-sections' '-ffunction-sections' '-specs=nano.specs' '-fexceptions' '-v' '-o' 'CMakeFiles/cmTC_e111e.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
+ /usr/bin/../lib/gcc/arm-none-eabi/10.3.1/cc1 -isystem =/include/newlib-nano -quiet -v -iprefix /usr/bin/../lib/gcc/arm-none-eabi/10.3.1/ -isysroot /usr/bin/../arm-none-eabi -D__USES_INITFINI__ /usr/share/cmake-3.24/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -auxbase-strip CMakeFiles/cmTC_e111e.dir/CMakeCCompilerABI.c.obj -version -fdata-sections -ffunction-sections -fexceptions -o /tmp/ccrdtToH.s
 GNU C17 (GNU Arm Embedded Toolchain 10.3-2021.10) version 10.3.1 20210824 (release) (arm-none-eabi)
 	compiled by GNU C version 4.8.4, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
-=======
-gcc version 10.3.1 20210621 (release) (15:10.3-2021.07-4) 
-COLLECT_GCC_OPTIONS='-fdata-sections' '-ffunction-sections' '-specs=nano.specs' '-fexceptions' '-v' '-o' 'CMakeFiles/cmTC_64f34.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
- /usr/lib/gcc/arm-none-eabi/10.3.1/cc1 -isystem /usr/include/newlib/nano -quiet -v -D__USES_INITFINI__ /usr/share/cmake-3.24/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -auxbase-strip CMakeFiles/cmTC_64f34.dir/CMakeCCompilerABI.c.obj -version -fdata-sections -ffunction-sections -fexceptions -o /tmp/cchW7jZV.s
-GNU C17 (15:10.3-2021.07-4) version 10.3.1 20210621 (release) (arm-none-eabi)
-	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.25-GMP
->>>>>>> 75148ae5dadf5b58a1f8472238ddddc1290d4370
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
-ignoring nonexistent directory "/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/sys-include"
+ignoring duplicate directory "/usr/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/include"
+ignoring nonexistent directory "/usr/bin/../arm-none-eabi/usr/local/include"
+ignoring duplicate directory "/usr/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/include-fixed"
+ignoring duplicate directory "/usr/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"
+ignoring nonexistent directory "/usr/bin/../arm-none-eabi/usr/include"
 #include "..." search starts here:
 #include <...> search starts here:
- /usr/include/newlib/nano
- /usr/lib/gcc/arm-none-eabi/10.3.1/include
- /usr/lib/gcc/arm-none-eabi/10.3.1/include-fixed
- /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/include
+ /usr/bin/../arm-none-eabi/include/newlib-nano
+ /usr/bin/../lib/gcc/arm-none-eabi/10.3.1/include
+ /usr/bin/../lib/gcc/arm-none-eabi/10.3.1/include-fixed
+ /usr/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include
 End of search list.
-GNU C17 (15:10.3-2021.07-4) version 10.3.1 20210621 (release) (arm-none-eabi)
-	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.25-GMP
+GNU C17 (GNU Arm Embedded Toolchain 10.3-2021.10) version 10.3.1 20210824 (release) (arm-none-eabi)
+	compiled by GNU C version 4.8.4, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
-<<<<<<< HEAD
 Compiler executable checksum: ada28fdd13bdd399f195284d34df0081
-COLLECT_GCC_OPTIONS='-fdata-sections' '-ffunction-sections' '-specs=nano.specs' '-fexceptions' '-v' '-o' 'CMakeFiles/cmTC_5dc80.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
- /usr/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/as -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_5dc80.dir/CMakeCCompilerABI.c.obj /tmp/cck7kK8y.s
+COLLECT_GCC_OPTIONS='-fdata-sections' '-ffunction-sections' '-specs=nano.specs' '-fexceptions' '-v' '-o' 'CMakeFiles/cmTC_e111e.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
+ /usr/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/as -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_e111e.dir/CMakeCCompilerABI.c.obj /tmp/ccrdtToH.s
 GNU assembler version 2.36.1 (arm-none-eabi) using BFD version (GNU Arm Embedded Toolchain 10.3-2021.10) 2.36.1.20210621
 COMPILER_PATH=/usr/bin/../lib/gcc/arm-none-eabi/10.3.1/:/usr/bin/../lib/gcc/:/usr/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/
 LIBRARY_PATH=/usr/bin/../lib/gcc/arm-none-eabi/10.3.1/:/usr/bin/../lib/gcc/:/usr/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/:/usr/bin/../arm-none-eabi/lib/
-COLLECT_GCC_OPTIONS='-fdata-sections' '-ffunction-sections' '-specs=nano.specs' '-fexceptions' '-v' '-o' 'CMakeFiles/cmTC_5dc80.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
-Linking C static library libcmTC_5dc80.a
-/usr/bin/cmake -P CMakeFiles/cmTC_5dc80.dir/cmake_clean_target.cmake
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5dc80.dir/link.txt --verbose=1
-/usr/bin/arm-none-eabi-ar qc libcmTC_5dc80.a  CMakeFiles/cmTC_5dc80.dir/CMakeCCompilerABI.c.obj
-/usr/bin/arm-none-eabi-ranlib libcmTC_5dc80.a
-make[2]: Leaving directory '/home/inumaki/Development/stm32WorkSpace/mainProject/Build/bins/CMakeFiles/CMakeTmp'
-make[1]: Leaving directory '/home/inumaki/Development/stm32WorkSpace/mainProject/Build/bins/CMakeFiles/CMakeTmp'
-=======
-Compiler executable checksum: 4cf7574ae54eb0935abb4a8c56f8bcfe
-COLLECT_GCC_OPTIONS='-fdata-sections' '-ffunction-sections' '-specs=nano.specs' '-fexceptions' '-v' '-o' 'CMakeFiles/cmTC_64f34.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
- /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/bin/as -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_64f34.dir/CMakeCCompilerABI.c.obj /tmp/cchW7jZV.s
-GNU assembler version 2.39 (arm-none-eabi) using BFD version (2.39-1ubuntu1+17ubuntu1) 2.39
-COMPILER_PATH=/usr/lib/gcc/arm-none-eabi/10.3.1/:/usr/lib/gcc/arm-none-eabi/10.3.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/10.3.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/bin/
-LIBRARY_PATH=/usr/lib/gcc/arm-none-eabi/10.3.1/:/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/
-COLLECT_GCC_OPTIONS='-fdata-sections' '-ffunction-sections' '-specs=nano.specs' '-fexceptions' '-v' '-o' 'CMakeFiles/cmTC_64f34.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
-Linking C static library libcmTC_64f34.a
-/usr/bin/cmake -P CMakeFiles/cmTC_64f34.dir/cmake_clean_target.cmake
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_64f34.dir/link.txt --verbose=1
-/usr/bin/arm-none-eabi-ar qc libcmTC_64f34.a CMakeFiles/cmTC_64f34.dir/CMakeCCompilerABI.c.obj
-/usr/bin/arm-none-eabi-ranlib libcmTC_64f34.a
+COLLECT_GCC_OPTIONS='-fdata-sections' '-ffunction-sections' '-specs=nano.specs' '-fexceptions' '-v' '-o' 'CMakeFiles/cmTC_e111e.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
+Linking C static library libcmTC_e111e.a
+/usr/bin/cmake -P CMakeFiles/cmTC_e111e.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e111e.dir/link.txt --verbose=1
+/usr/bin/arm-none-eabi-ar qc libcmTC_e111e.a CMakeFiles/cmTC_e111e.dir/CMakeCCompilerABI.c.obj
+/usr/bin/arm-none-eabi-ranlib libcmTC_e111e.a
 gmake[2]: Leaving directory '/home/inumaki/Development/stm32/projects/mainProject/Build/bins/CMakeFiles/CMakeTmp'
 gmake[1]: Leaving directory '/home/inumaki/Development/stm32/projects/mainProject/Build/bins/CMakeFiles/CMakeTmp'
->>>>>>> 75148ae5dadf5b58a1f8472238ddddc1290d4370
 
 
 
 Parsed C implicit include dir info from above output: rv=done
   found start of include info
   found start of implicit include info
-    add: [/usr/include/newlib/nano]
-    add: [/usr/lib/gcc/arm-none-eabi/10.3.1/include]
-    add: [/usr/lib/gcc/arm-none-eabi/10.3.1/include-fixed]
-    add: [/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/include]
+    add: [/usr/bin/../arm-none-eabi/include/newlib-nano]
+    add: [/usr/bin/../lib/gcc/arm-none-eabi/10.3.1/include]
+    add: [/usr/bin/../lib/gcc/arm-none-eabi/10.3.1/include-fixed]
+    add: [/usr/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include]
   end of search list found
-  collapse include dir [/usr/include/newlib/nano] ==> [/usr/include/newlib/nano]
-  collapse include dir [/usr/lib/gcc/arm-none-eabi/10.3.1/include] ==> [/usr/lib/gcc/arm-none-eabi/10.3.1/include]
-  collapse include dir [/usr/lib/gcc/arm-none-eabi/10.3.1/include-fixed] ==> [/usr/lib/gcc/arm-none-eabi/10.3.1/include-fixed]
-  collapse include dir [/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/include] ==> [/usr/lib/arm-none-eabi/include]
-  implicit include dirs: [/usr/include/newlib/nano;/usr/lib/gcc/arm-none-eabi/10.3.1/include;/usr/lib/gcc/arm-none-eabi/10.3.1/include-fixed;/usr/lib/arm-none-eabi/include]
+  collapse include dir [/usr/bin/../arm-none-eabi/include/newlib-nano] ==> [/usr/arm-none-eabi/include/newlib-nano]
+  collapse include dir [/usr/bin/../lib/gcc/arm-none-eabi/10.3.1/include] ==> [/usr/lib/gcc/arm-none-eabi/10.3.1/include]
+  collapse include dir [/usr/bin/../lib/gcc/arm-none-eabi/10.3.1/include-fixed] ==> [/usr/lib/gcc/arm-none-eabi/10.3.1/include-fixed]
+  collapse include dir [/usr/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include] ==> [/usr/arm-none-eabi/include]
+  implicit include dirs: [/usr/arm-none-eabi/include/newlib-nano;/usr/lib/gcc/arm-none-eabi/10.3.1/include;/usr/lib/gcc/arm-none-eabi/10.3.1/include-fixed;/usr/arm-none-eabi/include]
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(arm-none-eabi-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/inumaki/Development/stm32/projects/mainProject/Build/bins/CMakeFiles/CMakeTmp]
   ignore line: []
-<<<<<<< HEAD
-  ignore line: [Run Build Command(s):/usr/bin/make cmTC_5dc80/fast && make[1]: Entering directory '/home/inumaki/Development/stm32WorkSpace/mainProject/Build/bins/CMakeFiles/CMakeTmp']
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_5dc80.dir/build.make CMakeFiles/cmTC_5dc80.dir/build]
-  ignore line: [make[2]: Entering directory '/home/inumaki/Development/stm32WorkSpace/mainProject/Build/bins/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_5dc80.dir/CMakeCCompilerABI.c.obj]
-  ignore line: [/usr/bin/arm-none-eabi-gcc -fdata-sections -ffunction-sections     --specs=nano.specs -Wl --gc-sections -fexceptions   -v -o CMakeFiles/cmTC_5dc80.dir/CMakeCCompilerABI.c.obj   -c /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c]
-=======
-  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_64f34/fast && gmake[1]: Entering directory '/home/inumaki/Development/stm32/projects/mainProject/Build/bins/CMakeFiles/CMakeTmp']
-  ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_64f34.dir/build.make CMakeFiles/cmTC_64f34.dir/build]
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e111e/fast && gmake[1]: Entering directory '/home/inumaki/Development/stm32/projects/mainProject/Build/bins/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_e111e.dir/build.make CMakeFiles/cmTC_e111e.dir/build]
   ignore line: [gmake[2]: Entering directory '/home/inumaki/Development/stm32/projects/mainProject/Build/bins/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_64f34.dir/CMakeCCompilerABI.c.obj]
-  ignore line: [/usr/bin/arm-none-eabi-gcc -fdata-sections -ffunction-sections     --specs=nano.specs -Wl --gc-sections -fexceptions   -v -o CMakeFiles/cmTC_64f34.dir/CMakeCCompilerABI.c.obj -c /usr/share/cmake-3.24/Modules/CMakeCCompilerABI.c]
->>>>>>> 75148ae5dadf5b58a1f8472238ddddc1290d4370
+  ignore line: [Building C object CMakeFiles/cmTC_e111e.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [/usr/bin/arm-none-eabi-gcc -fdata-sections -ffunction-sections     --specs=nano.specs -Wl --gc-sections -fexceptions   -v -o CMakeFiles/cmTC_e111e.dir/CMakeCCompilerABI.c.obj -c /usr/share/cmake-3.24/Modules/CMakeCCompilerABI.c]
   ignore line: [Using built-in specs.]
-  ignore line: [Reading specs from /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/nano.specs]
+  ignore line: [Reading specs from /usr/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/nano.specs]
   ignore line: [rename spec link to nano_link]
   ignore line: [rename spec link_gcc_c_sequence to nano_link_gcc_c_sequence]
   ignore line: [rename spec cpp_unique_options to nano_cpp_unique_options]
   ignore line: [COLLECT_GCC=/usr/bin/arm-none-eabi-gcc]
   ignore line: [Target: arm-none-eabi]
-  ignore line: [Configured with: ../configure --build=x86_64-linux-gnu --prefix=/usr --includedir='/usr/lib/include' --mandir='/usr/lib/share/man' --infodir='/usr/lib/share/info' --sysconfdir=/etc --localstatedir=/var --disable-option-checking --disable-silent-rules --libdir='/usr/lib/lib/x86_64-linux-gnu' --libexecdir='/usr/lib/lib/x86_64-linux-gnu' --disable-maintainer-mode --disable-dependency-tracking --mandir=/usr/share/man --enable-languages=c,c++,lto --enable-multilib --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --enable-tls --build=x86_64-linux-gnu --target=arm-none-eabi --with-system-zlib --with-gnu-as --with-gnu-ld --with-pkgversion=15:10.3-2021.07-4 --without-included-gettext --prefix=/usr/lib --infodir=/usr/share/doc/gcc-arm-none-eabi/info --htmldir=/usr/share/doc/gcc-arm-none-eabi/html --pdfdir=/usr/share/doc/gcc-arm-none-eabi/pdf --bindir=/usr/bin --libexecdir=/usr/lib --libdir=/usr/lib --disable-libstdc++-v3 --host=x86_64-linux-gnu --with-headers=no --without-newlib --with-multilib-list=rmprofile,aprofile CFLAGS='-g -O2 -ffile-prefix-map=/build/gcc-arm-none-eabi-hYfgK4/gcc-arm-none-eabi-10.3-2021.07=. -flto=auto -ffat-lto-objects -fstack-protector-strong' CPPFLAGS='-Wdate-time -D_FORTIFY_SOURCE=2' CXXFLAGS='-g -O2 -ffile-prefix-map=/build/gcc-arm-none-eabi-hYfgK4/gcc-arm-none-eabi-10.3-2021.07=. -flto=auto -ffat-lto-objects -fstack-protector-strong' DFLAGS=-frelease FCFLAGS='-g -O2 -ffile-prefix-map=/build/gcc-arm-none-eabi-hYfgK4/gcc-arm-none-eabi-10.3-2021.07=. -flto=auto -ffat-lto-objects -fstack-protector-strong' FFLAGS='-g -O2 -ffile-prefix-map=/build/gcc-arm-none-eabi-hYfgK4/gcc-arm-none-eabi-10.3-2021.07=. -flto=auto -ffat-lto-objects -fstack-protector-strong' GCJFLAGS='-g -O2 -ffile-prefix-map=/build/gcc-arm-none-eabi-hYfgK4/gcc-arm-none-eabi-10.3-2021.07=. -fstack-protector-strong' LDFLAGS='-Wl,-Bsymbolic-functions -flto=auto -Wl,-z,relro' OBJCFLAGS='-g -O2 -ffile-prefix-map=/build/gcc-arm-none-eabi-hYfgK4/gcc-arm-none-eabi-10.3-2021.07=. -flto=auto -ffat-lto-objects -fstack-protector-strong' OBJCXXFLAGS='-g -O2 -ffile-prefix-map=/build/gcc-arm-none-eabi-hYfgK4/gcc-arm-none-eabi-10.3-2021.07=. -flto=auto -ffat-lto-objects -fstack-protector-strong' INHIBIT_LIBC_CFLAGS=-DUSE_TM_CLONE_REGISTRY=0 AR_FOR_TARGET=arm-none-eabi-ar AS_FOR_TARGET=arm-none-eabi-as LD_FOR_TARGET=arm-none-eabi-ld NM_FOR_TARGET=arm-none-eabi-nm OBJDUMP_FOR_TARGET=arm-none-eabi-objdump RANLIB_FOR_TARGET=arm-none-eabi-ranlib READELF_FOR_TARGET=arm-none-eabi-readelf STRIP_FOR_TARGET=arm-none-eabi-strip SED=/bin/sed SHELL=/bin/sh BASH=/bin/bash CONFIG_SHELL=/bin/bash]
+  ignore line: [Configured with: /mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/src/gcc/configure --target=arm-none-eabi --prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-native --libexecdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-native/lib --infodir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-native/share/doc/gcc-arm-none-eabi/info --mandir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-native/share/doc/gcc-arm-none-eabi/man --htmldir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-native/share/doc/gcc-arm-none-eabi/html --pdfdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-native/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-plugins --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-newlib --with-headers=yes --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-native/arm-none-eabi --build=x86_64-linux-gnu --host=x86_64-linux-gnu --with-gmp=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-native/host-libs/usr --with-mpfr=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-native/host-libs/usr --with-mpc=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-native/host-libs/usr --with-isl=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-native/host-libs/usr --with-libelf=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-native/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Arm Embedded Toolchain 10.3-2021.10' --with-multilib-list=rmprofile,aprofile]
   ignore line: [Thread model: single]
   ignore line: [Supported LTO compression algorithms: zlib]
-<<<<<<< HEAD
   ignore line: [gcc version 10.3.1 20210824 (release) (GNU Arm Embedded Toolchain 10.3-2021.10) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-fdata-sections' '-ffunction-sections' '-specs=nano.specs' '-fexceptions' '-v' '-o' 'CMakeFiles/cmTC_5dc80.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
-  ignore line: [ /usr/bin/../lib/gcc/arm-none-eabi/10.3.1/cc1 -isystem =/include/newlib-nano -quiet -v -iprefix /usr/bin/../lib/gcc/arm-none-eabi/10.3.1/ -isysroot /usr/bin/../arm-none-eabi -D__USES_INITFINI__ /usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -auxbase-strip CMakeFiles/cmTC_5dc80.dir/CMakeCCompilerABI.c.obj -version -fdata-sections -ffunction-sections -fexceptions -o /tmp/cck7kK8y.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-fdata-sections' '-ffunction-sections' '-specs=nano.specs' '-fexceptions' '-v' '-o' 'CMakeFiles/cmTC_e111e.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
+  ignore line: [ /usr/bin/../lib/gcc/arm-none-eabi/10.3.1/cc1 -isystem =/include/newlib-nano -quiet -v -iprefix /usr/bin/../lib/gcc/arm-none-eabi/10.3.1/ -isysroot /usr/bin/../arm-none-eabi -D__USES_INITFINI__ /usr/share/cmake-3.24/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -auxbase-strip CMakeFiles/cmTC_e111e.dir/CMakeCCompilerABI.c.obj -version -fdata-sections -ffunction-sections -fexceptions -o /tmp/ccrdtToH.s]
   ignore line: [GNU C17 (GNU Arm Embedded Toolchain 10.3-2021.10) version 10.3.1 20210824 (release) (arm-none-eabi)]
   ignore line: [	compiled by GNU C version 4.8.4  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
-=======
-  ignore line: [gcc version 10.3.1 20210621 (release) (15:10.3-2021.07-4) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-fdata-sections' '-ffunction-sections' '-specs=nano.specs' '-fexceptions' '-v' '-o' 'CMakeFiles/cmTC_64f34.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
-  ignore line: [ /usr/lib/gcc/arm-none-eabi/10.3.1/cc1 -isystem /usr/include/newlib/nano -quiet -v -D__USES_INITFINI__ /usr/share/cmake-3.24/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -auxbase-strip CMakeFiles/cmTC_64f34.dir/CMakeCCompilerABI.c.obj -version -fdata-sections -ffunction-sections -fexceptions -o /tmp/cchW7jZV.s]
-  ignore line: [GNU C17 (15:10.3-2021.07-4) version 10.3.1 20210621 (release) (arm-none-eabi)]
-  ignore line: [	compiled by GNU C version 11.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.25-GMP]
->>>>>>> 75148ae5dadf5b58a1f8472238ddddc1290d4370
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
-  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/sys-include"]
+  ignore line: [ignoring duplicate directory "/usr/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/include"]
+  ignore line: [ignoring nonexistent directory "/usr/bin/../arm-none-eabi/usr/local/include"]
+  ignore line: [ignoring duplicate directory "/usr/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/include-fixed"]
+  ignore line: [ignoring duplicate directory "/usr/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"]
+  ignore line: [ignoring nonexistent directory "/usr/bin/../arm-none-eabi/usr/include"]
   ignore line: [#include "..." search starts here:]
   ignore line: [#include <...> search starts here:]
-  ignore line: [ /usr/include/newlib/nano]
-  ignore line: [ /usr/lib/gcc/arm-none-eabi/10.3.1/include]
-  ignore line: [ /usr/lib/gcc/arm-none-eabi/10.3.1/include-fixed]
-  ignore line: [ /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/include]
+  ignore line: [ /usr/bin/../arm-none-eabi/include/newlib-nano]
+  ignore line: [ /usr/bin/../lib/gcc/arm-none-eabi/10.3.1/include]
+  ignore line: [ /usr/bin/../lib/gcc/arm-none-eabi/10.3.1/include-fixed]
+  ignore line: [ /usr/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include]
   ignore line: [End of search list.]
-  ignore line: [GNU C17 (15:10.3-2021.07-4) version 10.3.1 20210621 (release) (arm-none-eabi)]
-  ignore line: [	compiled by GNU C version 11.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.25-GMP]
+  ignore line: [GNU C17 (GNU Arm Embedded Toolchain 10.3-2021.10) version 10.3.1 20210824 (release) (arm-none-eabi)]
+  ignore line: [	compiled by GNU C version 4.8.4  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
-<<<<<<< HEAD
   ignore line: [Compiler executable checksum: ada28fdd13bdd399f195284d34df0081]
-  ignore line: [COLLECT_GCC_OPTIONS='-fdata-sections' '-ffunction-sections' '-specs=nano.specs' '-fexceptions' '-v' '-o' 'CMakeFiles/cmTC_5dc80.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
-  ignore line: [ /usr/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/as -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_5dc80.dir/CMakeCCompilerABI.c.obj /tmp/cck7kK8y.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-fdata-sections' '-ffunction-sections' '-specs=nano.specs' '-fexceptions' '-v' '-o' 'CMakeFiles/cmTC_e111e.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
+  ignore line: [ /usr/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/as -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_e111e.dir/CMakeCCompilerABI.c.obj /tmp/ccrdtToH.s]
   ignore line: [GNU assembler version 2.36.1 (arm-none-eabi) using BFD version (GNU Arm Embedded Toolchain 10.3-2021.10) 2.36.1.20210621]
   ignore line: [COMPILER_PATH=/usr/bin/../lib/gcc/arm-none-eabi/10.3.1/:/usr/bin/../lib/gcc/:/usr/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/]
   ignore line: [LIBRARY_PATH=/usr/bin/../lib/gcc/arm-none-eabi/10.3.1/:/usr/bin/../lib/gcc/:/usr/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/:/usr/bin/../arm-none-eabi/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-fdata-sections' '-ffunction-sections' '-specs=nano.specs' '-fexceptions' '-v' '-o' 'CMakeFiles/cmTC_5dc80.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
-  ignore line: [Linking C static library libcmTC_5dc80.a]
-  ignore line: [/usr/bin/cmake -P CMakeFiles/cmTC_5dc80.dir/cmake_clean_target.cmake]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5dc80.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/arm-none-eabi-ar qc libcmTC_5dc80.a  CMakeFiles/cmTC_5dc80.dir/CMakeCCompilerABI.c.obj]
-  ignore line: [/usr/bin/arm-none-eabi-ranlib libcmTC_5dc80.a]
-  ignore line: [make[2]: Leaving directory '/home/inumaki/Development/stm32WorkSpace/mainProject/Build/bins/CMakeFiles/CMakeTmp']
-  ignore line: [make[1]: Leaving directory '/home/inumaki/Development/stm32WorkSpace/mainProject/Build/bins/CMakeFiles/CMakeTmp']
-=======
-  ignore line: [Compiler executable checksum: 4cf7574ae54eb0935abb4a8c56f8bcfe]
-  ignore line: [COLLECT_GCC_OPTIONS='-fdata-sections' '-ffunction-sections' '-specs=nano.specs' '-fexceptions' '-v' '-o' 'CMakeFiles/cmTC_64f34.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
-  ignore line: [ /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/bin/as -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_64f34.dir/CMakeCCompilerABI.c.obj /tmp/cchW7jZV.s]
-  ignore line: [GNU assembler version 2.39 (arm-none-eabi) using BFD version (2.39-1ubuntu1+17ubuntu1) 2.39]
-  ignore line: [COMPILER_PATH=/usr/lib/gcc/arm-none-eabi/10.3.1/:/usr/lib/gcc/arm-none-eabi/10.3.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/10.3.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/bin/]
-  ignore line: [LIBRARY_PATH=/usr/lib/gcc/arm-none-eabi/10.3.1/:/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-fdata-sections' '-ffunction-sections' '-specs=nano.specs' '-fexceptions' '-v' '-o' 'CMakeFiles/cmTC_64f34.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
-  ignore line: [Linking C static library libcmTC_64f34.a]
-  ignore line: [/usr/bin/cmake -P CMakeFiles/cmTC_64f34.dir/cmake_clean_target.cmake]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_64f34.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/arm-none-eabi-ar qc libcmTC_64f34.a CMakeFiles/cmTC_64f34.dir/CMakeCCompilerABI.c.obj]
-  ignore line: [/usr/bin/arm-none-eabi-ranlib libcmTC_64f34.a]
+  ignore line: [COLLECT_GCC_OPTIONS='-fdata-sections' '-ffunction-sections' '-specs=nano.specs' '-fexceptions' '-v' '-o' 'CMakeFiles/cmTC_e111e.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
+  ignore line: [Linking C static library libcmTC_e111e.a]
+  ignore line: [/usr/bin/cmake -P CMakeFiles/cmTC_e111e.dir/cmake_clean_target.cmake]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e111e.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/arm-none-eabi-ar qc libcmTC_e111e.a CMakeFiles/cmTC_e111e.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [/usr/bin/arm-none-eabi-ranlib libcmTC_e111e.a]
   ignore line: [gmake[2]: Leaving directory '/home/inumaki/Development/stm32/projects/mainProject/Build/bins/CMakeFiles/CMakeTmp']
   ignore line: [gmake[1]: Leaving directory '/home/inumaki/Development/stm32/projects/mainProject/Build/bins/CMakeFiles/CMakeTmp']
->>>>>>> 75148ae5dadf5b58a1f8472238ddddc1290d4370
   ignore line: []
   ignore line: []
   implicit libs: []
@@ -243,226 +163,153 @@ Parsed C implicit link information from above output:
   implicit fwks: []
 
 
-<<<<<<< HEAD
-Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/inumaki/Development/stm32WorkSpace/mainProject/Build/bins/CMakeFiles/CMakeTmp
-
-Run Build Command(s):/usr/bin/make cmTC_e703c/fast && make[1]: Entering directory '/home/inumaki/Development/stm32WorkSpace/mainProject/Build/bins/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_e703c.dir/build.make CMakeFiles/cmTC_e703c.dir/build
-make[2]: Entering directory '/home/inumaki/Development/stm32WorkSpace/mainProject/Build/bins/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_e703c.dir/testCXXCompiler.cxx.obj
-/usr/bin/arm-none-eabi-g++     -o CMakeFiles/cmTC_e703c.dir/testCXXCompiler.cxx.obj -c /home/inumaki/Development/stm32WorkSpace/mainProject/Build/bins/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX static library libcmTC_e703c.a
-/usr/bin/cmake -P CMakeFiles/cmTC_e703c.dir/cmake_clean_target.cmake
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e703c.dir/link.txt --verbose=1
-/usr/bin/arm-none-eabi-ar qc libcmTC_e703c.a  CMakeFiles/cmTC_e703c.dir/testCXXCompiler.cxx.obj
-/usr/bin/arm-none-eabi-ranlib libcmTC_e703c.a
-make[2]: Leaving directory '/home/inumaki/Development/stm32WorkSpace/mainProject/Build/bins/CMakeFiles/CMakeTmp'
-make[1]: Leaving directory '/home/inumaki/Development/stm32WorkSpace/mainProject/Build/bins/CMakeFiles/CMakeTmp'
-
-
-
-=======
->>>>>>> 75148ae5dadf5b58a1f8472238ddddc1290d4370
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /home/inumaki/Development/stm32/projects/mainProject/Build/bins/CMakeFiles/CMakeTmp
 
-<<<<<<< HEAD
-Run Build Command(s):/usr/bin/make cmTC_cf708/fast && make[1]: Entering directory '/home/inumaki/Development/stm32WorkSpace/mainProject/Build/bins/CMakeFiles/CMakeTmp'
-/usr/bin/make -f CMakeFiles/cmTC_cf708.dir/build.make CMakeFiles/cmTC_cf708.dir/build
-make[2]: Entering directory '/home/inumaki/Development/stm32WorkSpace/mainProject/Build/bins/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_cf708.dir/CMakeCXXCompilerABI.cpp.obj
-/usr/bin/arm-none-eabi-g++    -v -o CMakeFiles/cmTC_cf708.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp
-=======
-Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ae7a2/fast && gmake[1]: Entering directory '/home/inumaki/Development/stm32/projects/mainProject/Build/bins/CMakeFiles/CMakeTmp'
-/usr/bin/gmake  -f CMakeFiles/cmTC_ae7a2.dir/build.make CMakeFiles/cmTC_ae7a2.dir/build
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f8137/fast && gmake[1]: Entering directory '/home/inumaki/Development/stm32/projects/mainProject/Build/bins/CMakeFiles/CMakeTmp'
+/usr/bin/gmake  -f CMakeFiles/cmTC_f8137.dir/build.make CMakeFiles/cmTC_f8137.dir/build
 gmake[2]: Entering directory '/home/inumaki/Development/stm32/projects/mainProject/Build/bins/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_ae7a2.dir/CMakeCXXCompilerABI.cpp.obj
-/usr/bin/arm-none-eabi-g++ -fdata-sections -ffunction-sections     --specs=nano.specs -Wl,--gc-sections -fexceptions -fno-rtti -fno-exceptions     -fno-threadsafe-statics   -v -o CMakeFiles/cmTC_ae7a2.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp
->>>>>>> 75148ae5dadf5b58a1f8472238ddddc1290d4370
+Building CXX object CMakeFiles/cmTC_f8137.dir/CMakeCXXCompilerABI.cpp.obj
+/usr/bin/arm-none-eabi-g++ -fdata-sections -ffunction-sections     --specs=nano.specs -Wl,--gc-sections -fexceptions -fno-rtti -fexceptions     -fno-threadsafe-statics   -v -o CMakeFiles/cmTC_f8137.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp
 Using built-in specs.
-Reading specs from /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/nano.specs
+Reading specs from /usr/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/nano.specs
 rename spec link to nano_link
 rename spec link_gcc_c_sequence to nano_link_gcc_c_sequence
 rename spec cpp_unique_options to nano_cpp_unique_options
 COLLECT_GCC=/usr/bin/arm-none-eabi-g++
 Target: arm-none-eabi
-Configured with: ../configure --build=x86_64-linux-gnu --prefix=/usr --includedir='/usr/lib/include' --mandir='/usr/lib/share/man' --infodir='/usr/lib/share/info' --sysconfdir=/etc --localstatedir=/var --disable-option-checking --disable-silent-rules --libdir='/usr/lib/lib/x86_64-linux-gnu' --libexecdir='/usr/lib/lib/x86_64-linux-gnu' --disable-maintainer-mode --disable-dependency-tracking --mandir=/usr/share/man --enable-languages=c,c++,lto --enable-multilib --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --enable-tls --build=x86_64-linux-gnu --target=arm-none-eabi --with-system-zlib --with-gnu-as --with-gnu-ld --with-pkgversion=15:10.3-2021.07-4 --without-included-gettext --prefix=/usr/lib --infodir=/usr/share/doc/gcc-arm-none-eabi/info --htmldir=/usr/share/doc/gcc-arm-none-eabi/html --pdfdir=/usr/share/doc/gcc-arm-none-eabi/pdf --bindir=/usr/bin --libexecdir=/usr/lib --libdir=/usr/lib --disable-libstdc++-v3 --host=x86_64-linux-gnu --with-headers=no --without-newlib --with-multilib-list=rmprofile,aprofile CFLAGS='-g -O2 -ffile-prefix-map=/build/gcc-arm-none-eabi-hYfgK4/gcc-arm-none-eabi-10.3-2021.07=. -flto=auto -ffat-lto-objects -fstack-protector-strong' CPPFLAGS='-Wdate-time -D_FORTIFY_SOURCE=2' CXXFLAGS='-g -O2 -ffile-prefix-map=/build/gcc-arm-none-eabi-hYfgK4/gcc-arm-none-eabi-10.3-2021.07=. -flto=auto -ffat-lto-objects -fstack-protector-strong' DFLAGS=-frelease FCFLAGS='-g -O2 -ffile-prefix-map=/build/gcc-arm-none-eabi-hYfgK4/gcc-arm-none-eabi-10.3-2021.07=. -flto=auto -ffat-lto-objects -fstack-protector-strong' FFLAGS='-g -O2 -ffile-prefix-map=/build/gcc-arm-none-eabi-hYfgK4/gcc-arm-none-eabi-10.3-2021.07=. -flto=auto -ffat-lto-objects -fstack-protector-strong' GCJFLAGS='-g -O2 -ffile-prefix-map=/build/gcc-arm-none-eabi-hYfgK4/gcc-arm-none-eabi-10.3-2021.07=. -fstack-protector-strong' LDFLAGS='-Wl,-Bsymbolic-functions -flto=auto -Wl,-z,relro' OBJCFLAGS='-g -O2 -ffile-prefix-map=/build/gcc-arm-none-eabi-hYfgK4/gcc-arm-none-eabi-10.3-2021.07=. -flto=auto -ffat-lto-objects -fstack-protector-strong' OBJCXXFLAGS='-g -O2 -ffile-prefix-map=/build/gcc-arm-none-eabi-hYfgK4/gcc-arm-none-eabi-10.3-2021.07=. -flto=auto -ffat-lto-objects -fstack-protector-strong' INHIBIT_LIBC_CFLAGS=-DUSE_TM_CLONE_REGISTRY=0 AR_FOR_TARGET=arm-none-eabi-ar AS_FOR_TARGET=arm-none-eabi-as LD_FOR_TARGET=arm-none-eabi-ld NM_FOR_TARGET=arm-none-eabi-nm OBJDUMP_FOR_TARGET=arm-none-eabi-objdump RANLIB_FOR_TARGET=arm-none-eabi-ranlib READELF_FOR_TARGET=arm-none-eabi-readelf STRIP_FOR_TARGET=arm-none-eabi-strip SED=/bin/sed SHELL=/bin/sh BASH=/bin/bash CONFIG_SHELL=/bin/bash
+Configured with: /mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/src/gcc/configure --target=arm-none-eabi --prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-native --libexecdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-native/lib --infodir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-native/share/doc/gcc-arm-none-eabi/info --mandir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-native/share/doc/gcc-arm-none-eabi/man --htmldir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-native/share/doc/gcc-arm-none-eabi/html --pdfdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-native/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-plugins --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-newlib --with-headers=yes --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-native/arm-none-eabi --build=x86_64-linux-gnu --host=x86_64-linux-gnu --with-gmp=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-native/host-libs/usr --with-mpfr=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-native/host-libs/usr --with-mpc=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-native/host-libs/usr --with-isl=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-native/host-libs/usr --with-libelf=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-native/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Arm Embedded Toolchain 10.3-2021.10' --with-multilib-list=rmprofile,aprofile
 Thread model: single
 Supported LTO compression algorithms: zlib
-<<<<<<< HEAD
 gcc version 10.3.1 20210824 (release) (GNU Arm Embedded Toolchain 10.3-2021.10) 
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_cf708.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
- /usr/bin/../lib/gcc/arm-none-eabi/10.3.1/cc1plus -quiet -v -iprefix /usr/bin/../lib/gcc/arm-none-eabi/10.3.1/ -isysroot /usr/bin/../arm-none-eabi -D__USES_INITFINI__ /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -auxbase-strip CMakeFiles/cmTC_cf708.dir/CMakeCXXCompilerABI.cpp.obj -version -o /tmp/ccskpfNy.s
+COLLECT_GCC_OPTIONS='-fdata-sections' '-ffunction-sections' '-specs=nano.specs' '-fno-rtti' '-fexceptions' '-fno-threadsafe-statics' '-v' '-o' 'CMakeFiles/cmTC_f8137.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
+ /usr/bin/../lib/gcc/arm-none-eabi/10.3.1/cc1plus -isystem =/include/newlib-nano -quiet -v -iprefix /usr/bin/../lib/gcc/arm-none-eabi/10.3.1/ -isysroot /usr/bin/../arm-none-eabi -D__USES_INITFINI__ /usr/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -auxbase-strip CMakeFiles/cmTC_f8137.dir/CMakeCXXCompilerABI.cpp.obj -version -fdata-sections -ffunction-sections -fno-rtti -fexceptions -fno-threadsafe-statics -o /tmp/ccH4rBgZ.s
 GNU C++14 (GNU Arm Embedded Toolchain 10.3-2021.10) version 10.3.1 20210824 (release) (arm-none-eabi)
 	compiled by GNU C version 4.8.4, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
-=======
-gcc version 10.3.1 20210621 (release) (15:10.3-2021.07-4) 
-COLLECT_GCC_OPTIONS='-fdata-sections' '-ffunction-sections' '-specs=nano.specs' '-fno-rtti' '-fno-exceptions' '-fno-threadsafe-statics' '-v' '-o' 'CMakeFiles/cmTC_ae7a2.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
- /usr/lib/gcc/arm-none-eabi/10.3.1/cc1plus -isystem /usr/include/newlib/nano -quiet -v -D__USES_INITFINI__ /usr/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -auxbase-strip CMakeFiles/cmTC_ae7a2.dir/CMakeCXXCompilerABI.cpp.obj -version -fdata-sections -ffunction-sections -fno-rtti -fno-exceptions -fno-threadsafe-statics -o /tmp/cc6F8Llg.s
-GNU C++14 (15:10.3-2021.07-4) version 10.3.1 20210621 (release) (arm-none-eabi)
-	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.25-GMP
->>>>>>> 75148ae5dadf5b58a1f8472238ddddc1290d4370
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
-ignoring nonexistent directory "/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/sys-include"
+ignoring duplicate directory "/usr/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"
+ignoring duplicate directory "/usr/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"
+ignoring duplicate directory "/usr/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"
+ignoring duplicate directory "/usr/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/include"
+ignoring nonexistent directory "/usr/bin/../arm-none-eabi/usr/local/include"
+ignoring duplicate directory "/usr/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/include-fixed"
+ignoring duplicate directory "/usr/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"
+ignoring nonexistent directory "/usr/bin/../arm-none-eabi/usr/include"
 #include "..." search starts here:
 #include <...> search starts here:
- /usr/include/newlib/nano
- /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/include/c++/10.3.1
- /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi
- /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/include/c++/10.3.1/backward
- /usr/lib/gcc/arm-none-eabi/10.3.1/include
- /usr/lib/gcc/arm-none-eabi/10.3.1/include-fixed
- /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/include
+ /usr/bin/../arm-none-eabi/include/newlib-nano
+ /usr/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1
+ /usr/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi
+ /usr/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward
+ /usr/bin/../lib/gcc/arm-none-eabi/10.3.1/include
+ /usr/bin/../lib/gcc/arm-none-eabi/10.3.1/include-fixed
+ /usr/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include
 End of search list.
-GNU C++14 (15:10.3-2021.07-4) version 10.3.1 20210621 (release) (arm-none-eabi)
-	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.25-GMP
+GNU C++14 (GNU Arm Embedded Toolchain 10.3-2021.10) version 10.3.1 20210824 (release) (arm-none-eabi)
+	compiled by GNU C version 4.8.4, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
-<<<<<<< HEAD
 Compiler executable checksum: 62a2c0a0f0d30bb0bbe5c686601adbb0
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_cf708.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
- /usr/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/as -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_cf708.dir/CMakeCXXCompilerABI.cpp.obj /tmp/ccskpfNy.s
+COLLECT_GCC_OPTIONS='-fdata-sections' '-ffunction-sections' '-specs=nano.specs' '-fno-rtti' '-fexceptions' '-fno-threadsafe-statics' '-v' '-o' 'CMakeFiles/cmTC_f8137.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
+ /usr/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/as -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_f8137.dir/CMakeCXXCompilerABI.cpp.obj /tmp/ccH4rBgZ.s
 GNU assembler version 2.36.1 (arm-none-eabi) using BFD version (GNU Arm Embedded Toolchain 10.3-2021.10) 2.36.1.20210621
 COMPILER_PATH=/usr/bin/../lib/gcc/arm-none-eabi/10.3.1/:/usr/bin/../lib/gcc/:/usr/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/
 LIBRARY_PATH=/usr/bin/../lib/gcc/arm-none-eabi/10.3.1/:/usr/bin/../lib/gcc/:/usr/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/:/usr/bin/../arm-none-eabi/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_cf708.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
-Linking CXX static library libcmTC_cf708.a
-/usr/bin/cmake -P CMakeFiles/cmTC_cf708.dir/cmake_clean_target.cmake
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cf708.dir/link.txt --verbose=1
-/usr/bin/arm-none-eabi-ar qc libcmTC_cf708.a  CMakeFiles/cmTC_cf708.dir/CMakeCXXCompilerABI.cpp.obj
-/usr/bin/arm-none-eabi-ranlib libcmTC_cf708.a
-make[2]: Leaving directory '/home/inumaki/Development/stm32WorkSpace/mainProject/Build/bins/CMakeFiles/CMakeTmp'
-make[1]: Leaving directory '/home/inumaki/Development/stm32WorkSpace/mainProject/Build/bins/CMakeFiles/CMakeTmp'
-=======
-Compiler executable checksum: 4f994585a8ca8864fa1f4d2fb208a0ba
-COLLECT_GCC_OPTIONS='-fdata-sections' '-ffunction-sections' '-specs=nano.specs' '-fno-rtti' '-fno-exceptions' '-fno-threadsafe-statics' '-v' '-o' 'CMakeFiles/cmTC_ae7a2.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
- /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/bin/as -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_ae7a2.dir/CMakeCXXCompilerABI.cpp.obj /tmp/cc6F8Llg.s
-GNU assembler version 2.39 (arm-none-eabi) using BFD version (2.39-1ubuntu1+17ubuntu1) 2.39
-COMPILER_PATH=/usr/lib/gcc/arm-none-eabi/10.3.1/:/usr/lib/gcc/arm-none-eabi/10.3.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/10.3.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/bin/
-LIBRARY_PATH=/usr/lib/gcc/arm-none-eabi/10.3.1/:/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/
-COLLECT_GCC_OPTIONS='-fdata-sections' '-ffunction-sections' '-specs=nano.specs' '-fno-rtti' '-fno-exceptions' '-fno-threadsafe-statics' '-v' '-o' 'CMakeFiles/cmTC_ae7a2.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
-Linking CXX static library libcmTC_ae7a2.a
-/usr/bin/cmake -P CMakeFiles/cmTC_ae7a2.dir/cmake_clean_target.cmake
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ae7a2.dir/link.txt --verbose=1
-/usr/bin/arm-none-eabi-ar qc libcmTC_ae7a2.a CMakeFiles/cmTC_ae7a2.dir/CMakeCXXCompilerABI.cpp.obj
-/usr/bin/arm-none-eabi-ranlib libcmTC_ae7a2.a
+COLLECT_GCC_OPTIONS='-fdata-sections' '-ffunction-sections' '-specs=nano.specs' '-fno-rtti' '-fexceptions' '-fno-threadsafe-statics' '-v' '-o' 'CMakeFiles/cmTC_f8137.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
+Linking CXX static library libcmTC_f8137.a
+/usr/bin/cmake -P CMakeFiles/cmTC_f8137.dir/cmake_clean_target.cmake
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f8137.dir/link.txt --verbose=1
+/usr/bin/arm-none-eabi-ar qc libcmTC_f8137.a CMakeFiles/cmTC_f8137.dir/CMakeCXXCompilerABI.cpp.obj
+/usr/bin/arm-none-eabi-ranlib libcmTC_f8137.a
 gmake[2]: Leaving directory '/home/inumaki/Development/stm32/projects/mainProject/Build/bins/CMakeFiles/CMakeTmp'
 gmake[1]: Leaving directory '/home/inumaki/Development/stm32/projects/mainProject/Build/bins/CMakeFiles/CMakeTmp'
->>>>>>> 75148ae5dadf5b58a1f8472238ddddc1290d4370
 
 
 
 Parsed CXX implicit include dir info from above output: rv=done
   found start of include info
   found start of implicit include info
-    add: [/usr/include/newlib/nano]
-    add: [/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/include/c++/10.3.1]
-    add: [/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi]
-    add: [/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/include/c++/10.3.1/backward]
-    add: [/usr/lib/gcc/arm-none-eabi/10.3.1/include]
-    add: [/usr/lib/gcc/arm-none-eabi/10.3.1/include-fixed]
-    add: [/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/include]
+    add: [/usr/bin/../arm-none-eabi/include/newlib-nano]
+    add: [/usr/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1]
+    add: [/usr/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi]
+    add: [/usr/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward]
+    add: [/usr/bin/../lib/gcc/arm-none-eabi/10.3.1/include]
+    add: [/usr/bin/../lib/gcc/arm-none-eabi/10.3.1/include-fixed]
+    add: [/usr/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include]
   end of search list found
-  collapse include dir [/usr/include/newlib/nano] ==> [/usr/include/newlib/nano]
-  collapse include dir [/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/include/c++/10.3.1] ==> [/usr/lib/arm-none-eabi/include/c++/10.3.1]
-  collapse include dir [/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi] ==> [/usr/lib/arm-none-eabi/include/c++/10.3.1/arm-none-eabi]
-  collapse include dir [/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/include/c++/10.3.1/backward] ==> [/usr/lib/arm-none-eabi/include/c++/10.3.1/backward]
-  collapse include dir [/usr/lib/gcc/arm-none-eabi/10.3.1/include] ==> [/usr/lib/gcc/arm-none-eabi/10.3.1/include]
-  collapse include dir [/usr/lib/gcc/arm-none-eabi/10.3.1/include-fixed] ==> [/usr/lib/gcc/arm-none-eabi/10.3.1/include-fixed]
-  collapse include dir [/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/include] ==> [/usr/lib/arm-none-eabi/include]
-  implicit include dirs: [/usr/include/newlib/nano;/usr/lib/arm-none-eabi/include/c++/10.3.1;/usr/lib/arm-none-eabi/include/c++/10.3.1/arm-none-eabi;/usr/lib/arm-none-eabi/include/c++/10.3.1/backward;/usr/lib/gcc/arm-none-eabi/10.3.1/include;/usr/lib/gcc/arm-none-eabi/10.3.1/include-fixed;/usr/lib/arm-none-eabi/include]
+  collapse include dir [/usr/bin/../arm-none-eabi/include/newlib-nano] ==> [/usr/arm-none-eabi/include/newlib-nano]
+  collapse include dir [/usr/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1] ==> [/usr/arm-none-eabi/include/c++/10.3.1]
+  collapse include dir [/usr/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi] ==> [/usr/arm-none-eabi/include/c++/10.3.1/arm-none-eabi]
+  collapse include dir [/usr/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward] ==> [/usr/arm-none-eabi/include/c++/10.3.1/backward]
+  collapse include dir [/usr/bin/../lib/gcc/arm-none-eabi/10.3.1/include] ==> [/usr/lib/gcc/arm-none-eabi/10.3.1/include]
+  collapse include dir [/usr/bin/../lib/gcc/arm-none-eabi/10.3.1/include-fixed] ==> [/usr/lib/gcc/arm-none-eabi/10.3.1/include-fixed]
+  collapse include dir [/usr/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include] ==> [/usr/arm-none-eabi/include]
+  implicit include dirs: [/usr/arm-none-eabi/include/newlib-nano;/usr/arm-none-eabi/include/c++/10.3.1;/usr/arm-none-eabi/include/c++/10.3.1/arm-none-eabi;/usr/arm-none-eabi/include/c++/10.3.1/backward;/usr/lib/gcc/arm-none-eabi/10.3.1/include;/usr/lib/gcc/arm-none-eabi/10.3.1/include-fixed;/usr/arm-none-eabi/include]
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(arm-none-eabi-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/inumaki/Development/stm32/projects/mainProject/Build/bins/CMakeFiles/CMakeTmp]
   ignore line: []
-<<<<<<< HEAD
-  ignore line: [Run Build Command(s):/usr/bin/make cmTC_cf708/fast && make[1]: Entering directory '/home/inumaki/Development/stm32WorkSpace/mainProject/Build/bins/CMakeFiles/CMakeTmp']
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_cf708.dir/build.make CMakeFiles/cmTC_cf708.dir/build]
-  ignore line: [make[2]: Entering directory '/home/inumaki/Development/stm32WorkSpace/mainProject/Build/bins/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_cf708.dir/CMakeCXXCompilerABI.cpp.obj]
-  ignore line: [/usr/bin/arm-none-eabi-g++    -v -o CMakeFiles/cmTC_cf708.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp]
-=======
-  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ae7a2/fast && gmake[1]: Entering directory '/home/inumaki/Development/stm32/projects/mainProject/Build/bins/CMakeFiles/CMakeTmp']
-  ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_ae7a2.dir/build.make CMakeFiles/cmTC_ae7a2.dir/build]
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f8137/fast && gmake[1]: Entering directory '/home/inumaki/Development/stm32/projects/mainProject/Build/bins/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_f8137.dir/build.make CMakeFiles/cmTC_f8137.dir/build]
   ignore line: [gmake[2]: Entering directory '/home/inumaki/Development/stm32/projects/mainProject/Build/bins/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_ae7a2.dir/CMakeCXXCompilerABI.cpp.obj]
-  ignore line: [/usr/bin/arm-none-eabi-g++ -fdata-sections -ffunction-sections     --specs=nano.specs -Wl --gc-sections -fexceptions -fno-rtti -fno-exceptions     -fno-threadsafe-statics   -v -o CMakeFiles/cmTC_ae7a2.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp]
->>>>>>> 75148ae5dadf5b58a1f8472238ddddc1290d4370
+  ignore line: [Building CXX object CMakeFiles/cmTC_f8137.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [/usr/bin/arm-none-eabi-g++ -fdata-sections -ffunction-sections     --specs=nano.specs -Wl --gc-sections -fexceptions -fno-rtti -fexceptions     -fno-threadsafe-statics   -v -o CMakeFiles/cmTC_f8137.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp]
   ignore line: [Using built-in specs.]
-  ignore line: [Reading specs from /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/nano.specs]
+  ignore line: [Reading specs from /usr/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/nano.specs]
   ignore line: [rename spec link to nano_link]
   ignore line: [rename spec link_gcc_c_sequence to nano_link_gcc_c_sequence]
   ignore line: [rename spec cpp_unique_options to nano_cpp_unique_options]
   ignore line: [COLLECT_GCC=/usr/bin/arm-none-eabi-g++]
   ignore line: [Target: arm-none-eabi]
-  ignore line: [Configured with: ../configure --build=x86_64-linux-gnu --prefix=/usr --includedir='/usr/lib/include' --mandir='/usr/lib/share/man' --infodir='/usr/lib/share/info' --sysconfdir=/etc --localstatedir=/var --disable-option-checking --disable-silent-rules --libdir='/usr/lib/lib/x86_64-linux-gnu' --libexecdir='/usr/lib/lib/x86_64-linux-gnu' --disable-maintainer-mode --disable-dependency-tracking --mandir=/usr/share/man --enable-languages=c,c++,lto --enable-multilib --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --enable-tls --build=x86_64-linux-gnu --target=arm-none-eabi --with-system-zlib --with-gnu-as --with-gnu-ld --with-pkgversion=15:10.3-2021.07-4 --without-included-gettext --prefix=/usr/lib --infodir=/usr/share/doc/gcc-arm-none-eabi/info --htmldir=/usr/share/doc/gcc-arm-none-eabi/html --pdfdir=/usr/share/doc/gcc-arm-none-eabi/pdf --bindir=/usr/bin --libexecdir=/usr/lib --libdir=/usr/lib --disable-libstdc++-v3 --host=x86_64-linux-gnu --with-headers=no --without-newlib --with-multilib-list=rmprofile,aprofile CFLAGS='-g -O2 -ffile-prefix-map=/build/gcc-arm-none-eabi-hYfgK4/gcc-arm-none-eabi-10.3-2021.07=. -flto=auto -ffat-lto-objects -fstack-protector-strong' CPPFLAGS='-Wdate-time -D_FORTIFY_SOURCE=2' CXXFLAGS='-g -O2 -ffile-prefix-map=/build/gcc-arm-none-eabi-hYfgK4/gcc-arm-none-eabi-10.3-2021.07=. -flto=auto -ffat-lto-objects -fstack-protector-strong' DFLAGS=-frelease FCFLAGS='-g -O2 -ffile-prefix-map=/build/gcc-arm-none-eabi-hYfgK4/gcc-arm-none-eabi-10.3-2021.07=. -flto=auto -ffat-lto-objects -fstack-protector-strong' FFLAGS='-g -O2 -ffile-prefix-map=/build/gcc-arm-none-eabi-hYfgK4/gcc-arm-none-eabi-10.3-2021.07=. -flto=auto -ffat-lto-objects -fstack-protector-strong' GCJFLAGS='-g -O2 -ffile-prefix-map=/build/gcc-arm-none-eabi-hYfgK4/gcc-arm-none-eabi-10.3-2021.07=. -fstack-protector-strong' LDFLAGS='-Wl,-Bsymbolic-functions -flto=auto -Wl,-z,relro' OBJCFLAGS='-g -O2 -ffile-prefix-map=/build/gcc-arm-none-eabi-hYfgK4/gcc-arm-none-eabi-10.3-2021.07=. -flto=auto -ffat-lto-objects -fstack-protector-strong' OBJCXXFLAGS='-g -O2 -ffile-prefix-map=/build/gcc-arm-none-eabi-hYfgK4/gcc-arm-none-eabi-10.3-2021.07=. -flto=auto -ffat-lto-objects -fstack-protector-strong' INHIBIT_LIBC_CFLAGS=-DUSE_TM_CLONE_REGISTRY=0 AR_FOR_TARGET=arm-none-eabi-ar AS_FOR_TARGET=arm-none-eabi-as LD_FOR_TARGET=arm-none-eabi-ld NM_FOR_TARGET=arm-none-eabi-nm OBJDUMP_FOR_TARGET=arm-none-eabi-objdump RANLIB_FOR_TARGET=arm-none-eabi-ranlib READELF_FOR_TARGET=arm-none-eabi-readelf STRIP_FOR_TARGET=arm-none-eabi-strip SED=/bin/sed SHELL=/bin/sh BASH=/bin/bash CONFIG_SHELL=/bin/bash]
+  ignore line: [Configured with: /mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/src/gcc/configure --target=arm-none-eabi --prefix=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-native --libexecdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-native/lib --infodir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-native/share/doc/gcc-arm-none-eabi/info --mandir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-native/share/doc/gcc-arm-none-eabi/man --htmldir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-native/share/doc/gcc-arm-none-eabi/html --pdfdir=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-native/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-plugins --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-newlib --with-headers=yes --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/install-native/arm-none-eabi --build=x86_64-linux-gnu --host=x86_64-linux-gnu --with-gmp=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-native/host-libs/usr --with-mpfr=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-native/host-libs/usr --with-mpc=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-native/host-libs/usr --with-isl=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-native/host-libs/usr --with-libelf=/mnt/workspace/workspace/GCC-10-pipeline/jenkins-GCC-10-pipeline-338_20211018_1634516203/build-native/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --with-pkgversion='GNU Arm Embedded Toolchain 10.3-2021.10' --with-multilib-list=rmprofile,aprofile]
   ignore line: [Thread model: single]
   ignore line: [Supported LTO compression algorithms: zlib]
-<<<<<<< HEAD
   ignore line: [gcc version 10.3.1 20210824 (release) (GNU Arm Embedded Toolchain 10.3-2021.10) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_cf708.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
-  ignore line: [ /usr/bin/../lib/gcc/arm-none-eabi/10.3.1/cc1plus -quiet -v -iprefix /usr/bin/../lib/gcc/arm-none-eabi/10.3.1/ -isysroot /usr/bin/../arm-none-eabi -D__USES_INITFINI__ /usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -auxbase-strip CMakeFiles/cmTC_cf708.dir/CMakeCXXCompilerABI.cpp.obj -version -o /tmp/ccskpfNy.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-fdata-sections' '-ffunction-sections' '-specs=nano.specs' '-fno-rtti' '-fexceptions' '-fno-threadsafe-statics' '-v' '-o' 'CMakeFiles/cmTC_f8137.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
+  ignore line: [ /usr/bin/../lib/gcc/arm-none-eabi/10.3.1/cc1plus -isystem =/include/newlib-nano -quiet -v -iprefix /usr/bin/../lib/gcc/arm-none-eabi/10.3.1/ -isysroot /usr/bin/../arm-none-eabi -D__USES_INITFINI__ /usr/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -auxbase-strip CMakeFiles/cmTC_f8137.dir/CMakeCXXCompilerABI.cpp.obj -version -fdata-sections -ffunction-sections -fno-rtti -fexceptions -fno-threadsafe-statics -o /tmp/ccH4rBgZ.s]
   ignore line: [GNU C++14 (GNU Arm Embedded Toolchain 10.3-2021.10) version 10.3.1 20210824 (release) (arm-none-eabi)]
   ignore line: [	compiled by GNU C version 4.8.4  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
-=======
-  ignore line: [gcc version 10.3.1 20210621 (release) (15:10.3-2021.07-4) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-fdata-sections' '-ffunction-sections' '-specs=nano.specs' '-fno-rtti' '-fno-exceptions' '-fno-threadsafe-statics' '-v' '-o' 'CMakeFiles/cmTC_ae7a2.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
-  ignore line: [ /usr/lib/gcc/arm-none-eabi/10.3.1/cc1plus -isystem /usr/include/newlib/nano -quiet -v -D__USES_INITFINI__ /usr/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -auxbase-strip CMakeFiles/cmTC_ae7a2.dir/CMakeCXXCompilerABI.cpp.obj -version -fdata-sections -ffunction-sections -fno-rtti -fno-exceptions -fno-threadsafe-statics -o /tmp/cc6F8Llg.s]
-  ignore line: [GNU C++14 (15:10.3-2021.07-4) version 10.3.1 20210621 (release) (arm-none-eabi)]
-  ignore line: [	compiled by GNU C version 11.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.25-GMP]
->>>>>>> 75148ae5dadf5b58a1f8472238ddddc1290d4370
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
-  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/sys-include"]
+  ignore line: [ignoring duplicate directory "/usr/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"]
+  ignore line: [ignoring duplicate directory "/usr/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"]
+  ignore line: [ignoring duplicate directory "/usr/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"]
+  ignore line: [ignoring duplicate directory "/usr/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/include"]
+  ignore line: [ignoring nonexistent directory "/usr/bin/../arm-none-eabi/usr/local/include"]
+  ignore line: [ignoring duplicate directory "/usr/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/include-fixed"]
+  ignore line: [ignoring duplicate directory "/usr/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"]
+  ignore line: [ignoring nonexistent directory "/usr/bin/../arm-none-eabi/usr/include"]
   ignore line: [#include "..." search starts here:]
   ignore line: [#include <...> search starts here:]
-  ignore line: [ /usr/include/newlib/nano]
-  ignore line: [ /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/include/c++/10.3.1]
-  ignore line: [ /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi]
-  ignore line: [ /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/include/c++/10.3.1/backward]
-  ignore line: [ /usr/lib/gcc/arm-none-eabi/10.3.1/include]
-  ignore line: [ /usr/lib/gcc/arm-none-eabi/10.3.1/include-fixed]
-  ignore line: [ /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/include]
+  ignore line: [ /usr/bin/../arm-none-eabi/include/newlib-nano]
+  ignore line: [ /usr/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1]
+  ignore line: [ /usr/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi]
+  ignore line: [ /usr/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward]
+  ignore line: [ /usr/bin/../lib/gcc/arm-none-eabi/10.3.1/include]
+  ignore line: [ /usr/bin/../lib/gcc/arm-none-eabi/10.3.1/include-fixed]
+  ignore line: [ /usr/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include]
   ignore line: [End of search list.]
-  ignore line: [GNU C++14 (15:10.3-2021.07-4) version 10.3.1 20210621 (release) (arm-none-eabi)]
-  ignore line: [	compiled by GNU C version 11.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.25-GMP]
+  ignore line: [GNU C++14 (GNU Arm Embedded Toolchain 10.3-2021.10) version 10.3.1 20210824 (release) (arm-none-eabi)]
+  ignore line: [	compiled by GNU C version 4.8.4  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
-<<<<<<< HEAD
   ignore line: [Compiler executable checksum: 62a2c0a0f0d30bb0bbe5c686601adbb0]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_cf708.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
-  ignore line: [ /usr/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/as -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_cf708.dir/CMakeCXXCompilerABI.cpp.obj /tmp/ccskpfNy.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-fdata-sections' '-ffunction-sections' '-specs=nano.specs' '-fno-rtti' '-fexceptions' '-fno-threadsafe-statics' '-v' '-o' 'CMakeFiles/cmTC_f8137.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
+  ignore line: [ /usr/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/as -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_f8137.dir/CMakeCXXCompilerABI.cpp.obj /tmp/ccH4rBgZ.s]
   ignore line: [GNU assembler version 2.36.1 (arm-none-eabi) using BFD version (GNU Arm Embedded Toolchain 10.3-2021.10) 2.36.1.20210621]
   ignore line: [COMPILER_PATH=/usr/bin/../lib/gcc/arm-none-eabi/10.3.1/:/usr/bin/../lib/gcc/:/usr/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/]
   ignore line: [LIBRARY_PATH=/usr/bin/../lib/gcc/arm-none-eabi/10.3.1/:/usr/bin/../lib/gcc/:/usr/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/:/usr/bin/../arm-none-eabi/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_cf708.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
-  ignore line: [Linking CXX static library libcmTC_cf708.a]
-  ignore line: [/usr/bin/cmake -P CMakeFiles/cmTC_cf708.dir/cmake_clean_target.cmake]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cf708.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/arm-none-eabi-ar qc libcmTC_cf708.a  CMakeFiles/cmTC_cf708.dir/CMakeCXXCompilerABI.cpp.obj]
-  ignore line: [/usr/bin/arm-none-eabi-ranlib libcmTC_cf708.a]
-  ignore line: [make[2]: Leaving directory '/home/inumaki/Development/stm32WorkSpace/mainProject/Build/bins/CMakeFiles/CMakeTmp']
-  ignore line: [make[1]: Leaving directory '/home/inumaki/Development/stm32WorkSpace/mainProject/Build/bins/CMakeFiles/CMakeTmp']
-=======
-  ignore line: [Compiler executable checksum: 4f994585a8ca8864fa1f4d2fb208a0ba]
-  ignore line: [COLLECT_GCC_OPTIONS='-fdata-sections' '-ffunction-sections' '-specs=nano.specs' '-fno-rtti' '-fno-exceptions' '-fno-threadsafe-statics' '-v' '-o' 'CMakeFiles/cmTC_ae7a2.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
-  ignore line: [ /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/bin/as -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_ae7a2.dir/CMakeCXXCompilerABI.cpp.obj /tmp/cc6F8Llg.s]
-  ignore line: [GNU assembler version 2.39 (arm-none-eabi) using BFD version (2.39-1ubuntu1+17ubuntu1) 2.39]
-  ignore line: [COMPILER_PATH=/usr/lib/gcc/arm-none-eabi/10.3.1/:/usr/lib/gcc/arm-none-eabi/10.3.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/10.3.1/:/usr/lib/gcc/arm-none-eabi/:/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/bin/]
-  ignore line: [LIBRARY_PATH=/usr/lib/gcc/arm-none-eabi/10.3.1/:/usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-fdata-sections' '-ffunction-sections' '-specs=nano.specs' '-fno-rtti' '-fno-exceptions' '-fno-threadsafe-statics' '-v' '-o' 'CMakeFiles/cmTC_ae7a2.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
-  ignore line: [Linking CXX static library libcmTC_ae7a2.a]
-  ignore line: [/usr/bin/cmake -P CMakeFiles/cmTC_ae7a2.dir/cmake_clean_target.cmake]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ae7a2.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/arm-none-eabi-ar qc libcmTC_ae7a2.a CMakeFiles/cmTC_ae7a2.dir/CMakeCXXCompilerABI.cpp.obj]
-  ignore line: [/usr/bin/arm-none-eabi-ranlib libcmTC_ae7a2.a]
+  ignore line: [COLLECT_GCC_OPTIONS='-fdata-sections' '-ffunction-sections' '-specs=nano.specs' '-fno-rtti' '-fexceptions' '-fno-threadsafe-statics' '-v' '-o' 'CMakeFiles/cmTC_f8137.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t']
+  ignore line: [Linking CXX static library libcmTC_f8137.a]
+  ignore line: [/usr/bin/cmake -P CMakeFiles/cmTC_f8137.dir/cmake_clean_target.cmake]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f8137.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/arm-none-eabi-ar qc libcmTC_f8137.a CMakeFiles/cmTC_f8137.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [/usr/bin/arm-none-eabi-ranlib libcmTC_f8137.a]
   ignore line: [gmake[2]: Leaving directory '/home/inumaki/Development/stm32/projects/mainProject/Build/bins/CMakeFiles/CMakeTmp']
   ignore line: [gmake[1]: Leaving directory '/home/inumaki/Development/stm32/projects/mainProject/Build/bins/CMakeFiles/CMakeTmp']
->>>>>>> 75148ae5dadf5b58a1f8472238ddddc1290d4370
   ignore line: []
   ignore line: []
   implicit libs: []
@@ -472,7 +319,7 @@ Parsed CXX implicit link information from above output:
 
 
 Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
-arm-none-eabi-gcc (15:10.3-2021.07-4) 10.3.1 20210621 (release)
+arm-none-eabi-gcc (GNU Arm Embedded Toolchain 10.3-2021.10) 10.3.1 20210824 (release)
 Copyright (C) 2020 Free Software Foundation, Inc.
 This is free software; see the source for copying conditions.  There is NO
 warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.

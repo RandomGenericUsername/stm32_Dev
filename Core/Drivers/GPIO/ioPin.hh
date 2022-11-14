@@ -143,33 +143,25 @@ bool ioPin::initParam(const T &param)
     constexpr bool isPort = std::is_same_v<const gpioPort&, decltype(param)>;
     constexpr bool isPin = std::is_same_v<const gpioPin&, decltype(param)>;
     
-    
-    if constexpr( isPort || isPin )
-    {
-        if constexpr(isPort)
-            if(!avoidReAllocatingPort(param))
-                return false;
+    if constexpr(isPort)
+        if(!avoidReAllocatingPort(param))
+            return false;
         
-        if constexpr(isPin)
-            if(!avoidReAllocatingPin(param))
-                return false;
-
-        setParam(param);
-        if constexpr(isPort)
-            init(param);
-        if(isReady())
-        {
-            allocatedPins[static_cast<paramType>(_port)] |= 0x1 << static_cast<paramType>(_pin);
-            if(_queuedSettings != 0)
-                return initQueuedSettings();
-        }
-    }
+    if constexpr(isPin)
+        if(!avoidReAllocatingPin(param))
+            return false;
+    
+    setParam(param);
+    if constexpr( isPort || isPin )
+        init(param);
     else
-    {
-        setParam(param);
         settingsHandler(param);
+    if(isReady())
+    {
+        allocatedPins[static_cast<paramType>(_port)] |= 0x1 << static_cast<paramType>(_pin);
+        if(_queuedSettings != 0)
+            return initQueuedSettings();
     }
-
     return true;
 }
 

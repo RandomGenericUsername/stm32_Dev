@@ -5,10 +5,10 @@
 #include "inputOutputPin.hh"
 //#include "ioPin.hh"
 //#include "ExtInterrupt.hh"
-//#include "UART.hh"
+//#include "UART.hh"u
 
 inputOutputPin a;
-inputOutputPin d{gpioPort::A, gpioMode::output, gpioState::low, gpioPin::_5, gpioAlternateFunction::_0, gpioDebug::enable, gpioOutputSpeed::fast, gpioOutputType::pushPull};
+inputOutputPin b{gpioHardException::enable, gpioPort::A, gpioMode::output, gpioState::high, gpioPin::_5, gpioDebug::enable, gpioOutputSpeed::fast, gpioOutputType::pushPull};
 
 //ExtInterrupt b{gpioExtTrigger::rising, gpioPort::B, gpioPin::_4, gpioPUPD::pullUp};
 //UART com1;

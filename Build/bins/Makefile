@@ -129,87 +129,77 @@ mainProject/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mainProject.dir/build.make CMakeFiles/mainProject.dir/build
 .PHONY : mainProject/fast
 
-<<<<<<< HEAD
-home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/GPIO/inputOutputPin.obj: home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/GPIO/inputOutputPin.cpp.obj
-
-.PHONY : home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/GPIO/inputOutputPin.obj
+home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/inputOutputPin.obj: home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/inputOutputPin.cpp.obj
+.PHONY : home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/inputOutputPin.obj
 
 # target to build an object file
-home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/GPIO/inputOutputPin.cpp.obj:
-	$(MAKE) -f CMakeFiles/mainProject.dir/build.make CMakeFiles/mainProject.dir/home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/GPIO/inputOutputPin.cpp.obj
-.PHONY : home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/GPIO/inputOutputPin.cpp.obj
+home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/inputOutputPin.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mainProject.dir/build.make CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/inputOutputPin.cpp.obj
+.PHONY : home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/inputOutputPin.cpp.obj
 
-home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/GPIO/inputOutputPin.i: home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/GPIO/inputOutputPin.cpp.i
-
-.PHONY : home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/GPIO/inputOutputPin.i
+home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/inputOutputPin.i: home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/inputOutputPin.cpp.i
+.PHONY : home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/inputOutputPin.i
 
 # target to preprocess a source file
-home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/GPIO/inputOutputPin.cpp.i:
-	$(MAKE) -f CMakeFiles/mainProject.dir/build.make CMakeFiles/mainProject.dir/home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/GPIO/inputOutputPin.cpp.i
-.PHONY : home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/GPIO/inputOutputPin.cpp.i
+home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/inputOutputPin.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mainProject.dir/build.make CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/inputOutputPin.cpp.i
+.PHONY : home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/inputOutputPin.cpp.i
 
-home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/GPIO/inputOutputPin.s: home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/GPIO/inputOutputPin.cpp.s
-
-.PHONY : home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/GPIO/inputOutputPin.s
+home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/inputOutputPin.s: home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/inputOutputPin.cpp.s
+.PHONY : home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/inputOutputPin.s
 
 # target to generate assembly for a file
-home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/GPIO/inputOutputPin.cpp.s:
-	$(MAKE) -f CMakeFiles/mainProject.dir/build.make CMakeFiles/mainProject.dir/home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/GPIO/inputOutputPin.cpp.s
-.PHONY : home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/GPIO/inputOutputPin.cpp.s
+home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/inputOutputPin.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mainProject.dir/build.make CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/inputOutputPin.cpp.s
+.PHONY : home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/inputOutputPin.cpp.s
 
-home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/GPIO/inputOutputPinHandler.obj: home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/GPIO/inputOutputPinHandler.cpp.obj
-
-.PHONY : home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/GPIO/inputOutputPinHandler.obj
+home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/inputOutputPinHandler.obj: home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/inputOutputPinHandler.cpp.obj
+.PHONY : home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/inputOutputPinHandler.obj
 
 # target to build an object file
-home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/GPIO/inputOutputPinHandler.cpp.obj:
-	$(MAKE) -f CMakeFiles/mainProject.dir/build.make CMakeFiles/mainProject.dir/home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/GPIO/inputOutputPinHandler.cpp.obj
-.PHONY : home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/GPIO/inputOutputPinHandler.cpp.obj
+home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/inputOutputPinHandler.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mainProject.dir/build.make CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/inputOutputPinHandler.cpp.obj
+.PHONY : home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/inputOutputPinHandler.cpp.obj
 
-home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/GPIO/inputOutputPinHandler.i: home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/GPIO/inputOutputPinHandler.cpp.i
-
-.PHONY : home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/GPIO/inputOutputPinHandler.i
+home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/inputOutputPinHandler.i: home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/inputOutputPinHandler.cpp.i
+.PHONY : home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/inputOutputPinHandler.i
 
 # target to preprocess a source file
-home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/GPIO/inputOutputPinHandler.cpp.i:
-	$(MAKE) -f CMakeFiles/mainProject.dir/build.make CMakeFiles/mainProject.dir/home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/GPIO/inputOutputPinHandler.cpp.i
-.PHONY : home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/GPIO/inputOutputPinHandler.cpp.i
+home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/inputOutputPinHandler.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mainProject.dir/build.make CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/inputOutputPinHandler.cpp.i
+.PHONY : home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/inputOutputPinHandler.cpp.i
 
-home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/GPIO/inputOutputPinHandler.s: home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/GPIO/inputOutputPinHandler.cpp.s
-
-.PHONY : home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/GPIO/inputOutputPinHandler.s
+home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/inputOutputPinHandler.s: home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/inputOutputPinHandler.cpp.s
+.PHONY : home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/inputOutputPinHandler.s
 
 # target to generate assembly for a file
-home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/GPIO/inputOutputPinHandler.cpp.s:
-	$(MAKE) -f CMakeFiles/mainProject.dir/build.make CMakeFiles/mainProject.dir/home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/GPIO/inputOutputPinHandler.cpp.s
-.PHONY : home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/GPIO/inputOutputPinHandler.cpp.s
+home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/inputOutputPinHandler.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mainProject.dir/build.make CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/inputOutputPinHandler.cpp.s
+.PHONY : home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/inputOutputPinHandler.cpp.s
 
-home/inumaki/Development/stm32WorkSpace/mainProject/Core/Src/Utilities/RegistersManipulation/REG_MAN.obj: home/inumaki/Development/stm32WorkSpace/mainProject/Core/Src/Utilities/RegistersManipulation/REG_MAN.cpp.obj
-=======
-home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.obj: home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
-.PHONY : home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.obj
+home/inumaki/Development/stm32/projects/mainProject/Core/Src/Utilities/Macros/Macros.obj: home/inumaki/Development/stm32/projects/mainProject/Core/Src/Utilities/Macros/Macros.cpp.obj
+.PHONY : home/inumaki/Development/stm32/projects/mainProject/Core/Src/Utilities/Macros/Macros.obj
 
 # target to build an object file
-home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mainProject.dir/build.make CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
-.PHONY : home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.obj
+home/inumaki/Development/stm32/projects/mainProject/Core/Src/Utilities/Macros/Macros.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mainProject.dir/build.make CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/Utilities/Macros/Macros.cpp.obj
+.PHONY : home/inumaki/Development/stm32/projects/mainProject/Core/Src/Utilities/Macros/Macros.cpp.obj
 
-home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.i: home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.i
-.PHONY : home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.i
+home/inumaki/Development/stm32/projects/mainProject/Core/Src/Utilities/Macros/Macros.i: home/inumaki/Development/stm32/projects/mainProject/Core/Src/Utilities/Macros/Macros.cpp.i
+.PHONY : home/inumaki/Development/stm32/projects/mainProject/Core/Src/Utilities/Macros/Macros.i
 
 # target to preprocess a source file
-home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mainProject.dir/build.make CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.i
-.PHONY : home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.i
+home/inumaki/Development/stm32/projects/mainProject/Core/Src/Utilities/Macros/Macros.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mainProject.dir/build.make CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/Utilities/Macros/Macros.cpp.i
+.PHONY : home/inumaki/Development/stm32/projects/mainProject/Core/Src/Utilities/Macros/Macros.cpp.i
 
-home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.s: home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.s
-.PHONY : home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.s
+home/inumaki/Development/stm32/projects/mainProject/Core/Src/Utilities/Macros/Macros.s: home/inumaki/Development/stm32/projects/mainProject/Core/Src/Utilities/Macros/Macros.cpp.s
+.PHONY : home/inumaki/Development/stm32/projects/mainProject/Core/Src/Utilities/Macros/Macros.s
 
 # target to generate assembly for a file
-home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mainProject.dir/build.make CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.s
-.PHONY : home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.cpp.s
->>>>>>> 75148ae5dadf5b58a1f8472238ddddc1290d4370
+home/inumaki/Development/stm32/projects/mainProject/Core/Src/Utilities/Macros/Macros.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mainProject.dir/build.make CMakeFiles/mainProject.dir/home/inumaki/Development/stm32/projects/mainProject/Core/Src/Utilities/Macros/Macros.cpp.s
+.PHONY : home/inumaki/Development/stm32/projects/mainProject/Core/Src/Utilities/Macros/Macros.cpp.s
 
 home/inumaki/Development/stm32/projects/mainProject/Core/Src/Utilities/RegistersManipulation/REG_MAN.obj: home/inumaki/Development/stm32/projects/mainProject/Core/Src/Utilities/RegistersManipulation/REG_MAN.cpp.obj
 .PHONY : home/inumaki/Development/stm32/projects/mainProject/Core/Src/Utilities/RegistersManipulation/REG_MAN.obj
@@ -324,30 +314,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... mainProject"
-<<<<<<< HEAD
-	@echo "... home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/GPIO/inputOutputPin.obj"
-	@echo "... home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/GPIO/inputOutputPin.i"
-	@echo "... home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/GPIO/inputOutputPin.s"
-	@echo "... home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/GPIO/inputOutputPinHandler.obj"
-	@echo "... home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/GPIO/inputOutputPinHandler.i"
-	@echo "... home/inumaki/Development/stm32WorkSpace/mainProject/Core/Drivers/GPIO/inputOutputPinHandler.s"
-	@echo "... home/inumaki/Development/stm32WorkSpace/mainProject/Core/Src/Utilities/RegistersManipulation/REG_MAN.obj"
-	@echo "... home/inumaki/Development/stm32WorkSpace/mainProject/Core/Src/Utilities/RegistersManipulation/REG_MAN.i"
-	@echo "... home/inumaki/Development/stm32WorkSpace/mainProject/Core/Src/Utilities/RegistersManipulation/REG_MAN.s"
-	@echo "... home/inumaki/Development/stm32WorkSpace/mainProject/Core/Src/main.obj"
-	@echo "... home/inumaki/Development/stm32WorkSpace/mainProject/Core/Src/main.i"
-	@echo "... home/inumaki/Development/stm32WorkSpace/mainProject/Core/Src/main.s"
-	@echo "... home/inumaki/Development/stm32WorkSpace/mainProject/Core/Src/syscalls.obj"
-	@echo "... home/inumaki/Development/stm32WorkSpace/mainProject/Core/Src/syscalls.i"
-	@echo "... home/inumaki/Development/stm32WorkSpace/mainProject/Core/Src/syscalls.s"
-	@echo "... home/inumaki/Development/stm32WorkSpace/mainProject/Core/Src/sysmem.obj"
-	@echo "... home/inumaki/Development/stm32WorkSpace/mainProject/Core/Src/sysmem.i"
-	@echo "... home/inumaki/Development/stm32WorkSpace/mainProject/Core/Src/sysmem.s"
-	@echo "... home/inumaki/Development/stm32WorkSpace/mainProject/Core/Startup/startup_stm32f411retx.obj"
-=======
-	@echo "... home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.obj"
-	@echo "... home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.i"
-	@echo "... home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/ioPin.s"
+	@echo "... home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/inputOutputPin.obj"
+	@echo "... home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/inputOutputPin.i"
+	@echo "... home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/inputOutputPin.s"
+	@echo "... home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/inputOutputPinHandler.obj"
+	@echo "... home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/inputOutputPinHandler.i"
+	@echo "... home/inumaki/Development/stm32/projects/mainProject/Core/Drivers/GPIO/inputOutputPinHandler.s"
+	@echo "... home/inumaki/Development/stm32/projects/mainProject/Core/Src/Utilities/Macros/Macros.obj"
+	@echo "... home/inumaki/Development/stm32/projects/mainProject/Core/Src/Utilities/Macros/Macros.i"
+	@echo "... home/inumaki/Development/stm32/projects/mainProject/Core/Src/Utilities/Macros/Macros.s"
 	@echo "... home/inumaki/Development/stm32/projects/mainProject/Core/Src/Utilities/RegistersManipulation/REG_MAN.obj"
 	@echo "... home/inumaki/Development/stm32/projects/mainProject/Core/Src/Utilities/RegistersManipulation/REG_MAN.i"
 	@echo "... home/inumaki/Development/stm32/projects/mainProject/Core/Src/Utilities/RegistersManipulation/REG_MAN.s"
@@ -361,7 +336,6 @@ help:
 	@echo "... home/inumaki/Development/stm32/projects/mainProject/Core/Src/sysmem.i"
 	@echo "... home/inumaki/Development/stm32/projects/mainProject/Core/Src/sysmem.s"
 	@echo "... home/inumaki/Development/stm32/projects/mainProject/Core/Startup/startup_stm32f411retx.obj"
->>>>>>> 75148ae5dadf5b58a1f8472238ddddc1290d4370
 .PHONY : help
 
 

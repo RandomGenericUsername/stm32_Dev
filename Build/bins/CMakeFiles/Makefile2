@@ -79,28 +79,16 @@ clean: CMakeFiles/mainProject.dir/clean
 
 # All Build rule for target.
 CMakeFiles/mainProject.dir/all:
-<<<<<<< HEAD
-	$(MAKE) -f CMakeFiles/mainProject.dir/build.make CMakeFiles/mainProject.dir/depend
-	$(MAKE) -f CMakeFiles/mainProject.dir/build.make CMakeFiles/mainProject.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/inumaki/Development/stm32WorkSpace/mainProject/Build/bins/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target mainProject"
-=======
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mainProject.dir/build.make CMakeFiles/mainProject.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mainProject.dir/build.make CMakeFiles/mainProject.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/inumaki/Development/stm32/projects/mainProject/Build/bins/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target mainProject"
->>>>>>> 75148ae5dadf5b58a1f8472238ddddc1290d4370
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/inumaki/Development/stm32/projects/mainProject/Build/bins/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9 "Built target mainProject"
 .PHONY : CMakeFiles/mainProject.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/mainProject.dir/rule: cmake_check_build_system
-<<<<<<< HEAD
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/inumaki/Development/stm32WorkSpace/mainProject/Build/bins/CMakeFiles 8
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/mainProject.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/inumaki/Development/stm32WorkSpace/mainProject/Build/bins/CMakeFiles 0
-=======
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/inumaki/Development/stm32/projects/mainProject/Build/bins/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/inumaki/Development/stm32/projects/mainProject/Build/bins/CMakeFiles 9
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/mainProject.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/inumaki/Development/stm32/projects/mainProject/Build/bins/CMakeFiles 0
->>>>>>> 75148ae5dadf5b58a1f8472238ddddc1290d4370
 .PHONY : CMakeFiles/mainProject.dir/rule
 
 # Convenience name for target.

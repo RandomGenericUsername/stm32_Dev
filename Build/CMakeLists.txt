@@ -29,6 +29,7 @@ set(INCLUDE_DIRECTORIES
     ${CMAKE_CURRENT_SOURCE_DIR}/../Core/Inc/CMSIS/Include
     ${CMAKE_CURRENT_SOURCE_DIR}/../Core/Inc/
     ${CMAKE_CURRENT_SOURCE_DIR}/../Core/Src/Utilities/RegistersManipulation/
+    ${CMAKE_CURRENT_SOURCE_DIR}/../Core/Src/Utilities/Macros/
     ${CMAKE_CURRENT_SOURCE_DIR}/../Core/Drivers/NVIC/
     ${CMAKE_CURRENT_SOURCE_DIR}/../Core/Drivers/USART/
     ${CMAKE_CURRENT_SOURCE_DIR}/../Core/Drivers/GPIO/)

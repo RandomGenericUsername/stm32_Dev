@@ -1,1 +1,1 @@
-[{"node":"EXTI","expanded":true,"format":0,"pinned":false},{"node":"GPIOA","expanded":true,"format":0,"pinned":false},{"node":"GPIOA.MODER","expanded":true,"format":0},{"node":"RCC","expanded":true,"format":0,"pinned":false}]
+[{"node":"GPIOA","expanded":true,"format":0,"pinned":false},{"node":"GPIOA.MODER","expanded":true,"format":0},{"node":"GPIOB","expanded":true,"format":0,"pinned":false}]
